@@ -1,0 +1,19 @@
+body { background: #c86504; margin: 0; box-sizing: border-box; font-family: sans-serif; }
+#page { max-width: 1024px; margin: 0 auto; background: white; height: 100%; }
+#header { height: 3em; }
+#header #menu_button { float: left; width: 2em; height: 2em; margin: .5em; cursor: hand; }
+#header #search_button { float: right; height: 2em; margin: .5em; cursor: hand; }
+#header span { display: block; padding-top: .5em; height: 2em; overflow: auto; }
+#header input { width: 100%; height: 100%; font-size: 1.5em; padding: 0 .5em; border: 1px solid black; border-radius: 1em; }
+#content { position: relative; height: calc(100% - 3em); }
+#menu { position: absolute; z-index: 2; width: 100%; min-height: 100%; text-align: center; margin: 0 auto; background: white; }
+#menu div { display: inline-block; margin: 1em; width: 4em; }
+#menu img { display: inline-block; height: 3em; margin-bottom: 1em; vertical-align: middle; cursor: hand; }
+#menu span { display: block; }
+#map { height: calc(100% - 2em); }
+#listbar { height: 1em; font-size: 2em; line-height: 1em; margin: 0; padding: 0; text-align: center; overflow: hidden; }
+#listbar img { height: 1em; vertical-align: top; }
+#list { background: white; padding: 1em; display: none; }
+#list .item { border: 2px solid black; border-radius: .5em; margin-bottom: 1em; padding: 1em; overflow; auto; }
+#list .item img { vertical-align: middle; }
+#list .item h1 { margin-top: 0; }

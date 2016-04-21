@@ -1,0 +1,30 @@
+Schedule:
+April 20 3-7pm is the Leadership Pasadena Demo
+
+CMS TODO:
+- Add login/password for CMS
+
+Database TODO:
+- The database needs to be using the correct fields.
+- Addresses need to be fully formed.
+- Categories need to be set.
+- Some items have P.O. Boxes only.
+- Phone number format needs to be the same for every service.
+- Description could be longer, like in the Pasadena survival guide?
+- Add extra info field for important notes about the organization.
+- Add hours field.
+- Get it working in IE.
+
+User Interface TODO:
+- In Desktops with a certain large aspect ratio, the list should be on the left side of the screen, always displayed.
+- Each category needs a unique icon.
+- Multiple services at a single location need to be handled in the map.
+- When an info window is active, opening the list should scroll to the corresponding service.
+- When searching or choosing a category, the map should zoom to the extents of the search items.
+- Don't use svg, but gif instead.
+
+Email Ericka (erickakoyama@gmail.com) to meet after the 20th, some day at 5:30?. We can discuss:
+- Where to put the code. (github.com/io is great)
+- What framework to use.
+- The interface design.
+- What type of database. (don't use .csv (change to .txt?))
