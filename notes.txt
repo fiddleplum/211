@@ -3,6 +3,7 @@ Ericka will focus on the front-end design, and I will focus on the back-end.
 
 Schedule:
 April 20 3-7pm is the Leadership Pasadena Demo
+Jun 9 Release of survival guide
 Sep 1 final website complete
 Nov 1 soft release date
 
@@ -12,6 +13,7 @@ CMS TODO:
 Database TODO:
 - The database needs to be using the correct fields.
 - Addresses need to be fully formed.
+- Spanish descriptions (ask Char for the info)
 - Categories need to be set.
 - Some items have P.O. Boxes only.
 - Phone number format needs to be the same for every service.
