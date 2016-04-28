@@ -19,6 +19,7 @@ Database TODO:
 - Get it working in IE.
 
 User Interface TODO:
+- Add analytics
 - User authentication, admin, member, logged in user, guest
 - In Desktops with a certain large aspect ratio, the list should be on the left side of the screen, always displayed.
 - Each category needs a unique icon.
