@@ -1,3 +1,6 @@
+Turn these tasks into GitHub Issues (?)
+Ericka will focus on the front-end design, and I will focus on the back-end.
+
 Schedule:
 April 20 3-7pm is the Leadership Pasadena Demo
 
@@ -16,6 +19,7 @@ Database TODO:
 - Get it working in IE.
 
 User Interface TODO:
+- User authentication, admin, member, logged in user, guest
 - In Desktops with a certain large aspect ratio, the list should be on the left side of the screen, always displayed.
 - Each category needs a unique icon.
 - Multiple services at a single location need to be handled in the map.
