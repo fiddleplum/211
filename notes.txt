@@ -3,6 +3,8 @@ Ericka will focus on the front-end design, and I will focus on the back-end.
 
 Schedule:
 April 20 3-7pm is the Leadership Pasadena Demo
+Sep 1 final website complete
+Nov 1 soft release date
 
 CMS TODO:
 - Add login/password for CMS
@@ -14,6 +16,7 @@ Database TODO:
 - Some items have P.O. Boxes only.
 - Phone number format needs to be the same for every service.
 - Description could be longer, like in the Pasadena survival guide?
+- Possibly make a short description and long description.
 - Add extra info field for important notes about the organization.
 - Add hours field.
 - Get it working in IE.
@@ -27,6 +30,7 @@ User Interface TODO:
 - When an info window is active, opening the list should scroll to the corresponding service.
 - When searching or choosing a category, the map should zoom to the extents of the search items.
 - Don't use svg, but gif instead.
+- Add "expand" button that gives the long description instead of the short description.
 
 Email Ericka (erickakoyama@gmail.com) to meet after the 20th, some day at 5:30?. We can discuss:
 - Where to put the code. (github.com/io is great)
