@@ -21,7 +21,7 @@ var Database = {
 
 	// Initialize the database for future use.
 	initialize: function (readyFunction) {
-		csv.load('data/database.csv', true, function(url, data) {
+		csv.load('data/database.txt', true, function(url, data) {
 			for(var i in data) {
 				var service = new Service();
 				service.id = i;
