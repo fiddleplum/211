@@ -10,7 +10,7 @@ function setMenuActive(active) {
 	Map.closeInfoWindow();
 	if(active) {
 		$('#menu').fadeIn('fast');
-		$('#menu_button')[0].src = 'images/map.svg';
+		$('#menu_button')[0].src = 'images/map-reversed.svg';
 	}
 	else {
 		$('#menu').fadeOut('fast');
@@ -80,7 +80,7 @@ function serviceToHtml(service) {
 	return html;
 }
 
-// Sets the category 
+// Sets the category
 function setCategory(category) {
 	services = Database.getServicesByCategory(category);
 	Map.update(services, serviceToHtml);
@@ -112,3 +112,14 @@ function updateList() {
 	}
 	$('#list')[0].innerHTML = html;
 }
+
+$(document).ready(function(){
+  $('#google_translate_element').bind('DOMNodeInserted', function(event) {
+    $('.goog-te-combo option:first').html('En');
+    $('.goog-te-menu-frame.skiptranslate').load(function(){
+      setTimeout(function(){
+        $('.goog-te-menu-frame.skiptranslate').contents().find('.goog-te-menu2-item-selected .text').html('Translate');
+      }, 100);
+    });
+  });
+});
