@@ -1,6 +1,9 @@
-<html>
+<html lang="en">
 <head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bridging Pasadena</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script src="js/jquery-2.2.2.min.js"></script>
@@ -12,12 +15,24 @@
 </head>
 <body>
 <div id="page">
-	<div id="header">
-		<img id="menu_button" src="images/map.svg" onclick="setMenuActive($('#menu')[0].style.display == 'none');"/>
-		<img id="search_button" src="images/search.svg" onclick="setBySearch($('#search_input')[0].value); setMenuActive(false);" />
-		<span><input id="search_input" type="text" onkeydown="if(event.keyCode == 13) { setBySearch($('#search_input')[0].value); setMenuActive(false); }" /></span>
-	</div>
-	<div id="content">
+	<header>
+    <div class="header-title">
+      <div class="translate">
+        <div id="google_translate_element"></div><script type="text/javascript">
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'de,en,es,fr,id,it,ja,ko,pt,th,tl,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+          }
+          </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      </div>
+      Bridging Pasadena
+    </div>
+    <div class="header-search">
+      <img id="menu_button" src="images/map-reversed.svg" onclick="setMenuActive($('#menu')[0].style.display == 'none');"/>
+      <img id="search_button" src="images/search.svg" onclick="setBySearch($('#search_input')[0].value); setMenuActive(false);" />
+      <span><input id="search_input" type="text" onkeydown="if(event.keyCode == 13) { setBySearch($('#search_input')[0].value); setMenuActive(false); }" /></span>  
+    </div>
+	</header>
+	<div class="site-content" id="content">
 		<div id="menu">
 		<div onclick="setCategory('church'); setMenuActive(false);"><img src="images/generic.svg"/><span>Church</span></div>
 		<div onclick="setCategory('city facility'); setMenuActive(false);"><img src="images/generic.svg"/><span>City Facility</span></div>
