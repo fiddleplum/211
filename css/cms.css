@@ -1,0 +1,12 @@
+#page { text-align: center; font-family: sans-serif; overflow: auto; }
+h1 { font-size: 3em; margin: .25em; }
+a, button, input[type="submit"] { display: inline-block; margin: .5em; border: 2px solid black; border-radius: .25em; text-decoration: none; font-size: 3em; padding: .25em; background-color: #c86504; color: white; }
+a.menu { display: block; max-width: 10em; margin-left: auto; margin-right: auto; }
+form { margin: 0 auto; padding: 1em; max-width: 40em; clear: both; overflow: auto; border: 1px solid black; border-radius: .25em; }
+form > div { overflow: auto; margin-bottom: 1em; }
+form div span.left { display: inline-block; float: left; width: 15em; text-align: right; line-height: 1.5em; }
+form div span.right { display: inline-block; float: right; width: calc(100% - 16em); text-align: left; line-height: 1.5em; }
+form div.buttons { text-align: right; }
+form input[type="text"], form input[type="password"], form textarea { width: 100%; font-size: 1em; height: 1.5em; border: 1px solid black; border-radius: .25em; padding: .25em; font-family: sans-serif; }
+#remove #name { font-size: 2em; margin: 2em; }
+#choose select { margin: 1em; font-size: 1em; width: 80%; }

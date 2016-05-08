@@ -2,11 +2,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Content Management System</title>
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/cms.css"/>
 </head>
 <body>
 <div id="page">
-<div id="cms">
 
 <?php
 
@@ -19,6 +18,7 @@ $verified = verify_from_hash($id, $hash);
 
 if($verified !== true) {
 	?>
+	<h1>CMS Login</h1>
 	<form method="post" action="cms_login.php">
 	<p>Please enter your ID and password.</p>
 	<div><span class="left">ID:</span><span class="right"><input name="id" type="text" /></span></div>
@@ -38,18 +38,21 @@ else {
 		<?php
 		if($id == "cmsadmin") {
 			?>
-			<a href="cms.php?op=add">Add a Service</a>
-			<a href="cms.php?op=choose&op2=edit">Edit a Service</a>
-			<a href="cms.php?op=choose&op2=remove">Remove a Service</a>
-			<a href="cms.php?op=latlon">Update Map Lat/Lons</a>
+			<a class="menu" href="cms.php?op=add">Add a Service</a>
+			<a class="menu" href="cms.php?op=choose&op2=edit">Edit a Service</a>
+			<a class="menu" href="cms.php?op=choose&op2=remove">Remove a Service</a>
+			<a class="menu" href="cms.php?op=latlon">Update Map Lat/Lons</a>
 			<?php
 		}
 		else {
 			?>
-			<a href="cms.php?op=edit&service=<?php echo $id ?>">Edit Your Service</a>
-			<a href="cms.php?op=remove&service=<?php echo $id ?>">Remove Your Service</a>
+			<a class="menu" href="cms.php?op=edit&service=<?php echo $id ?>">Edit Your Service</a>
+			<a class="menu" href="cms.php?op=remove&service=<?php echo $id ?>">Remove Your Service</a>
 			<?php
 		}
+		?>
+		<a class="menu" href="cms_logout.php">Logout</a>
+		<?php
 	}
 	else if(($op == "add" && $id == "cmsadmin") || ($op == "edit" && ($id == "cmsadmin" || $id == $service))) {
 		if($op == "add") {
@@ -76,7 +79,7 @@ else {
 		<div><span class="left">E-mail 3:</span><span class="right"><input id="email_3" name="email_3" type="text" /></span></div>
 		<div><span class="left">Website:</span><span class="right"><input id="website" name="website" type="text" /></span></div>
 		<div><span class="left">Categories:</span><span class="right"><input id="categories" name="categories" type="text" /></span></div>
-		<div><span class="right" style="text-align: right;"><input id="edit_submit" type="submit" value="Save" /></span></div>
+		<div class="buttons" style="text-align: right;"><a href="cms.php">Cancel</a><input id="edit_submit" type="submit" value="Save" /></div>
 		</form>
 		<?php
 	}
@@ -101,15 +104,18 @@ else {
 		</form>
 		<?php
 	}
+	else if($op == "logout") {
+		?>
+		<h1>Logging out...</h1>
+		<script>window.location = "cms.php";</script>
+		<?php
+	}
 	else {
 		?>
 		<p>You do not have permission to edit this service.</p>
 		<a href="cms.php">Return</a>
 		<?php
 	}
-	?>
-	<a href="logout.php">Logout</a>
-	<?php
 }
 
 ?>
@@ -164,7 +170,6 @@ Database.initialize(function() {
 	}
 });
 
-</div>
 </div>
 </body>
 </html>
