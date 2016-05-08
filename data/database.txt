@@ -1,4 +1,4 @@
-id,name,description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,categories,lat,lon
+id,name,description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,categories,lat,lon,pwhash
 0,City Hall Council Chamber,FM Radio w. Headsets and Neck Loops,"100 N. Garfield Ave, Room 237",Mark Jomsky,(626) 744-7311 ,,,mjomsky@cityofpasadena,,,,city facility,34.147643,-118.143534
 1,"Wright Auditorium, Central Library",Loop w. headsets for non-T-coil users,285 E. Walnut Ave.,Derek Massengale,(626) 744-4066 ,,,dmassengale@cityofpasadena.net,,,,City Facility,34.1500239,-118.1442694
 2,Pasadena Playhouse,Infrared w. no connection for neck loops,39 S. El Molino Ave,,(626) 356-7529,,,,,,,Performance Theater,34.1451149,-118.137375
