@@ -3,6 +3,10 @@ body {
   font-family: sans-serif;
 }
 
+.text-center {
+  text-align: center;
+}
+
 #page {
   height: 100%;
 }

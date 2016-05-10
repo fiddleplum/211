@@ -104,13 +104,19 @@ function showServiceOnMap(serviceId) {
 // Updates the list.
 function updateList() {
 	var html = '';
-	for(var i in services) {
-		var service = services[i];
-		html += '<div class="item">';
-		html += '<div style="float: right;" onclick="showServiceOnMap(' + service.id + ');"> Map it: <img src="images/map.svg" style="width: 2em; height: 2em;"></div>';
-		html += serviceToHtml(service) + '</div>';
-	}
-	$('#list')[0].innerHTML = html;
+  var noResults = '<p class="text-center">Sorry, it appears there were no results returned with those keywords</p>';
+  if ( services.length < 1 ) {
+    $('#list')[0].innerHTML = noResults;
+  }
+  else {
+    for(var i in services) {
+  		var service = services[i];
+  		html += '<div class="item">';
+  		html += '<div style="float: right;" onclick="showServiceOnMap(' + service.id + ');"> Map it: <img src="images/map.svg" style="width: 2em; height: 2em;"></div>';
+  		html += serviceToHtml(service) + '</div>';
+  	}
+  	$('#list')[0].innerHTML = html;
+  }
 }
 
 $(document).ready(function(){
