@@ -2,6 +2,9 @@
 h1 { font-size: 3em; margin: 0 0 .25em 0; }
 a, button, input[type="submit"] { display: inline-block; margin: .5em; border: 2px solid black; border-radius: .25em; text-decoration: none; font-size: 2em; padding: .25em; background-color: #c86504; color: white; }
 a.menu { display: block; max-width: 12em; margin-left: auto; margin-right: auto; }
+#left_menu { width: 50%; float: left; }
+#right_menu { width: 50%; float: right; }
+#left_menu p, #right_menu p { font-size: 2em; margin: 0; }
 form { margin: 0 auto; padding: 1em; max-width: 40em; clear: both; overflow: auto; border: 1px solid black; border-radius: .25em; }
 form p { margin-top: 0; }
 form > div { overflow: auto; margin-bottom: 1em; }
@@ -12,3 +15,8 @@ form div.buttons input[type="submit"], form div.buttons a { margin: 0 0 0 .5em; 
 form input[type="text"], form input[type="password"], form textarea { width: 100%; font-size: 1em; height: 1.5em; border: 1px solid black; border-radius: .25em; padding: .25em; font-family: sans-serif; }
 #remove #name { font-size: 2em; margin: 2em; }
 #choose select { margin: 1em; font-size: 1em; width: 80%; }
+@media screen and (max-width: 900px) {
+	#left_menu, #right_menu { width: 100%; float: none; }
+	form div span.left { width: 10em; }
+	form div span.right { width: calc(100% - 11em); }
+}

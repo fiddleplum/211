@@ -72,23 +72,34 @@ else {
 		<?php
 		if($id == "cmsadmin") {
 			?>
+			<div id="left_menu">
+			<p>Services</p>
 			<a class="menu" href="?op=add">Add a Service</a>
 			<a class="menu" href="?op=choose&op2=edit">Edit a Service</a>
 			<a class="menu" href="?op=choose&op2=remove_confirm">Remove a Service</a>
 			<a class="menu" href="?op=latlon">Update Map Lat/Lons</a>
+			</div>
+			<div id="right_menu">
+			<p>Users</p>
 			<a class="menu" href="?op=choose&op2=create_user">Create/Reset User</a>
 			<a class="menu" href="?op=choose&op2=remove_user">Remove User</a>
 			<?php
 		}
 		else {
 			?>
+			<div id="left_menu">
+			<p>Services</p>
 			<a class="menu" href="?op=edit&service=<?php echo htmlspecialchars($id); ?>">Edit Your Service</a>
 			<a class="menu" href="?op=remove_confirm&service=<?php echo htmlspecialchars($id); ?>">Remove Your Service</a>
+			</div>
+			<div id="right_menu">
+			<p>Users</p>
 			<?php
 		}
 		?>
 		<a class="menu" href="?op=change_password_form&service=<?php echo htmlspecialchars($id); ?>">Change Your Password</a>
 		<a class="menu" href="?op=logout">Logout</a>
+		</div>
 		<?php
 	}
 	else if(($op == "add" && $id == "cmsadmin") || ($op == "edit" && ($id == "cmsadmin" || $id == $service))) {
