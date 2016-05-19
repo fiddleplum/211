@@ -50,8 +50,9 @@ var services = []
 // Returns nice html from the given service.
 function serviceToHtml(service) {
 	var html = '';
-	html += '<h1>' + service.name + '</h1>';
-	html += '<p><b>Description</b>: ' + service.description + '</p>';
+	html += '<h2>' + service.name + '</h2>';
+	html += '<p><b>Description</b>: ' + service.description + ' <button class="btn btn-expand-description" onclick="toggleLongDescription(' + service.id + ');">read more</button></p>';
+  html += '<p class="long-description" id="long-description-' + service.id + '" style="display: none;">Some longer description of the service.</p>';
 	html += '<p><b>Address</b>: ' + service.address + '</p>';
 	if(service.point_of_contact != '')
 		html += '<p><b>Contact</b>: ' + service.point_of_contact + '</p>';
@@ -129,3 +130,17 @@ $(document).ready(function(){
     });
   });
 });
+
+function toggleLongDescription(serviceId) {
+  var $target = $('#long-description-' + serviceId);
+  if (! $target.hasClass('visible')) {
+    $target.fadeIn();
+    $target.addClass('visible');
+  }
+  else {
+    $target.fadeOut();
+    $target.removeClass('visible');
+  }
+
+
+}

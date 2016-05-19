@@ -3,6 +3,28 @@ body {
   font-family: sans-serif;
 }
 
+.btn {
+  padding: 5px;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  background: none;
+  box-shadow: none;
+}
+
+.btn:focus,
+.btn:hover {
+  outline: 0;
+  cursor: pointer;
+}
+
+.btn-expand-description {
+  border-style: none;
+  font-weight: bold;
+  padding: 0;
+}
+
 .text-center {
   text-align: center;
 }
