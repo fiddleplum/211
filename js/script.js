@@ -51,8 +51,8 @@ var services = []
 function serviceToHtml(service) {
 	var html = '';
 	html += '<h2>' + service.name + '</h2>';
-	html += '<p><b>Description</b>: ' + service.description + ' <button class="expand-description btn" onclick="toggleLongDescription(' + service.id + ');">expand</button></p>';
-  html += '<p id="long-description-' + service.id + '" style="display: none;">Some longer description of the service.</p>';
+	html += '<p><b>Description</b>: ' + service.description + ' <button class="btn btn-expand-description" onclick="toggleLongDescription(' + service.id + ');">read more</button></p>';
+  html += '<p class="long-description" id="long-description-' + service.id + '" style="display: none;">Some longer description of the service.</p>';
 	html += '<p><b>Address</b>: ' + service.address + '</p>';
 	if(service.point_of_contact != '')
 		html += '<p><b>Contact</b>: ' + service.point_of_contact + '</p>';
@@ -132,8 +132,15 @@ $(document).ready(function(){
 });
 
 function toggleLongDescription(serviceId) {
- var target = '#long-description-' + serviceId;
- $(target).toggle({
-   easing: 'linear'
- });
+  var $target = $('#long-description-' + serviceId);
+  if (! $target.hasClass('visible')) {
+    $target.fadeIn();
+    $target.addClass('visible');
+  }
+  else {
+    $target.fadeOut();
+    $target.removeClass('visible');
+  }
+
+
 }

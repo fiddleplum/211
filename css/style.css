@@ -10,7 +10,6 @@ body {
   -moz-appearance: none;
   -ms-appearance: none;
   background: none;
-  border: 1px solid black;
   box-shadow: none;
 }
 
@@ -18,6 +17,12 @@ body {
 .btn:hover {
   outline: 0;
   cursor: pointer;
+}
+
+.btn-expand-description {
+  border-style: none;
+  font-weight: bold;
+  padding: 0;
 }
 
 .text-center {
