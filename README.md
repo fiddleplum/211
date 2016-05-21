@@ -1,3 +1,7 @@
+## Installation
+
+This website only requires PHP. Just clone or copy the repository into a web-enabled folder and it should work without any initialization or configuration.
+
 ## Service and User Management
 
 To manage the services and users, the website employs a Content Management System (CMS). It is located in the folder `/cms`.
