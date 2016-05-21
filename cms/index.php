@@ -124,7 +124,8 @@ else {
 			?>
 			<form action="?op=save&service=<?php echo htmlspecialchars($service); ?>" method="post">
 			<div><span class="left">Name:</span><span class="right"><input name="name" type="text" value="<?php echo htmlspecialchars($services[$service]["name"]); ?>" /></span></div>
-			<div><span class="left">Description:</span><span class="right"><textarea name="description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["description"]); ?></textarea></span></div>
+			<div><span class="left">Short Description:</span><span class="right"><textarea name="short_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["short_description"]); ?></textarea></span></div>
+			<div><span class="left">Long Description:</span><span class="right"><textarea name="long_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["long_description"]); ?></textarea></span></div>
 			<div><span class="left">Address:</span><span class="right"><input name="address" type="text" value="<?php echo htmlspecialchars($services[$service]["address"]); ?>" /></span></div>
 			<div><span class="left">Point of Contact:</span><span class="right"><input name="point_of_contact" type="text" value="<?php echo htmlspecialchars($services[$service]["point_of_contact"]); ?>" /></span></div>
 			<div><span class="left">Phone 1:</span><span class="right"><input name="phone_1" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_1"]); ?>" /></span></div>
@@ -134,6 +135,10 @@ else {
 			<div><span class="left">E-mail 2:</span><span class="right"><input name="email_2" type="text" value="<?php echo htmlspecialchars($services[$service]["email_2"]); ?>" /></span></div>
 			<div><span class="left">E-mail 3:</span><span class="right"><input name="email_3" type="text" value="<?php echo htmlspecialchars($services[$service]["email_3"]); ?>" /></span></div>
 			<div><span class="left">Website:</span><span class="right"><input name="website" type="text" value="<?php echo htmlspecialchars($services[$service]["website"]); ?>" /></span></div>
+			<div><span class="left">Hours:</span><span class="right"><textarea name="hours" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["hours"]); ?></textarea></span></div>
+			<div><span class="left">Extra Info:</span><span class="right"><textarea name="extra_info" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["extra_info"]); ?></textarea></span></div>
+			<div><span class="left">Spanish Short Description:</span><span class="right"><textarea name="spanish_short_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["spanish_short_description"]); ?></textarea></span></div>
+			<div><span class="left">Spanish Long Description:</span><span class="right"><textarea name="spanish_long_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["spanish_long_description"]); ?></textarea></span></div>
 			<div><span class="left">Categories:</span><span class="right"><input name="categories" type="text" value="<?php echo $services[$service]["categories"]; ?>" /></span></div>
 			<div class="buttons" style="text-align: right;"><a href=".">Cancel</a><input type="submit" value="Save" /></div>
 			</form>
@@ -182,7 +187,8 @@ else {
 		$services = loadServices();
 		$services[$service]["id"] = $service;
 		$services[$service]["name"] = $_POST["name"];
-		$services[$service]["description"] = $_POST["description"];
+		$services[$service]["short_description"] = $_POST["short_description"];
+		$services[$service]["long_description"] = $_POST["long_description"];
 		$services[$service]["address"] = $_POST["address"];
 		$services[$service]["point_of_contact"] = $_POST["point_of_contact"];
 		$services[$service]["phone_1"] = $_POST["phone_1"];
@@ -192,6 +198,10 @@ else {
 		$services[$service]["email_2"] = $_POST["email_2"];
 		$services[$service]["email_3"] = $_POST["email_3"];
 		$services[$service]["website"] = $_POST["website"];
+		$services[$service]["hours"] = $_POST["hours"];
+		$services[$service]["extra_info"] = $_POST["extra_info"];
+		$services[$service]["spanish_short_description"] = $_POST["spanish_short_description"];
+		$services[$service]["spanish_long_description"] = $_POST["spanish_long_description"];
 		$services[$service]["categories"] = $_POST["categories"];
 		updateGeocode($services[$service], false);
 		saveServices($services);

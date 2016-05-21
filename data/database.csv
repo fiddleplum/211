@@ -1,402 +1,402 @@
-id,name,description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,categories,lat,lon
-0,City Hall Council Chamber,FM Radio w. Headsets and Neck Loops,"100 N. Garfield Ave, Room 237",Mark Jomsky,(626) 744-7311 ,,,mjomsky@cityofpasadena,,,,city facility,34.147643,-118.143534
-1,"Wright Auditorium, Central Library",Loop w. headsets for non-T-coil users,285 E. Walnut Ave.,Derek Massengale,(626) 744-4066 ,,,dmassengale@cityofpasadena.net,,,,City Facility,34.1500239,-118.1442694
-2,Pasadena Playhouse,Infrared w. no connection for neck loops,39 S. El Molino Ave,,(626) 356-7529,,,,,,,Performance Theater,34.1451149,-118.137375
-3,"Villa Gardens, Large meeting room",Loop w. headsets for non-T-coil users,842 E. Villa Ave.,, 800-958-4552.,,,,,,,Senior Residence,34.153707,-118.13382
-4,"Jackie Robinson Comm. Center,","Community programming, resourcing and services.",1020 N. Fair Oaks Ave.,Jarvis Emerson,(626)744-7333,,,jemerson@cityofpasadena.net,,,,City Facility,34.1635931,-118.1501538
-5,Multi-Purpose Room,Loop w. headsets for non-T-coil users,,Jarvis Emerson,(626)744-7333,,,jemerson@cityofpasadena.net,,,,,34.1477849,-118.1445155
-6,Free Meal Program,Free Hot Meals offered to the Community every Wednesday beginning at 5:00 p.m. Please call for more information.,,,(626)744-7330,,,,,,,,34.1477849,-118.1445155
-7,Reception Counter,Loop w. headsets for non-T-coil users,,Jarvis Emerson,(626)744-7333,,,jemerson@cityofpasadena.net,,,,,34.1477849,-118.1445155
-8,"Basic Needs: Food, Shelter and Clothing",,,,,,,,,,,,34.1477849,-118.1445155
-9,Bienvenidos,Mental Health and Foster Car Services. For more information call.,255 N San Gabriel Blvd.,,(626) 696-1270,,,,,,,Facility,34.1510279,-118.094683
-10,Casa de las Amigas,A 24-hour alcohol and drug residential treatment center for women.,160 N. El Molino Ave.,Flora Esquivel,(626) 792-2770,,,,,,,Treatment Center,34.1487732,-118.1367094
-11,Elizabeth House,"Shelter and support services for pregnant, homeless women and children.",P.O. Box 94077,Terry Bright,(626) 577-4434,,,contact@elizabethhouse.net,,,,Private Housing Facility,34.1477849,-118.1445155
-12,Food For Faith Pasadena Church,Community meals program.,404 E. Washington Blvd.,Maria Edwards,(626) 794-2951,,,,,,,Church,34.1685682,-118.1423209
-13,"Foothill Unity Center, Inc.","Provides food and clothing to low income residents of Pasadena, Altadena, and So. Pasadena.  Call for an appointment.",191 N. Oak Ave.,Tashera Taylor,(626) 584-7420,,,,,,,Food Distribution Facility,34.1495915,-118.107847
-14,Villa Parke Community Center-Free Meal Program,Free Hot Meals offered to the Community every Thursday beginning at 5:00 p.m. Please call for more information.,363 E. Villa St.,,(626) 744-6530,,,,,,,City Facility,34.154688,-118.1428055
-15,Friends In Deed,Food Distribution. Call for qualification information.,444 E. Washington Blvd.,Tim Nistler,(626) 797-6072,(626) 797 2402,,,,,www.ecpac.net,Facility,34.1687151,-118.1413359
-16,Haven House,Emergency shelter for battered women and their children,P.O. Box 50007,Terese Trinidad,(323) 681-2626,(626) 564-8880,,,,,www.jfsla.org/havenhouse,Private Housing Facility,34.1477849,-118.1445155
-17,L.A. County Dept. of Public Social Services,Provides temporary financial assistance and employment focused services to families,955 N. Lake Ave.,,(626) 791-6333,,,,,,www.ladpss.org,County Facility,34.1623786,-118.1328372
-18,Lake Avenue Community Foundation,Tutoring/mentoring.,712 E. Villa St,Nancy Stiles,(626) 449-4960,,,,,,,Private Facility,34.1539265,-118.1357581
-19,"Meals On Wheels, Pasadena",Food delivery program for adults in Pasadena only.,54 N. Oakland Ave.,Barbra Walker,(626) 449-6815,,,,,,,Store Front,34.1465445,-118.1392002
-20,Passageways,Mental Illness Services,1020 S. Arroyo Parkway,,(626) 403-4888,,,,,,,Office Building,34.128338,-118.1468988
-21,Salvation Army Social Services,Food for low income families with proof of low income status.,"1000 E. Walnut St., #102",,(626) 773-4404,(626) 773-4425,,,,,pasadenatab.org,Store Front,34.1493046,-118.1297902
-22,"Pasadena Public Health Dept./  Women, Infants & Children Program (WIC)/",federally funded supplemental nutrition program,"363 E. Villa St., Suite 115",,(626) 744-6520,,,,,,www.cityofpasadena.net/publichealth,City Facility,34.154688,-118.1428055
-23,Union Station Homeless Services,This intake center is the entry point into Pasadena’s homeless services,825 E. Orange Grove Blvd.,Lauri Nipper,(626) 240-4550,,,info@unionstationhs.org,,,,Facility,34.1581873,-118.1334783
-24,Ability First-Lawrence L. Frank Center,Providing programs and services to the disabled community,201 S. Kinneloa Ave.,Michael Barkyounb,(626) 449-5661,,,,,,www.abilityfirst.org,School,34.1426163,-118.0860229
-25,Aspires West Pasadena,"Mentoring, tutoring, sharing employment skills, training, and counseling.",119 East Washington Blvd.,,(626) 797-0789,,,aspireswestpas@gmail.com,,,,Church,34.169322,-118.14824
-26,Boys & Girls Club of Pasadena,After–School Programs,3301 Thorndale Rd.,Thorndale,(626) 449-9100,,,,,,,Rec.  Building,34.1404814,-118.0830613
-27,Boys & Girls Club of Pasadena-Performing Arts Center,$60.00 per month for a 30-minute private lesson once a week.  Tuition assistance is available to those who qualify.,3301 Thorndale Rd.,Mckenzie,(626) 449-7694,,,,,,,Rec. Building,34.1404814,-118.0830613
-28,Boys & Girls Club of Pasadena-Mackenzie-Scott Branch,After–School Programs,2020 N. Fair Oaks Ave.,Scott,(626) 798-3925,,,,,,,Rec. Building,34.180037,-118.1503365
-29,Boys & Girls Club of Pasadena-Slavik Branch,After–School Programs,3230 E. Del Mar Blvd.,J.D Lorrensky,(626) 449-9100,,,questions@bgcpasadena.org,,,,Rec. Building,34.1415406,-118.0834457
-30,Child Care Information Service (CCIS),Child care referrals for all working parents. Call for more information.,2465 E. Walnut St.,Natalie Duong,(626) 449-8221,,,,,,www.optionscc.org,Facility,34.1485831,-118.0995133
-31,Day One,Preventative services for substance abuse,175 N. Euclid Ave.,Christy Basani,(626) 229-9750,,,,,,www.dayonepasadena.com,Temp. Bungalows,34.1485829,-118.1429813
-32,Give The Streets Back!,Community youth intervention program,131 W. Mariposa St.,,(626) 791-1855,,,,,,www.givethestreetsback.org,Private Facility,34.193111,-118.151071
-33,Mustangs on the Move,After-school programs for high school-age youth,1905 Lincoln Avenue,,(626) 396-5610,,,,,,www.flintridge.org,PUSD Building,34.1781703,-118.1604685
-34,NATHA(Neighbors Acting Together Helping All),After-school homework assistance for Pre-k through 12th.,2023 N. Lincoln Ave.,Patricia Tucker,(626) 794-5889,,,,,,www.natharebuilds.org,Office Building,34.1805035,-118.1598354
-35,Options Child Development Centers,"Subsidized child care, objective referral information and the promotion of high quality child care","885 S. Village Oaks Dr., Suite 12",Denise McCullough,(626) 858-0527,,,,,,www.optionscc.org,Office Building,34.1612013,-118.1506186
-36,Outward Bound Adventures (OBA),Fun and challenging outdoor environmental education programs,"1905 Lincoln Avenue, G227",,(626) 564-0844,,,,,,www.obainc.org,PUSD Building,34.1781703,-118.1604685
-37,Pasadena Family YMCA,Before and after school programs for children ages 5-13,2828 E. Foothill Blvd.  Suite #203,Camille Rillorta,(626) 432-5880,,,,,,www.ymcala.org/pas,Office Building,34.1496003,-118.0921776
-38,PasadenaLEARNs After School Program,After School program,"351 S. Hudson Ave., Room 207",Maria Toliver,(626) 396-3614,,,LEARNs@pusd.us.,,,,PUSD Building,34.1397946,-118.1345051
-39,Pasadena Unified School District-Child Development Program,Social and emotional development as well as pre-academic skills.,2046 N. Allen Ave,Lorraine Camarena,(626) 396-5900,,,,,,www.pusd.us,School,34.1811331,-118.1113816
-40,Center For Community & Family Services,"Early childhood development, housing, nutrition and job training. ",2650 E Foothill Blvd,,(888) 412-8397,(310) 217-2935,,,,,,Office Building,34.1496111,-118.0957186
-41,Rosemary Children's Services,"Residential, Foster Care , and Mental health services for children","36 S Kinneloa Ave, # 200",,(626) 844-3033,,,,,,,Private Facility,34.145448,-118.086609
-42,Hathaway-Sycamores,Child & Family Wrap-Around Services,210 S DeLacey Avenue # 110,,(626) 395-7100,,,,,,,Office Building,34.1420366,-118.1516944
-43,Foothill Unity Center,"Food, temporary shelter, case management, transportation, referrals and a variety of health services for low-income and homeless people",191 N Oak Ave,,(626) 584-7420,,,,,,,Facility,34.1495915,-118.107847
-44,Pasadena Alumni Support Center (PASC),Transition resources for youth ages 14 to 24,1110 E. Green Street,,(626) 356-5350,,,,,,,Office Building,34.144365,-118.1273978
-45,YWCA Pasadena-Foothill Valley,Programs for women and girls’ in the community.,"1015 N. Lake  Ave., Ste.100",Jessica Kubel,(626) 296-8433,,,arodriguez@ywca/pasadena.org,,,,Facility,34.1634041,-118.1329214
-46,City of Pasadena Community  Centers and Programs,,,,,,,,,,,,34.1477849,-118.1445155
-47,Human Relations Commission,Provides assistance to individuals and groups in bettering relations among people.,1020 N. Fair Oaks Ave.,William Syms,(626) 744-7295,,,wsyms@cityofpasadena.net,,,,City Facility,34.1635931,-118.1501538
-48,Neighborhood Connections,Neighborhood resourcing and organizing.,1020 N. Fair Oaks Ave.,William Syms,(626) 744-7295,,,wsyms@cityofpasadena.net,,,,City Facility,34.1635931,-118.1501538
-49,Victory Park Community Center,"Community programming, resourcing and services.",2575 Paloma St.,Kenny James,(626) 744-7500,,,kjames@cityofpasadena.net,,,,City Facility,34.1593453,-118.095827
-50,Villa Parke Community Center,"Community programming, resourcing and services.",363 E. Villa St.,Rozanne Adanto,(626) 744-6530,,,radanto@cityofpasadena.net,,,,City Facility,34.154688,-118.1428055
-51,Accessibility and Disability Commission,Provide advice and recommendations that help to improve the accessibility of the City facilities and services to people with disabilities,1020 N. Fair Oaks Ave.,Robert Gorski,(626) 744-4782,,,rgorski@cityofpasadena.net,,,,City Facility,34.1635931,-118.1501538
-52,Adaptive Recreation – City of Pasadena,Recreation programs provided for adults with disabilities,2575 Paloma Street,Jackie Scott,(626) 744-7257,,,jackiescott@cityofpasadena.net,,,,City Facility,34.1593453,-118.095827
-53,California Department of Rehabilitation,Counseling and vocational services to persons with disabilities,"150 S. Los Robles Ave., Suite 300",,(626) 304-8300,,,,,,www.dor.ca.gov,State agency,34.1433355,-118.1407219
-54,Eastern Los Angeles Regional Center,Community-based services for California residents with developmental disabilities,1000 S. Fremont Ave.,,(626) 299-4700,,,,,,www.elarc.org,DDS Facility,34.1144711,-118.1527583
-55,Foothill Vocational Opportunities,"Vocational training, job placement for disabled adults",789 N. Fair Oaks Ave.,,(626) 449-0218,,,,,,,Office Building,34.1594097,-118.1510725
-56,Frank D. Lanterman Regional Center,Connects individuals with disabilities and their family with community and services,"3303 Wilshire Blvd., Suite 700, Los Angeles, CA",,(213) 383-1300,,,,,,www.lanterman.org,office building,34.0626223,-118.2945124
-57,L.A. County Department of Public Social Services,Provides temporary financial assistance and employment focused services to families. Call for details.,955 N. Lake Ave.,,(626) 791-6333,,,,,,www.ladpss.org,County Facility,34.1623786,-118.1328372
-58,MERCI,Services to adults with developmental disabilities,525 N. Chandler Ave,,(626) 289-8817,,,,,,www.merci.org,Private Facility,34.1275861,-118.1209479
-59,Families In Transition,homeless/transitional program,3500 E Colorado Blvd,,(626) 304-4815,,,,,,,Store Front,34.1456628,-118.0781453
-60,HOMELESS OUTREACH (H.O.P.E.),"Compassionate mental health and law enforcement emergency response to those in need of mental health, housing, and related social services",207 Garfield Ave,,(626) 744-7054,,,,,,,Office Space,34.1491349,-118.1448262
-61,City of Pasadena Human Services & Recreation Dept.,Programs and activities which serve people of all ages and abilities,1020 N Fair Oaks Ave,,(626) 744-4386,,,,,,,City Facility,34.1635931,-118.1501538
-62,Villa Esperanza Services,Serves children and adults with special needs,2060 E. Villa St.,,(626) 449-2919,,,,,,www.villaesperanzaservices.org,Office Building,34.1541678,-118.1078229
-63,Employment Job Opportunities and Training,,,,,,,,,,,,34.1477849,-118.1445155
-64,24 Hour City Job line,Recorded announcement of all available City of Pasadena jobs.,,,(626) 744-4600,,,,,,,Hotline,34.1477849,-118.1445155
-65,Community Education Center,Primarily noncredit programs onsite and in the community,3035 E. Foothill Blvd.,,(626) 585-3000,,,,,,www.pasadena.edu/CEC,College Facility,34.1507249,-118.0862689
-66,Foothill Employment and Training Connection,Resources for job seekers,1207 E. Green St.,,(626) 796-JOBS,,,fetcinfo@foothilletc.org,,,,Office Building,34.144833,-118.1255674
-67,Ideal Youth,Six weeks of job training workshops and  eight weeks summer internship. Call for details.,"83 E. Orange Grove Blvd., Ste. 2",,(626) 796-7164 ext16,,,contact@idealyouth.org,,,,Office Building,34.158029,-118.148729
-68,Pasadena City College CalWORKs Program,"Offers tuition, books, and childcare assistance. Call for more information.","1570 E. Colorado Blvd., L-101",,(626) 585-7060,,,,,,www.pasadena.edu,College,34.1389913,-118.2004026
-69,PUSD Regional Occupational Program (ROP),Career Technical Education Courses are offered. Call for more information.,"351 S. Hudson St., Room 214",,"(626) 795-6981, ext. 549",,,,,,www.pusd.us,PUSD Building,34.1397946,-118.1345051
-70,Sources Career Development,Provides a monthly career development workshops,825 E. Orange Grove Blvd.,,(626) 240-4591,,,lprimm@unionstationhs.org,,,,Facility,34.1581873,-118.1334783
-71,Employment Development Department,"Mock Interviews, Résumé Review and other various workshops",1207 E. Green Street,,(626) 304-7922,,,,,,,Facility,34.144833,-118.1255674
-72,Foothill Vocational Opportunities,Job opportunities for individuals with disabilities or disadvantages,789 N Fair Oaks Ave,,(626) 449-0218,,,,,,,Facility,34.1594097,-118.1510725
-73,Los Angeles County Probation,"Probation Services, Job Opportunities",300 E Walnut St #200,,(626) 356-5281,,,,,,,Courthouse,34.1492514,-118.1435751
-74,PUSD Regional Occupational Programs,Real-world job experience,351 South Hudson Ave,,(626) 793-8609,,,,,,,PUSD Building,34.1397946,-118.1345051
-75,The Pasadena City College CalWORKs Partnership,"Help meet the L.A. County GAIN education/ training requirements and the federal ""work activities"" requirement under the new welfare rules",1570 E. Colorado Blvd #L107,,(626) 585-7060,,,,,,,college,34.1439329,-118.119168
-76,Pasadena Community Job Center,Day laborer services,500 N Lake Ave,,(626) 440-0112,,,,,,,Store Front,34.1546505,-118.1321673
-77,Women At Work,Full service career and job resource center,2555 E Colorado Blvd #204,,(626) 796-6870,,,info@womenatwork.org,,,,Store Front,34.1464374,-118.0978064
-78,Re-Entry,,,,,,,,,,,,34.1477849,-118.1445155
-79,A Link N the Chain,Reintegration Services,290 Elizabeth Ave.,,(626)644-7525,,,Andrewsjc1988@gmail.com,,,,Residential Facility,34.173247,-118.14467
-80,ACTS Thrift Store,Reintegration Services,1382 Locust St.,Dominique Franklin,(626)201-3463,,,dfranklin@actsthrift.org,,,,Store Front,34.1502595,-118.1217132
-81,AIDS Service Center,Reintegration Services,"65 N. Raymond Ave., # 240",Gabriel Solorio,(626)441-8495 ext. 13,,,G5@aidscc.org,,,,Facility,34.1469347,-118.1490601
-82,Adult Rehab Center,Reintegration Services,960 E. Walnut St,Diane,(626)795-8075,,,Diane.stueck@usw.salvationarmy.org,,,,Facility,34.149258,-118.130414
-83,All Saints Church,Reintegration Services,132 N. Euclid Ave.,Juliana Serrano/Kim Brorby,(626)405-0428,,,jserrano@allsaints-pas.org,sbrorby@sbcglobal.net,,,Church,34.1478962,-118.1425166
-84,Ambassadors for Peace,Reintegration Services,404 E. Washington Blvd.,Yvette McDowell/Steven Trejo/Leo Hurtado,(626)483-4151,(626)827-7172,(626)773-2703,L6152ww@att.net,,,,Church,34.1685682,-118.1423209
-85,Bread for the World,Reintegration Services,464 E. Walnut St.,David Gist,(626)568-3233,,,dgist@bread.org,,,,Church,34.1492687,-118.141172
-86,Center for Truth Ministries,Reintegration Services,1627 N. Fair Oaks,Henry Olivarez,(626)627-8437,,,revhenryforcotm@yahoo.com,,,,Facility,34.1737537,-118.1512114
-87,Christ the Shepherd Lutheran Church,Reintegration Services,185 W. Altadena Dr.,Marks Witte/Retta Robinson/William Korn,9626)379-9985,(626)296-1426,(626)798-2754,Mark.witte2.0@gmail.com,office@christthesheperd.org,,,Church,34.1957442,-118.1508922
-88,City of Pasadena Public Health Department Recovery Center (Public Health Department),Reintegration Services,1845 N. Fair Oaks Ave.,Ann Scott/Christopher Chavez/Ty Martin,626/744-6159,626-744-6074,626-744-6097,ascott@cityofpasadena.net,cchavez@cityofpasadena.net,tfmarin@cityofpasadena.net,,City Facility,34.1777736,-118.1511928
-89,Community Health Alliance of Pasadena (CHAP),Reintegration Services,455 W. Montana St.,Noemi Carareo,626-486-9729,,,ncarareo@chapcare.org,,,,Medical Office,34.180928,-118.1604378
-90,Community Services Section(Pasadena Police Dept),Reintegration Services,207 N. Garfield Ave.,George Rittenhouse,626-744-4551,,,,,,,City Facility,34.1491349,-118.1448262
-91,Day One,Reintegration Services,175 Moreno Ave.,Christy Zamani,626-229-978,,,claudia@godayone.org,,,,Temp. Bungalows,34.226237,-118.229173
-92,Department of Rehabilitaiton,Reintegration Services,150 S. Los Robles Ave #300,Diana Ling,626-304-8336,,,Diana.ling@dor.ca.gov,,,,Offcie Building,34.1433355,-118.1407219
-93,Five Acres,Reintegration Services,4760 W. Mountain Ave,Krystal Audoma,323-841-6853,,,kaudoma@fiveacres.org,,,,Facility,34.1419991,-118.0676892
-94,Flintridge Center,Reintegration Services,236 W. Mountain St. Suite 106,Daniel Torres/Chris Finney,626/449-0839 Ext. 109,626/449-0839 Ext. 110,,daniel@flintridge.org,chris@flintridge.org,,,Facility,34.1614061,-118.1576623
-95,Foothill Family Service,Reintegration Services,118 S. Oak Knoll Ave.,,(626)795-6907,,,,,,,Facility,34.1438134,-118.1348036
-96,Foothill Workforce Investment Board,Reintegration Services,1207 E. Green Street,Sarah Mendoza/Serafin/Garcia,626-796-5627,626-584-8383,,smendoza@foothilletc.org,sgarcia@foothilletc.org,,,Facility,34.144833,-118.1255674
-97,Friends Outside in Los Angeles County,Reintegration Services,1207 E. Green St.,Monica Sims,626-584-8367,,,msims@friendsoutsidela.org,,,,Facility,34.144833,-118.1255674
-98,FVO Solutions,Reintegration Services,789 N. Fair Oaks,Michuan Flemy/Marcel Becker,626-449-0218,,,michauanf@foothillvoc.org,marcel@foothillvoc.org,,,Facility,34.1594097,-118.1510725
-99,Grandview Foundation,Reintegration Services,P.O. Box 40375,Dave Booth/Paul/Sheila Romero,626/797-3799,626/797-3799ext104,626-716-1414,sheila@grandviewfoundation.com,Dave.booth72@yahoo.com,,,Facility,34.1477849,-118.1445155
-100,Hallelojah House,Reintegration Services,1025 Garfield Ave,Philip Galindo,626-394-2556,,,Revphilip54@gmail.com,,,,Private Residential Facility,34.1635212,-118.1438705
-101,Hunting Hospital Community Outreach,Reintegration Services,100 California Blvd,Kathy Eastwood (RN),626-397-2068,,,Kathleen.eastwood@huntingtonhospital.com,,,,Private Medical Facility,34.1354747,-118.1483083
-102,IBEW/ESSCO,Reintegration Services,2668 E. Foothill Blvd.,Tyler Lazarian,626-354-8474,,,ty@esscoelectric.com,,,,Office Building,34.1491813,-118.0954472
-103,Impact Drug and Alcohol Treatment Center,Reintegration Services,1680 N. Fair Oaks Ave.,William McLaughlin/Mark Skorich,626-798-0844,626-798-0884,,William@impacthouse.com,Markskorich23@gmail.com,,,Facility,34.1749284,-118.1502725
-104,JVS,Reintegration Services,"2555 E. Colorado Blvd., #200",Charles Braggs,626-584-5887,,,cbraggs@jvsla.org,,,,Office Building,34.1464374,-118.0978064
-105,Kingdom Works,Reintegration Services,n/a,Camelia Joseph,626-354-0436,,,pastorcamelio@aol.com,,,,N/A,34.1477849,-118.1445155
-106,Lake Avenue Church,Reintegration Services,393 N. Lake Ave.,Mayra Macedo-Nolan/Claire Wiggins,(626)844-4700,626-817-4559,,mayran@lakeave.org,clairew@lakeave.org,,,Church,34.1526294,-118.13292
-107,Law Offices of Tarek Shawky,Reintegration Services,"871 E. Washington Blvd., #205",Tarek Shawky,323-393-3301,,,tarekshawky@gmail.com,,,,Office Building,34.1691423,-118.1325402
-108,Learning Works Charter School,Reintegration Services,90 N. Daisy Ave.,Dominick Correy/Ann Burke,(626)535-3259,,,dominick@learningworkscharter.com,,,,Office Building,34.147506,-118.0926214
-109,Levon Kevorkian (Private Law Practice),Reintegration Services,"35 E. Union St., #D",Levon Kevorkian,1 (866)286-7605,,,levkeu@gmail.com,,,,Office Space,34.1470248,-118.149682
-110,Neighborhood Outreach Workers Program (N.O.W.),Reintegration Services,1020 N. Fair Oaks Ave,Rebecca Pratt,626-744-7306,,,Rpra-contractor@cityofpasadena.net,,,,City Facility,34.1635931,-118.1501538
-111,Noble,Reintegration Services,207 N. Garfield Ave.,Darryl Qualls,626/744-4533,,,dquall@cityofpasadena.net,,,,City Facility,34.1491349,-118.1448262
-112,Options,Reintegration Services,2465 E. Walnut,Connie Aguilar,626-204-3526,,,Caguilar@optionscc.org,arivas@optionscc.org,,,Facility,34.1485831,-118.0995133
-113,Pacific Clinics,Reintegration Services,1020 S. Arroyo Parkway,Essence Barnes,626-786-6708,,,ebarnes@pacificclinics.org,,,,Medical Office,34.128338,-118.1468988
-114,Pasadena Community Christian Fellowship,Reintegration Services,500 S. Pasadena Ave.,Henry Graham,310-429-5400,,,Ritejus1@aol.com,,,,Facility,34.1372194,-118.1537681
-115,Pasadena City College,Reintegration Services,3035 E. Foothill Blvd.,Theresa Reed/Anthony Smith,626-585-3037,,,txreed@pasadena.edu,,,,College,34.1507249,-118.0862689
-116,Pasadena Federal Credit Union,Reintegration Services,1038 S. Fair Oaks Ave.,John Schaefer/Veronica R.,626/799-0882 ext.251,,,jschaefer@pcu.org,,,,Office Building,34.1282992,-118.149801
-117,PATH People Assisting the homeless,Reintegration Services,340 N. Madison Ave,Steve Fietcher/Keinesha J/J.Roberts,213-422-0380,,,Stephenf@epath.org,keineshaj@epth.org,johanr@epath.org,,Facility,34.1523726,-118.1384129
-118,Peace Over Violence,Reintegration Services,892 N. Fair Oaks Ave.,Jessie Corral/Claudia Sibaya/Imelda Talamantes/Sandy,626-584-6191,,,jessie@peaceoverviolence.org,claudias@peaceoverviolence.org,Sandy@peaceoverviolence.org,,Office Building,34.1610795,-118.1504012
-119,Probation/AB-109,Reintegration Services,"300 E. Walnut., #200",Leo Paredes/Lauro Mendoza,626-356-5281,626-356-5292,,Leopoldo.paredes@probation.lacounty.gov,Lauro.mendoza@probation.lacounty.gov,,,Courthouse,34.1492514,-118.1435751
-120,Quality Life Soberliving,Reintegration Services,814 Merrett St.,Bill,626-644-5812,,,burstonw@yahoo.com,,,,Private Residential Facility,34.160449,-118.133744
-121,Redemption Church,Reintegration Services,128 S. Oak Knoll Ave.,Kyle Sears,626-628-4414,,,kylesears@gmail.com,,,,Church,34.1436111,-118.1348173
-122,Social Security Administration,Reintegration Services,104 N. Mentor Ave.,Eduardo Guevara,,,,Eduardo.guevara@ssa.gov,,,,Office Building,34.1476708,-118.1305245
-123,Talk About Parenting,Reintegration Services,P.O. Box 40547,Shirlee Smith,626-296-2777,,,talkaboutparenting@gmail.com,,,,Facility,34.1477849,-118.1445155
-124,The Salvation Army,Reintegration Services,960 E. Walnut St.,Diana Stueck/John Rivera,626-795-8075,,,Diana.stueck@usw.salvationarmy.org,,,,Office Building,34.149258,-118.130414
-125,Union Station Homeless Center (SRO),Reintegration Services,412 South Raymond Ave.,Rafael Ventura,626-318-5062,,,rventura@unionstationhs.org,raffaelventura@sbcglobal.net,,,Facility,34.1386027,-118.1483688
-126,USHS Sources,Reintegration Services,825 E. Orange Grove Ave.,La Viva Prim,626-240-4540,,,lprimm@unionstationhs.org,,,,Facility,34.1581873,-118.1334783
-127,"Vintage Rose, Battered Women’s Shelter Corp",Reintegration Services,1053 E. Orange Grove Ave.,Rosie,626-722-3896,,,rosalinmarshall@yahoo.com,,,,Private Residential Facility,34.158052,-118.128752
-128,Vocational Rehabilitation,Reintegration Services,"150 S. Los Robles, # 300",Tiffany Chen,626-304-8335,,,tchen@dor.ca.gov,,,,Office Building,34.1433355,-118.1407219
-129,Youth Build,Reintegration Services,1020 N. Fair Oaks Ave.,Delani Sins,626-437-3509,,,sherylturner@charter.net,,,,City Facility,34.1635931,-118.1501538
-130,Youth Moving On,Reintegration Services,"456 E. Orange Grove Blvd., #140",Jessica Petrass/Casswell Goodman,626-765-6010,786-488-8295,,jpetrass@hillsides.org,cgoodman@hillsides.org,,,Office Building,34.157588,-118.1411494
-131,Financial Literacy,,,,,,,,,,,,34.1477849,-118.1445155
-132,www.Feedthepig.org,Resources to help obtain financial stability,n/a,,(626) 744-4600,,,feedthepig@aicpa.org.,,,,Online Portal,34.1477849,-118.1445155
-133,CalCPA,Financial planning,"330 N. Brand Blvd., Suite 710",,(818) 246-4017,,,,,,,Office Building,34.1477849,-118.1445155
-134,Social Security Administration,Applications for Social Security survivor’s benefits,104 N. Mentor Ave.,,(877) 255-1508,,,,,,www.socialsecurity.gov,Government,34.1476708,-118.1305245
-135,Health Services,,,,,,,,,,,,34.1477849,-118.1445155
-136,Bill Moore Community Health Clinic/URDC,State licensed community clinic providing low cost primary health care services,"1460 N. Lake Ave., Suite 107",,(626) 398-3796,,,sarrivillaga@URDCHSC.org,,,,Medical Office,34.1713121,-118.1318722
-137,Body and Soul Program,Nutrition education and physical activity program,404 E. Washington Blvd.,,(626) 794-2951,,,,,,www.pasadenachurch.com,Church,34.1685682,-118.1423209
-138,Community Health Alliance of Pasadena,Primary medical and dental care.,1855 N. Fair Oaks Ave.,,(626) 398-6300,,,,,,www.chapcare.org,Medical Office,34.1775276,-118.1511579
-139,H.E.A.R. Center,Diagnostic hearing testing and hearing aid dispensing for all ages,301 E. Del Mar Blvd.,,(626) 796-2016,,,,,,www.hearcenter.org,Facility,34.1406719,-118.1440603
-140,Huntington Ambulatory Care Center,Primary care for adults. Call for details.,711 S. Fairmount Ave.,,(626) 397-5711,,,,,,www.huntingtonhospital.com,Private Medical Office,34.1337005,-118.1518309
-141,Huntington Community Health Library,Provides a user-friendly place to access medical information.,100 W. California Blvd.,,(626) 397-5161,,,library@huntingtonhospital.com,,,,Private Medical Facility,34.133639,-118.152753
-142,Huntington Hospital,Offering a full complement of medical programs and community services,100 W. California Blvd.,,(626) 397-5000,,,,,,,Private Medical Facility,34.133639,-118.152753
-143,Pasadena Community Urgent Care and Occupational Center,"Executive, pre-employment, DMV, and annual physicals","3160 E. Del Mar Blvd., Suite 110",,(626) 270-2400,,,,,,,Medical Office,34.1418029,-118.0853108
-144,Pasadena Public Health Dept. Child Health & Disability Prevention Program,Health assessments for the early detection and disease prevention for minors,"1845 N. Fair Oaks Ave., Suite 1136",,(626) 744-6111,,,,,,www.cityofpasadena.net/publichealth,Medical Office,34.1777736,-118.1511928
-145,Pasadena Public Health Dept. Childhood Lead Poisoning Prevention Program,"Information about childhood lead poisoning risks, sources, and prevention techniques",1845 N. Fair Oaks Ave.,,(626) 744-6089,,,,,,www.cityofpasadena.net/publichealth/childhood_lead_poisoning,Medical Office,34.1777736,-118.1511928
-146,Pasadena Public Health Dept. Healthy Kids,"Low cost, quality healthcare insurance to children ages 0-18 years and pregnant women","1845 N. Fair Oaks Ave., 2nd Floor",,(626) 744-6086,,(626) 744-6016,,,,,Medical Office,34.1777736,-118.1511928
-147,Pasadena Public Health Department Prenatal Clinic,Comprehensive Prenatal care,"1845 N. Fair Oaks Ave., Suite 2119",,(626) 744-6125,,(800) 304-0015,,,,www.cityofpasadena.net/publichealth,Medical Office,34.1777736,-118.1511928
-148,Pasadena Public Health Department Prenatal Clinic Immunization Clinic,Various vaccination services,"1845 N. Fair Oaks Ave., Rm. 122",,(626) 744-6121,,,,,,www.cityofpasadena.net/publichealth,Medical Office,34.1777736,-118.1511928
-149,Pasadena Public Health Dept. (TB) Chest Clinic,TB Testing and post-care,"1845 N. Fair Oaks Ave., Ground Floor G19",,(626) 744-6024,,,,,,,Medical Office,34.1477849,-118.1445155
-150,Pasadena Public Health Dept. Public Health Laboratory,Various disease testing .,"1845 N. Fair Oaks Ave., Room P310",,(626) 744-6011,,,,,,www.cityofpasadena.net/publichealth,Medical Office,34.1777736,-118.1511928
-151,PUSD Primary Health Care Clinic,Medical services for uninsured children preschool through high school,"351 S. Hudson Ave., Room 130",,"626) 396-3600, ext. 88180",,,,,,,PUSD Building,34.1397946,-118.1345051
-152,Planned Parenthood of Pasadena Healthy Center,"Sexual and reproductive health care, education, information, and outreach",1045 N. Lake Ave,,(626) 798-0706,,(626) 744-6125,,,,www.pppsgv.org,Private Medical Office,34.1639686,-118.132852
-153,Rehabilitation Department, Employment and independent living resource for people with disabilities.,150 S Los Robles Ave # 300,,(626) 304-8300,,,,,,,Office Building,34.1433355,-118.1407219
-154,Child Health & Disability Prevention Program,FREE health promotion and disease prevention program for low-income children and youth in California,1845 N. Fair Oaks Ave,,(626) 744-6168,,,,,,,Medical Office,34.1777736,-118.1511928
-155,Huntington For Kids,Pediatrics Services,100 W. California Blvd.,,(626) 397-5000,,,,,,,Private Medical Facility,34.133639,-118.152753
-156,City of Hope Medical Group: Denham Wendy M MD,Research and treatment center,50 Bellefontaine St # 203,,(626) 396-2900,,,,,,,Medical Office,34.1313484,-118.1517602
-157,Convalescent Aid Society,free loan of durable medical equipment (DME) for in-home use ,3255 E Foothill Blvd,,(626) 793-1696,,,,,,,Office Building,34.1503034,-118.0831652
-158,HealthCare Partners Fair Oaks Office,Medical Services,797 S Fair Oaks Ave,,(626) 795-2244,,,,,,,Medical Office,34.1322049,-118.1506301
-159,Hemophilia Foundation Of Southern California,"Medic alert sponsorship, emergency financial assistance, individual and family counseling, family gatherings and retreats, case management, seminars, advocacy, along with youth focused programs like summer camp, kids club, and HemoGames.",959 E Walnut St,,(626) 765-6656,,,,,,,Medical Office,34.1499173,-118.130457
-160,Huntington Ambulatory Care Center,Full service medical clinic staffed by the hospital’s internal medicine and surgical residents,100 W. California Blvd,,(626) 397-5711,,,,,,,Private Medical Facility,34.133639,-118.152753
-161,Huntington Community Health Library ,"Educational articles, books, pamphlets and videos on a variety of medical topics",100 W. California Blvd,,(626) 397-5000,,,,,,,Private Medical Facility,34.133639,-118.152753
-162,The Center for Occupational Health At Huntington Hospital,Medical Services,800 Fairmount Ave,,(626) 397-5919,,,,,,,Medical Office,34.1357774,-118.1518127
-163,Huntington Hospital Social Work Department,Counseling,100 W. California Blvd,,(626) 397-5171,,,,,,,Private Medical Facility,34.133639,-118.152753
-164,PASADENA UNIFIED SCHOOL DISTRICT PRIMARY HEALTH CLINIC,"Physical exams, counseling, education, referrals, etc.","351 S. Hudson Avenue, Room 130",,(626)396-3600 Ext. 88180,,,,,,,PUSD Building,34.1397946,-118.1345051
-165,CITY OF PASADENA MICHAEL D. ANTONOVICH DENTAL CLINIC,Low Cost Dental Care and oral health education,"1845 N. Fair Oaks Ave, Suite 1101",,(626) 744-6350,,,,,,,Medical Office,34.1777736,-118.1511928
-166,PASADENA PUBLIC HEALTH DEPT. PASADENA HEALTHCARE LINK ,Healthcare services and referrals,1845 N. Fair Oaks Ave,,(626) 744-7445 ,,,,,,,Medical Office,34.1777736,-118.1511928
-167,PASADENA PUBLIC HEALTH DEPARTMENT TRAVEL & ADULT IMMUNIZATION CLINIC ,Travel immunization services and referrals,"1845 N. Fair Oaks Ave., Rm 122",,(626) 396-3600,,,,,,,Medical Office,34.1777736,-118.1511928
-168,PCC Dental Hygiene Clinic,Low Priced Dental Services,1570 E. Colorado Blvd. #R-511,,(626)585-7241,,,,,,,College,34.1439329,-118.119168
-169,Kids Dental Kare-Pasadena,Dental care services for children,1127 E Green St,,(626) 389-2570,,,,,,,Medical Office,34.1448174,-118.1271231
-170,Action Family Counseling,Intensive Outpatient (IOP) services and half and full day Partial Hospitalization and 24 hour Residential Care,3813 E Colorado Blvd,,(800) 367-8336,,,,,,,Office Building,34.1469207,-118.0702576
-171,Union Station Homeless Services,"Housing, Benefits enrollment, Health Referrals and Adult Services",825 E Orange Grove Blvd,,(626) 240-4550,,,,,,,Office Building,34.1581873,-118.1334783
-172,Aurora Las Encinas Hospital,Inpatient treatment,2900 E Del Mar Blvd,,(626) 795-9901,,,,,,,Medical Office,34.141656,-118.091085
-173,Sierra Spring Family Wellness Center,Family health care service,"960 East Green Street, Suite 292",,(626) 449-4494,,,,,,,Office Building,34.1443941,-118.1297836
-174,Pasadena Public Health Department,Prenatal Care services,"1845 N. Fair Oaks Ave., Second Floor, Rm 2129",,(626) 744-6125,,,,,,,Medical Office,34.1477849,-118.1445155
-175,Young and Healthy,"Free dental, medical and mental health services for low-income. Call for details.",P.O. Box 93397,,(626) 795-5166,,,info@youngandhealthy-pas.org.,,,,Medical Office,34.1477849,-118.1445155
-176,"Health Services:HIV, AIDS and Terminal Illnesses",,,,,,,,,,,,34.1477849,-118.1445155
-177,AIDS Service Center,Free and anonymous HIV testing available weekly. Other AIDS services available. Call for details.,909 S. Fair Oaks Ave.,,(626) 441-8495,,,,,,www.aidsservicecenter.org,Private Facility,34.130675,-118.1507212
-178,American Cancer Society,Cancer treatment information and medical services,50 N Hill Ave #200,,(626) 564-6078,,,,,,,Office Building,34.1469718,-118.1210309
-179,Cancer Support Community (CSC),"Educational programs, support groups, exercise, stress reduction and nutrition classes, resource library and social activities",200 E Del Mar Blvd #118,,(626)796-1083,,,,,,,Office Building,34.1401975,-118.1464283
-180,Huntington Hospital Phil Simon Clinic,Comprehensive medical care for HIV/AIDS clients,711 Fairmount Ave.,,(626) 397-5480,,,,,,www.thephilsimonclinic.org,Private Medical Facility,34.1334711,-118.1522306
-181,Pasadena Public Health Department Andrew Escajeda Comprehensive Care Services,Comprehensive HIV/AIDS medical care and treatment,"1845 N. Fair Oaks Ave., G151",,(626) 744-6140,,,,,,,City Facility,34.1777736,-118.1511928
-182,Pasadena Public Health Department HIV/STD Antibody Testing,"Anonymous or confidential, oral, Rapid HIV antibody testing","1845 N. Fair Oaks Ave., G122",,(626) 744-6140,,,,,,,City Facility,34.1777736,-118.1511928
-183,HIV/STD Antibody Testing/Family & Women’s Services,"STD testing, family planning, and mental health counseling.","1845 N. Fair Oaks Ave., G122",,(626) 744-6140,,,,,,,City Facility,34.1777736,-118.1511928
-184,Home Health Services,,,,,,,,,,,,34.1477849,-118.1445155
-185,Convalescent Aid Society,FREE loan of all types of medical equipment for in-home use to residents of the San Gabriel Valley.,3255 E. Foothill Blvd.,,(626) 793-1696,,,info@cas1.org,,,,Office Building,34.1503034,-118.0831652
-186,L.A. County In-Home Supportive Services  Burbank Office,Helps pay for in-home safety services. Call for eligibility details.,3307 N. Glenoaks Blvd.,,(818) 557-4103,,,,,,,Office Building,34.1589512,-118.1812878
-187,Personal Assistance Services Council of Los Angeles County (PASC),"Housecleaning, meal preparation, laundry, grocery shopping, personal care services (such as bowel and bladder care, bathing, grooming and paramedical services), accompaniment to medical appointments, and protective supervision for the mentally impaired","3452 East Foothill Blvd., Suite 900",,(877) 565-4477,,,,,,,Office Building,34.1496765,-118.0787828
-188,"Presidio Home Care, LLC",Presidio Home Care provides in-home supportive services for the elderly.,"936 E. Green St., #105",,(800) 567-4117,,,info@presidiohomecare.com,,,,Private Medical Building,34.1443543,-118.131029
-189,Housing,,,,,,,,,,,,34.1477849,-118.1445155
-190,Door of Hope,Six-month to one-year transitional housing program. Call for eligibility details.,P.O. Box 90455,,(626) 304-9130,,,info@doorofhope.us,,,,Housing Facility,34.1477849,-118.1445155
-191,Housing Rights Center,Landlord-tenant counseling and housing discrimination investigation. Call for more information.,"1020 N. Fair Oaks Ave., #104",,(626) 791-0211,,(800) 477-5977,,,,www.housingrightscenter.org,City Facility,34.1635931,-118.1501538
-192,Hathaway Sycamores, Residential treatment; foster care and adoption; transitional living assistance for emancipated foster youth; outpatient and school-based mental health services; wraparound/in-home services; psychiatric services; psychological testing; grief counseling; a nonpublic school; and afterschool tutoring/enrichment,"210 South DeLacey Avenue, Suite 110 Pasadena",,(626) 421-6160,,,,,,,Facility,34.1420366,-118.1516944
-193,YWCA San Gabriel Valley,"Shelter, case management, and support groups.",943 N. Grand Ave.,,(626) 960-2995,,,,,,www.ywcagv.org,Facility,34.1032063,-118.1197643
-194,Leadership Development,,,,,,,,,,,,34.1477849,-118.1445155
-195,Fifty-Fifty Leadership,Promoting women’s equal leadership.,"P. O. Box 11202, Glendale, CA  91226",,(818) 243-2322,,,,,,www.5050leadership.org,Office Building,34.1358226,-118.1428421
-196,Flintridge Center,Community based programming,"236 W. Mountain Street, Ste. 106",Jaylene Moseley,(626) 449-0839,,,info@Flintridge.org,,,,Office Building,34.1614061,-118.1576623
-197,Girl Scouts of Greater Los Angeles,Enhancement opportunities to girls of all ages,101 Wheeler Ave.,,(626) 677-2200,,,,,,www.girlscoutsla.org,,34.1615876,-118.149815
-198,Leadership Pasadena,8-month community based leadership training,"75 S. Grand Ave., Pasadena, CA",,(626) 577-2296,,,,,,www.leadershippasadena.org,office building,34.1443298,-118.1618935
-199,Neighborhood Outreach Workers Program (NOW),"Free prevention, intervention, and mentoring program for gang impacted youth",1020 N. Fair Oaks Ave.,Rebecca Pratt,(626) 744-7306,,,rpra-contractor@cityofpasadena.net,,,,City Facility,34.1635931,-118.1501538
-200,Office for Creative Connections,Research and coalition building to address issues of common concern in the community,132 N. Euclid Ave.,,(626) 583-2731,,,,,,www.allsaints-pas.org/occ,Office Building,34.1478962,-118.1425166
-201,Pasadena Birthing Project Historic West Adams Regional Office,Preconception Health initiatives,2239 West Washington Blvd.,,(323) 732-1350,,,pbpinfo@pasadenabirthingproject.org,,,,Office Building,34.1746681,-118.1698545
-202,Parents Anonymous® of Pasadena,"Empower, inspire and create long term positive changes in families",855 N. Orange Grove Blvd,,(909) 236-5757 x218,,,,,,,Office Building,34.157281,-118.1528674
-203,Flintridge Center,Prevention & Intervention programs,236 W Mountain St #106,,(626) 449-0839,,,,,,,Office Building,34.1614061,-118.1576623
-204,Leadership Pasadena ,"Eight-month series of workshops, retreats, and group projects",75 S Grand Ave,,(626) 460-3323,,,,,,,Office Building,34.1443298,-118.1618935
-205,San Gabriel Valley Council Boy Scouts of America,"Community-based outdoor adventure, classroom type learning and summer camping opportunities.",3450 Sierra Madre Blvd.,,(626) 351-8815,,,,,,www.sgvcbsa.org,Facility,34.1611143,-118.0788574
-206,Legal Services,,,,,,,,,,,,34.1477849,-118.1445155
-207,Bet Tzedek Legal Services,Free legal services,"145 S. Fairfax Ave., Suite 200, Los Angeles, CA",,(323) 939-0506,,,,,,www.bettzedek.org,offcie building,34.0730022,-118.3617324
-208,Center For Health Care Rights,Offers free information and assistance to Medicare beneficiaries in Los Angeles County,"520 S. La Fayette Park Pl., Suite 214",,(800) 824-0780,,(213) 383-4519,,,,,Office Building,34.1477849,-118.1445155
-209,Consumer Action Center,Provides assistance in filling out legal documents,1020 N. Fair Oaks Ave.,Nancy Tafoya Gutierrez,(626) 744-7339,,(626) 744-7300,ntafoya-gutierr@cityofpasadena.net,,,,City Facility,34.1635931,-118.1501538
-210,Immigration Legal Assistance Project Los Angeles County Bar Association,Legal assistance and counseling to all categories of low income persons.,"300 N. Los Angeles St., Suite 3107",,(213) 485-1873,,,,,,,Office Building,34.2111143,-118.2001343
-211,Long Term Care Ombudsman Program Wise and Healthy Aging,Protection of the rights and dignity of seniors and dependent adults,"2555 E. Colorado Blvd, #203",,(626) 793-3510,,(800) 334-9473,,,,www.wiseandhealthyaging.org,Facility,34.1464374,-118.0978064
-212,Los Angeles County District Attorney Victim-Witness Assistance Program,Services to crime victims,300 E. Walnut Street,,(626) 356-5715,,,,,,www.vcgcb.ca.gov,Courthouse,34.1492514,-118.1435751
-213,WJC Encompass,Conflict resolution programs,55 S Grand Ave,,(626) 584-7494,,,,,,,Facility,34.1447418,-118.1621429
-214,LA County Bar Association-Barristers,"Civil Harassment, Tenant/Landlord Senior Programs (Consumer Action Dept.) $20 For qualifying low income","1020 N. Fair Oaks Ave, Suite 300",,(626) 744-7300,,,,,,,,34.1635931,-118.1501538
-215,Neighborhood Legal Services of Los Angeles County,Legal services to low-income residents,1104 Chevy Chase Dr.,,(800) 433-6251,,,,,,www.nls-la.org,Office Building,34.1532129,-118.2296417
-216,Literacy Programs,,,,,,,,,,,,34.1477849,-118.1445155
-217,Kids Reading to Succeed KRS,1st to 6th graders are invited to participate in a free monthly Saturday reading program,"363 East Villa Street,",,(626) 744-6530,,,,,,www.kidsreadingtosucceed.org,City Facility,34.154688,-118.1428055
-218,THE COMMUNITY EDUCATION CENTER,Comprehensive educational resources and support programs,3035 E. Foothill Blvd.,,(626)585-3000,,,,,,,Facility,34.1507249,-118.0862689
-219,Frostig Center of Educational Therapy,Education for children with learning disabilities,971 N. Altadena D,,(626) 791-1255,,,,,,,Facility,34.1630108,-118.0987324
-220,CDI Head Start,"Comprehensive early childhood education, health, nutrition, and parent involvement services to low-income children and their families",2555 E Colorado Blvd #301,,(626) 204-8900,,,,,,,Office Building,34.1464374,-118.0978064
-221,I Am Foundation,"Self-esteem literacy, resiliency education, and social entrepreneurship training ",464 E Walnut St,,(626)799-0999,,,,,,,Church,34.1492687,-118.141172
-222,Lake Avenue Community Foundation,"Tutoring, Mentoring, and Summer Programming.",712 E Villa St,,(626) 449-4960,,,,,,,Office Building,34.1539265,-118.1357581
-223,San Gabriel Valley Literacy Council,Minimal cost English language instruction for adults at,P.O. Box 60432,,(626) 298-4731,,,,,,,Office Building,34.1477849,-118.1445155
-224,PASADENA READS-La Pintoresca Branch Library,Literacy Tutoring,1355 North Raymond Street,,(626) 744-4034,,,,,,,City Facility,34.1692911,-118.149572
-225,PUSD Early Childhood Education ,high-quality child development programs,351 South Hudson Avenue Pasadena,,(626) 396-5762 x 10092,,,,,,,PUSD Building,34.1397946,-118.1345051
-226,PasadenaLEARNs,"Activities complement the school day, and include homework help, leadership, visual and performing arts classes, structured recreation, academic enrichment activities, and literacy development and field trips",351 South Hudson Avenue,, (626) 396-3600,,,,,,,PUSD Building,34.1397946,-118.1345051
-227,N.A.T.H.A (Neighbors Acting Together Helping All) ," Youth development programs and direct services to underserved children and youth, Kindergarten-12th grade",2023 Lincoln Ave,,(626) 794-5889,,,,,,,Office Building,34.1805035,-118.1598354
-228,Head Start Scott Center CCFS,"Comprehensive early childhood education, health, nutrition, and parent involvement services to low-income children and their families",2034 N Fair Oaks Ave,,(626) 791-3329,,,,,,,Office Building,34.1806298,-118.15053
-229,"Mental Health Services Counseling, Social Services, Personal and Family Problems",,,,,,,,,,,,34.1477849,-118.1445155
-230,Club 21 Learning & Resource,Services for down syndrome,539 N Lake Ave,,(626) 844-1821,,,,,,,Office Building,34.1553733,-118.1327784
-231,Arcadia Mental Health Center  Los Angeles County Dept. of Mental Health,Information and referral on mental health and medication services,330 E. Live Oak Ave.,,(626) 821-5858,,,,,,www.dmh.lacounty.gov,Medical Office,34.1483845,-118.1617533
-232,Aurora Las Encinas Hospital,Behavioral health hospital.,2900 E. Del Mar Blvd.,,(626) 795-9901,,,,,,www.aurorabehavioral.com,Private Rehabilitation Facility,34.141656,-118.091085
-233,Della Martin Center Huntington Memorial Hospital,Provides mental health services to patients and their families.,100 W. California Blvd.,,(626) 397-2329,,,,,,,Private Medical Facility,34.133639,-118.152753
-234,D’Veal Family and Youth Services,"Provides individual, family, and group counseling for children and adolescents.","1845 N. Fair Oaks Ave., Suite 2600",,(626) 296-8900,,,dveal3@aol.com,,,,City Facility,34.1777736,-118.1511928
-235,Foothill Family Service,Professional outpatient counseling and case management services,118 S Oak Knoll Ave,,(866) 304-4337,,,,,,www.foothillfamily.org,Office Building,34.1438134,-118.1348036
-236,"Friends Outside in Los Angeles County, Inc.",Services to persons affected by incarceration,464 E. Walnut St.,,(626) 795-7607,,,info@friendsoutsidela.org,,,,Facility,34.1492687,-118.141172
-237,Fuller Psychological and Family Services,Outpatient counseling and support groups.,180 N. Oakland Ave.,,(626) 584-5555,,,,,,,Office Building,34.1491846,-118.1394557
-238,Huntington Hospital - Social Work Dept.,Hospital discharge planning for hospitalized patients.,100 California Blvd.,,(626) 397-5171,,,,,,,Private Medical Facility,34.1354747,-118.1483083
-239,National Alliance on Mental Illness (NAMI),Family support groups for families with a mentally ill member.,2550 E. Foothill Blvd. #135,,(626) 577-6697,,,,,,http://sgv.nami.org,Medical Office,34.1496173,-118.0979428
-240,Pacific Clinics Child & Family Specialty Services              ,"School-based services, child outpatient services and intensive mental health services for children.",2550 E. Foothill Blvd.,,(626) 744-5230,,877-722-2737,,,,www.pacificclinics.org,Medical Office,34.1496173,-118.0979428
-241,Pacific Clinics at CHAP,Center offers outpatient mental healthcare services to those living in Northwest Pasadena,1855 N. Fair Oaks Ave. #100,,(626) 296-7711 ext. 855,,877-722-2737,,,,www.pacificclinics.org,Medical Office,34.1775276,-118.1511579
-242,Pacific Clinics Pasadena Family Services,Mental Illness Services,66 Hurlbut St.,,(626) 441-4221,,877-722-2737,,,,www.pacificclinics.org,Office Building,34.12945,-118.151625
-243,Pasadena Mental Health Center,"Counseling individual, families, child and couples.",1495 N. Lake Ave.,,(626) 798-0907,,,,,,www.pmhc.org,Medical Office,34.1716497,-118.1324594
-244,Rose City Counseling Center,"Psychoanalytic therapy for adults, adolescents, couples and families.","595 E. Colorado Blvd., Suite 418",,(626)793-8609,,,,,,www.rosecitycenter.org,Office Building,34.1461688,-118.1380551
-245,Della Martin Center,Mental health services to patients and their families,100 W California Blvd,,(626) 397-2305,,,,,,,Private Medical Facility,34.133639,-118.152753
-246,Friends Outside, Unintentional consequences of incarceration and the support and services necessary to address their immediate and long-term need,464 E Walnut St,,(626) 795-7607,,,,,,,Church,34.1492687,-118.141172
-247,Fuller Psychological and Family Services ,Affordable mental health care to individuals and families - See more at: http://fuller.edu/fuller-psychological-and-family-services/#sthash.Gv2ZXhNY.dpuf,180 N Oakland Ave,,(626) 584-5555,,,,,,,Facility,34.1491846,-118.1394557
-248,Hathaway-Sycamores Child and Family Services,Provides a comprehensive continuum of care. Call for details.,"210 S. DeLacey Ave., Suite 110",,(626) 395-7100,,,,,,www.hathaway-sycamores.org,Office Building,34.1420366,-118.1516944
-249,Grace Center,"Emergency response, crisis counseling, evaluation, advocacy, referrals and resources to battered women and their children",132 North Euclid Avenue,,(626)355-4545,,,michelle@grace-center.org,,,,Facility,34.1478962,-118.1425166
-250,High Road Program,"Counseling, education and rehabilitation services for substance abuse and other compulsive disorders",700 S Arroyo Pkwy,, (626) 795-9540,,,,,,,Office Building,34.1336462,-118.1469032
-251,I Count Too,Free Support group,100 W. California Blvd.,,(626)397-3600,,,hospiceofpasadena@picf.org,,,,Private Medical Facility,34.133639,-118.152753
-252,Valley Back in Control,Mental Health Services,66 Hurlbut Street,,(626) 441-1500,,,,,,,Office Building,34.12945,-118.151625
-253,Heritage Clinic,"Therapy, counseling, inpatient services for elderly",447 N El Molino Ave,,(626) 577-8480,,,,,,,Medical Office,34.1536254,-118.1372529
-254,Center for Grief and Loss for Children,Greif counseling services for children and families,"210 South DeLacey Ave, # 110",,(866) 744-7433,,,,,,,Office Building,34.1420366,-118.1516944
-255,National Alliance for the Mentally Ill (NAMI),Mental health services,2550 E Foothill Blvd # 135,,(626) 577-6697,,,,,,,Facility,34.1496173,-118.0979428
-256,Westminster Center,Counseling services,867 Atchison St,,(626) 798-0915,,,,,,,Facility,34.1760665,-118.1327463
-257, La Vie Counseling Center,Counseling and support groups,650 Sierra Madre Villa #110,,(800) 483-9591,,,,,,,Office Building,34.1575045,-118.0811182
-258,The Daniel Foundation,Social services,464 E Walnut St,,(626) 405-4892,,,,,,,Church,34.1492687,-118.141172
-259,Oakwood Family Treatment Centers,"Therapy, counseling, outpatient services",100 S Wilson Ave,,(866) 443-6259,,,,,,,Facility,34.144029,-118.127834
-260,Greenhouse Therapy Center ,"Psychological services to foster developmental and emotional growth for children, adolescents, adults, parents, couples, and families",685 E California Bl,,(626)795-7910 ,,,,,,,Facility,34.136163,-118.1362005
-261,Westminster Counseling Center,"Provides mental health services to individuals, couples, families, groups.",867 E. Atchison,,(626) 798-0915,,,,,,www.westminstercenter.org.,Private Medical Facility,34.1760665,-118.1327463
-262,Pregnancy and Family Planning,,,,,,,,,,,,34.1477849,-118.1445155
-263,"Pasadena Public Health Department Maternal, Child and Adolescent Health Outreach",“The Connection” a toll free line for pregnant and parenting women to receive referrals and health insurance information. For eligibity call.,"1845 N. Fair Oaks Ave., 2nd Flr.",,(800) 304-0015,,,,,,www.cityofpasadena.net/publichealth,City Facility,34.1777736,-118.1511928
-264,MOM’s Club of Pasadena,We are a support group for full or part-time stay at home moms.,P.O. Box 93908,,,,,mvp@momsclubpasadena.com.,,,,Office Building,34.1477849,-118.1445155
-265,Child Care Information Service,Assist families in obtaining and sustaining quality child care,2465 E Walnut St,,(626) 449-8221,,,,,,,Office Building,34.1485831,-118.0995133
-266,Mother's Club Family Learning,"REE social services and educational programs to low-income, at-risk families with children ages 0-5",980 N Fair Oaks Ave,,(626) 792-2687,,,,,,,Office Building,34.1628026,-118.1502126
-267,Pasadena Day Nursery for Child Development (PDN),Child care for children 6 weeks- 5 yrs. old,450 Garfield Ave,,(626) 449-6220,,,,,,,Facility,34.1535655,-118.1441316
-268,SafetyBeltSafe U.S.A.,Child passenger safety initiatives and services,P.O. Box 553,,(800) 745-7233,,,,,,,Facility,34.1477849,-118.1445155
-269,Planned Parenthood - Pasadena Health Center,"Public access to reproductive health care and family planning through medical services, education, and advocacy - See more at: https://www.plannedparenthood.org/planned-parenthood-pasadena-san-gabriel-valley/who-we-are#sthash.GS6Yby45.dpuf",1045 N Lake Avenue,,(626)798-0706,,,,,,,Medical Office,34.1639686,-118.132852
-270,Moms on the Move,Dedicate to the empowerment of women and children.,1500 Navarro Ave. #1,,(626) 345-0840,,,,,,,Private Building,34.171656,-118.153294
-271,Mothers’ Club Family Learning Center,Education and support programs for mothers and their young children,980 N. Fair Oaks Ave.,,(626) 792-2687,,,,,,www.mothersclub.org,Office Building,34.1628026,-118.1502126
-272,Pasadena Public Health Dept. Black Infant Health Program,Services for at-risk pregnant and parenting African-American women and their families.  Call for more details.,"1845 N. Fair Oaks Ave., 2nd Floor",,(626) 744-6155,,,,,,www.cityofpasadena.net/publichealth,City Facility,34.1777736,-118.1511928
-273,Senior Services,,,,,,,,,,,,34.1477849,-118.1445155
-274,Assistance League of Pasadena’s Craft Fair Gift Shop,A consignment shop run by volunteers displaying items handcrafted by seniors,820 E. California Blvd.,,,,,,,,,Store Front,34.1356372,-118.1335693
-275,Assistance League of Pasadena’s Treasure Fair Thrift Shop,Resale shop staffed by members of Assistance League of Pasadena.,3239 E. Foothill Blvd.,,(626) 449-3326,,,alpasadena@sbcglobal.net,,,,Store Front,34.1502941,-118.0834136
-276,Hart Park House Senior Center,"Lunch program, extracurricular activities and other services. Call for details.",222 W. Sierra Madre Blvd.,,(626) 355-7394,,,,,,www.cityofsierramadre.com,Facility,34.161667,-118.057277
-277,Pasadena Senior Center,"Educational and social events, recreational and volunteer opportunities and other basic services",85 E. Holly St.,,(626) 795-4331,,,,,,www.pasadenaseniorcenter.org,Private Facility,34.1478774,-118.1486
-278,Huntington Senior Care Network,Assists families in the care of aging relatives and disabled adults.,"837 S. Fair Oaks Ave., Suite 100",,(626) 397-3110,,,,,,www.huntingtonhospital/SCN,Office Building,34.131323,-118.1507374
-279,Huntington Senior Care Network,Nationally recognized not-for-profit program that has helped older adults and adults with disabilities and their families ,100 W. California Blvd,,(626) 397-3110,,,,,,,Private Medical Facility,34.133639,-118.152753
-280,Los Angeles Long-Term Care Ombudsman Program,"Advocates for residents of nursing homes, board and care homes, assisted living facilities and similar adult care facilities","2555 East Colorado Blvd., Suite 203",,(626) 793-3510,,,,,,,Office Building,34.1464374,-118.0978064
-281,Rebuilding Together Pasadena,"Refurbishing of homes of qualified elderly, disabled, and very low income homeowners",570 E Orange Grove Blvd,,(626) 798-6176,,,,,,,Office Building,34.157431,-118.138903
-282,National Association for Hispanic Elderly,Social services and employment training program for seniors 55+.,"234 East Colorado Blvd., Suite 300",,(626) 564-1988,,,,,,,Office Building,34.1456176,-118.1456357
-283,Senior Center,,,,,,,,,,,,34.1477849,-118.1445155
-284,Altadena Senior Center,We provide a comprehensive program that meets the needs of our senior population.,560 E. Mariposa,,(626) 798-0505,,,,,,css.lacounty.gov.,Private Facility,34.189246,-118.137832
-285,SET for LIFE,Education and training that leads to information to access programs and services,"710 S. Myrtle Ave., #294, Monrovia, CA",,(626) 386-8071,,,info@setforlifenews.org,,,,facility,34.1477849,-118.1445155
-286,Grandparents as Parents,Support groups,851 N. Oakland Avenue,,(818) 264-0880 x. 511,,,info@grandparentsasparents.org,,,,Facility,34.1603282,-118.1407842
-287,Arcadia Senior Citizen Services,Services include information and referrals,365 Campus Dr.,,(626) 574-5130,,,,,,ci.arcadia.ca.us,Facility,34.1316309,-118.0436878
-288,South Pasadena Senior Center,Full service community center available for individuals 55 or  older.,1102 Oxley Street,,(626) 403-7360,,,,,,ci.south-pasadena.ca.us/seniorcenter,Facility,34.1140725,-118.1554626
-289,Social  Services,,,,,,,,,,,,34.1477849,-118.1445155
-290,Armenian Relief Society Social Services,"General Social Services to low, moderate income families with language barriers.",740 E. Washington Blvd.,,(626) 797-6208,,,,,,www.arswestusa.org,Private Facility,34.1688557,-118.1352918
-291,Pasadena Council-Alcoholism And Drug Dependence,Substance Abuse services,"1245 E. Walnut St., Suite 117",,(626) 795-9127,,,,,,www.socialmodel.com,Private Facility,34.1498012,-118.124605
-292,L A County Public Social Services,"Nutrition assistance, employment services and supportive services, financial and homeless assistance program, In-Home Supportive Services, financial aid and homeless assistance",955 N Lake Ave,,(626) 791-6333,,,,,,,Office Building,34.1623786,-118.1328372
-293,Hillsides Education Center,Foster care services,940 Avenue 64,,(323) 254-2274 ,,,,,,,Facility,34.1244844,-118.1758621
-294,GIVE THE STREETS BACK !,Youth intervention program,P.O. Box 92733,,(626) 791-1855,,,,,,,Office Building,34.1477849,-118.1445155
-295,Los Angeles County Children,"Child safety, Permanency, Access to Effective and caring service",532 E Colorado Blvd,,(626) 229-3500,,,,,,,Office Building,34.1454885,-118.1391548
-296,Victim Witness Assistance Program,Services for crime victims,300 East Walnut Street #103,,(626) 356-5727,,,,,,,Office Building,34.1492514,-118.1435751
-297,Pasadena Host Lions Club ,Community service organization,175 N Oakland Ave,, (626) 793-5157,,,,,,,Office Building,34.148823,-118.140365
-298,Pasadena NAACP,"Political, educational, social, and economic equality of rights of all persons and to eliminate racial hatred and racial discrimination",595 Lincoln Ave #103,,(626) 793-1293,,,,,,,Office Building,34.155003,-118.1547242
-299,The Salvation Army Pasadena Tabernacle Corps  Social Service program,"Emergency short-term assistance, information and/or referrals for continuing or long-term help",1000 E. Walnut St. # 102,,(626) 773-4400,,,,,,,Office Building,34.1493046,-118.1297902
-300,Pasadena Social Security Office,Information and resources regarding social security,104 N. Mentor Ave,,(800) 772-1213,,,,,,,Office Building,34.1476708,-118.1305245
-301,"Pasadena Social Services, L.L.C.",A free online resource for social services in the Pasadena area,n/a,,,,,,,,www.PasadenaSocialServices.com,Online Portal,34.1477849,-118.1445155
-302,Substance Abuse,,,,,,,,,,,,34.1477849,-118.1445155
-303,Alcoholism Center For Women,Residential substance abuse treatment. Call for Details.,1147 S. Alvarado St.,,(213) 381-8500,,,,,,,Facility,34.150446,-118.0575188
-304,California Drug Counseling,"Outpatient education, counseling and support to individuals with alcohol and substance abuse problems",671 E Walnut St,,(626) 844-0410,,,,,,,Store Front,34.149727,-118.1366087
-305,Casa Maria,Offers substance abuse treatment and halfway house ,691 E Washington Blvd,,(626) 296-8689,,,,,,,Residential Rehabilitation Facility,34.169275,-118.1361
-306,Pasadena Council On Alcoholism ,"Assessment, evaluation, treatment planning, resources, supervised implementation of the plan, monitored 12-step meeting attendance, education on addition topics and issues, facilitated recovery support groups, and weekly individual counseling and case management",1245 E Walnut St # 117,,(626) 795-9127,,,,,,,Office Building,34.1498012,-118.124605
-307,"Grandview Foundation, Inc.",Addiction recovery services,1230 Marengo Ave,,(626) 798-0884,(866) 734-4200,,,,,,Office Building,34.167027,-118.145753
-308,Impact Drug & Alcohol Treatment Center,Residential Short-Term Treatment and Residential Long-Term Treatment,1680 N Fair Oaks Ave,,(323) 681-2575,,,,,,http://impacthouse.com/,Private Facility,34.1749284,-118.1502725
-309,Alcoholics Anonymous Meeting,Free Services. Meeting places vary.,585 E. Colorado Blvd.,,(626) 793-2191,,,,,,http://www.simeetings.com/LA/PasadenaMtgs.html,Office Building,34.1462613,-118.1389268
-310,Aegis Treatment Centers,"Substance Abuse Treatment, Detoxification, Methadone Maintenance, and Methadone Detoxification",1450 N Lake Ave #150,,(626) 794-1161,,,,,,,Facility,34.1711391,-118.1318039
-311,City of Pasadena Substance Abuse Prevention and Treatment (SAPT) Program,Non-residential substance abuse recovery programs and services.,1845 N. Fair Oaks Ave,, (626) 744-6001,,,,,,,City Facility,34.1777736,-118.1511928
-312,Celebrate Recovery,"Christ-centered, 12-step recovery program, support groups for all types of addictions",404 E. Washington Blvd,,(626) 794-2951,,,,,,,Church,34.1685682,-118.1423209
-313,Walter Hoving Home,"Christian-based, 12 month addiction, prostitution rehab home for adult women",127 S. El Molino Avenue,,(626) 405-0950,,,,,,,Facility,34.143529,-118.1372837
-314,Eaton Canyon Treatment Center,"Men only, inpatient services",3323 Fairpoint Street,,(626) 798-0150,,,,,,,Facility,34.1736612,-118.0821284
-315,The High Road Program,"Outpatient counseling and education, court mandated DUI, DV, anger management and drug programs, Spanish programs offered",700 S. Arroyo Parkway,,(626) 793-6159,,,,,,,Facility,34.1336462,-118.1469032
-316,Pasadena Recovery Center,"Residential short-term treatment (30 days or less) and long-term treatment (more than 30 days), outpatient, partial hospitalization, day treatment",1811 N Raymond Ave,,(866) 663-3030,,,,,,,Facility,34.1768699,-118.1494844
-317,Angels Way Sober Living,Sober Living,166 N. Mar Vista Ave.,,(626) 808-3488,(626) 720-3263,,angelswaysoberliving@yahoo.com,,,www.angelswaysoberliving.com,,34.1488493,-118.1264065
-318,Aurora Las Encintas Hospital,"Psychiatric services, Chemical Depedency Treatment",2900 E. Del Mar Blvd,,(800) 792-2345,(626)795-9901,,,,,www.lasencinashospital.com,Medical Facility,34.141656,-118.091085
-319,Casa de las Amigas,"Primary Treatment Program, Outpatient Program, Sober Living (Casita)",160 N. El Molino Ave,,(323) 681-8304,(626) 792-2770,,,,,www.casadelasamigas.org,Facility,34.1487732,-118.1367094
-320,Claremont Brown House,For Men,N/A,,(626) 797-1124,,,,,,,Facility,34.1477849,-118.1445155
-321,Clearview Residential,For Men,N/A,,(626) 696-3445,,,,,,,Residential Facility,34.1477849,-118.1445155
-322,City of Pasadena Housing Department,Pasadena Housing & Homeless Network,"649 N. Fair Oaks Ave., #202",,626-744-8301,,,housingdept@cityofpasadena.net,,,,City Facility,34.156659,-118.1505877
-323,Eaton Canyon Foundation,Residential Treatment,3323 E. Fairpoint St.,,(888) 798-0150,,,info@eatoncanyon.com,,,,Rehabilitation Facility,34.1736612,-118.0821284
-324,Elijah's House,Structured Recovery/Sober Living,1617 Asbury Dr.,,(626) 394-9565,,,,,,,Residential Facility,34.1669493,-118.1170967
-325,ECPAC/Pasadena Bad Weather Shelter,"Shelter, November-March, 8pm - 7am",539 N. Lake Ave,,(888) 915-8111 ,,,,,,,Church,34.1553733,-118.1327784
-326,Friends in Deed,"Shelter, Motel vouchers for those who meet program guidelines with agency referral",444 E. Washington Blvd.,,(626) 797-6072,,,,,,,Facility,34.1687151,-118.1413359
-327,Foothill Unity Center,Shelter,191 N Oak,,(626) 584-7420,,,,,,http://www.ecpac.net/resources.html,Facility,34.1495915,-118.107847
-328,"Grace Community Houses I, II, and III",Shelter,N/A,,(213) 595-4400,,,,,,http://www.ecpac.net/resources.html,Private Facility,34.1477849,-118.1445155
-329,Jim Fair Oaks House,Shelter,N/A,Manager-Jim,(626)316-3150,,,,,,,private Facility,34.1477849,-118.1445155
-330,Jubilee House,Sober Living For Women,N/A,,(626) 791-5902,(916) 835-2831,(818)-424-0890,info@pasadenasoberliving.com,,,www.pasadenasoberliving.com,Private Facility,34.1477849,-118.1445155
-331,Marilyn Manor,Sober Living,2120 El Sereno Ave,,(310) 590-9734,(562) 397-3366,,,,,http://marilynmanor.blogspot.com/,Private Facility,34.1821524,-118.1522457
-332,Moore Sober Living Home,Sober Living For Women,943 N. Marengo Ave.,,(626) 376-6440,,,,,,,Residential Facility,34.162045,-118.146515
-333,Oxford House I,Sober Living,1628 N. Oxford Ave.,,(626) 216-0979,,,,,,www.oxfordsoberliving.com,Residential Facility,34.17407,-118.11619
-334,Pasadena Housing Search,Pasadena Housing Resource Center,N/A,,1-877-428-8844,,,,,,www.pasadenahousingsearch.com,Online Portal,34.1477849,-118.1445155
-335,Pasadena Recovery Center,"Residential Program, Outpatient Program",1811 N. Raymond Ave.,,(866) 633-3030,,,info@pasadenarecoverycenter.net,,,,Facility,34.1768699,-118.1494844
-336,RAF Kenneth House,Sober Living For Men,P.O. Box 91504,,(626) 216-5427,,,,,,http://recoveryalliancefoundation.org,N/A,34.1477849,-118.1445155
-337,Stages,Sober Living Homes in various locations through-out Pasadena & Altadena,N/A,,(626) 794-7575,,,,,,http://stages.community.officelive.com,N/A,34.1477849,-118.1445155
-338,Starting Over Sober Living,Sober Living For Men,25 N. Craig St.,,(626) 405-9131,,,,,,,Facility,34.1466116,-118.1062276
-339,The Gooden Center,"Intensive Outpatient treatment, Residential Treatment, Day Treatment, After Care, Family Care, Sober Living For Men",191 N. El Molino Ave,,(800) 931-9884,,,,,,www.goodencenter.org,Facility,34.1491988,-118.137288
-340,The Marengo House,Sober Living,N/A,,(626) 482-6574,,,,,,,N/A,34.1477849,-118.1445155
-341,Uncle Daves Transitional Sober Living,Sober living,1788 N. Summit Ave,,(424) 652-1191,,,,,,Uncledavessummit.sobernexus.com,Residential Facility,34.1765627,-118.1473632
-342,Yolanda’s Place,"Residential Treatment, Sober Living For Men",1510 N. Marengo Ave.,,,,,,,,,Residential  Facility,34.171866,-118.145807
-343,The Gooden Center ,"Men only, inpatient and outpatient, sober living support services.",191 N El Molino Ave,,(626) 356-0078,,,,,,,Office Building,34.1491988,-118.137288
-344,Salvation Army Adult Rehabilitation Center,"Christian, long-term residential rehab program, 12-Step, group counseling, education, recreation",56 W. Del Mar Blvd,,(626) 795-8075,,,,,,,Facility,34.1405713,-118.1517153
-345,Huntington Hospital-Chemical Dependency Recovery Center,Inpatient recovery services,100 W. California Blvd,,(626) 397-2323,,,,,,,Private Medical Facility,34.133639,-118.152753
-346,"California Drug Counseling, Inc.","Outpatient counseling, prevention, education, job screening and placement, transportation, drug testing for ex-offenders and incarcerated/paroled youth/adults, other underserved populations",659 East Walnut Street,,(626) 844-0410,,,,,,,Store Front,34.1497267,-118.1366384
-347,CHOICES,Sensitive substance abuse services for women 18+. Call for details.,"1460 N. Lake Ave., Suite 105-107",,(626) 398-3796,,,,,,,Private Medical Facility,34.1713121,-118.1318722
-348,Pasadena Public Health Dept. Recovery Center,Substance abuse and alcoholism counseling.,"1845 N. Fair Oaks Ave., Room 1508",,(626) 744-6001,,,,,,www.cityofpasadena.net/publichealth,City Facility,34.1777736,-118.1511928
-349,The Walter Hoving Home,Individual and group counseling with others who have encountered similar struggles.,127 S. El Molino Ave.,,(626) 405-0950,,,whhca@walterhovinghome.com.,,,,Residential Rehabilitation Facility,34.143529,-118.1372837
-350,Transportation,,,,,,,,,,,,34.1477849,-118.1445155
-351,Dial-A-Ride/Park Center Building,Senior/Disabled curb-to-curb transportation service provided for San Gabriel Area,"221 E. Walnut St., Suite 199",,(626) 744-4094,,,,,,www.cityofpasadena.net/DAR,Office Building,34.1500068,-118.1455585
-352,ARTS (Area Rapid Transit System),Designed to provide convenient transportation,"221 E. Walnut St., Suite 199",,(626) 744-4055,,,,,,www.cityofpasadena.net/artsbus,Office Building,34.1500068,-118.1455585
-353,Veteran Resources,,,,,,,,,,,,34.1477849,-118.1445155
-354,Pasadena City College Veterans' Resource Center,Help all student Veterans and Military college admittal. Call for details.,1570 E. Colorado Blvd. Room L113,,(626) 585 7294,,,tdpowell@pasadena.edu,,,,College,34.1439329,-118.119168
-355,Veterans Crisis line,24 hour National Suicide Prevention Lifeline,,,1-800-273-8255,,,,,,,Hotline,34.1477849,-118.1445155
-356,Veterans Project/L.A. County B.A.R. Association,Legal services the areas of Expungement Assistance,1816 S. Figueroa St.,,(626) 744-4055,,,,,,www.lacba.org/veterans,Office Building,34.1689541,-118.1901704
-357,Volunteers of America,Resources for veterans and veterans who have been incarcerated,240 N. Breed St.,,(213) 622-3540,,,voajobs2@aol.com,,,,Office Building,34.1477849,-118.1445155
-358,Violence Against Women and Children,,,,,,,,,,,,34.1477849,-118.1445155
-359,California Safe At Home Program,"Protection services for victims and survivors of domestic violence, stalking or sexual assault",P.O. Box 846,,(877) 322-5227,,,,,,www.sos.ca.gov/safeathome,Housing Facility,34.1477849,-118.1445155
-360,Fuller Psychological and Family Services,Outpatient counseling and support groups,180 N. Oakland Ave.,,(626) 584-5555,,,,,,,Office Building,34.1491846,-118.1394557
-361,LA Commission on Assaults Against Women,Counseling for victims of domestic violence. ,764 East Walnut St. Suite 201,,(626) 585-9166,,,,,,,Office Building,34.1495563,-118.1347718
-362,L.A. County Dept. of Children and Family Services,Protective services for abused or neglected children,532 E. Colorado Blvd.,,(626) 229-3500,,,,,,,County Building,34.1454885,-118.1391548
-363,Survivors of Murdered Children,Monthly grief support group,211 S. First St.,,(626) 298-9054,,,tinayyama@att.net.,,,,Facility,34.0965453,-118.1292393
-364,Pasadena Police Department,Non-emergency,207 N. Garfield Ave.,,(626) 744-4241,,,,,,,City Facility,34.1491349,-118.1448262
-365,,Records/Registros,,,(626) 744-4565,,,,,,,,34.1477849,-118.1445155
-366,,Jail/Cárcel,,,(626) 744-4616,,,,,,,,34.1477849,-118.1445155
-367,,Field Operations/Watch Commander/,,,(626) 744-4620,,,,,,,,34.1477849,-118.1445155
-368,,Operadores de campo/Comando de Vigilancia,,,,,,,,,,,34.1477849,-118.1445155
-369,,Parking Enforcement/Estacionamiento,,,(626) 744-6440,,,,,,,,34.1477849,-118.1445155
-370,,Traffic/Tráfico,,,(626) 744-4590,,,,,,,,34.1477849,-118.1445155
-371,,Helicopters/Helicópteros,,,(626) 744-4625,,,,,,,,34.1477849,-118.1445155
-372,,Property/Propiedades,,,(626) 744-4510,,,,,,,,34.1477849,-118.1445155
-373,,Professional Standards/,,,(626) 744-4575,,,,,,,,34.1477849,-118.1445155
-374,,Profesionales Estándares,,,,,,,,,,,34.1477849,-118.1445155
-375,,Detectives/Detectives,,,(626) 744-4521,,,,,,,,34.1477849,-118.1445155
-376,,Special Enforcement/Policía Especial,,,(626) 744-4585,,,,,,,,34.1477849,-118.1445155
-377,,Community Services/Servicios Comunitarios,,,(626) 744-4550,,,,,,,,34.1477849,-118.1445155
-378,,Event Planning/Planeamiento de Eventos,,,(626) 744-4621,,,,,,,,34.1477849,-118.1445155
-379,,Community Service Area Message Center/,,,(626) 744-6501,,,,,,,,34.1477849,-118.1445155
-380,,Centro de Mensajes del Área de Servicios Comunitarios,,,,,,,,,,,34.1477849,-118.1445155
-381,,Support and Referrals Program/,,,(626) 744-7164,,,,,,,,34.1477849,-118.1445155
-382,,Programas de Apoyo y Referencias,,,,,,,,,,,34.1477849,-118.1445155
-383,,(Assistance with referrals to local agencies or information on their cases.  A Spanish speaker is available to provide translation.),,,,,,,,,,,34.1477849,-118.1445155
-384,,(Asistencia con referencias a agencias locales o información),,,,,,,,,,,34.1477849,-118.1445155
-385,Peace Over Violence,Services for survivors of sexual assault . Call for details.,892 N. Fair Oaks Ave. Suite D,,(626) 584-6191,,,,,,www.peaceoverviolence.org,Office Building,34.1610795,-118.1504012
-386,Parents of Murdered Children (POMC),"On-going emotional support, education, prevention, advocacy, and awareness.",P.O. Box 70216,,(626)221-5737,,,,,,,Office Building,34.1477849,-118.1445155
-387,National Human Trafficking Resource Center (NHTRC),Resourcing for anti-trafficking causes. Call for more information.,N/A,,1-888-373-7888,,,,,,www.polarisproject.org,Hotline,34.1477849,-118.1445155
-388,Shepherd’s Door Domestic Violence  Resource Center,Emergency shelter for domestic violence victims and families,P.O. Box 92429,,(888) 979-8884,,,,,,,Private Housing Facility,34.1477849,-118.1445155
-389,Women's Organizations,,,,,,,,,,,,34.1477849,-118.1445155
-390,American Association of University Women Pasadena Branch,Service for equity for women and girls.,P.O. Box 94309,,,,,,,,aauwpasadena.wordpress.com,Facility,34.1477849,-118.1445155
-391,Council of Women’s Clubs,Promote and recognize activities relating to women,"160 N. Oakland Ave.,",,,,,,,,,Private Office,34.1487175,-118.139522
-392,Fifty/Fifty Leadership,Organization for women,"2555 E. Colorado Blvd., Suite 204",, (818) 243-2322,,,,,,,Office Building,34.1464374,-118.0978064
-393,La Leche League of California,Breast Feeding Education,1240 Nithsdale Road,, (626)403-0630,,,,,,,City Facility,34.1357073,-118.1757338
-394,League of Women Voters Pasadena Area,Presentation  forums on issues of local interest and candidates,1353 N. Hill Ave.,,(626) 798-0965,,,office@lwvpasadenaarea.org,,,,Private Office,34.1694624,-118.121747
-395,City of Pasadena Commission of the Status of Women,Meets 2nd Monday of each month. Recommending programs and legislation to promote and insure equal rights and opportunities for all women in Pasadena,1020 N. Fair Oak Ave,,(626) 744-7084,,,,,,,City Facility,34.1635931,-118.1501538
-396,Pasadena Commission on the Status of Women,Studies and examines conditions which suggest discrimination or prejudice.  For more details call.,363 East Villa Street,,(626) 744-6530,,,,,,,City Facility,34.154688,-118.1428055
-397,Soroptimist International of Altadena/Pasadena,Improving the lives of women and girls in local communities and throughout the world,"P.O. Box 66, Altadena, CA 91003",,(626) 794-4103,,,,,,www.caminorealregion.org/mppasadena.htm,N/A,34.19,-118.13
-398,Women’s Room at Friends in Deed,A daytime refuge for women homeless or facing homelessness,444 East Washington Blvd.,,(626) 797-2402,,,info@ecpac.net,,,,Facility,34.1687151,-118.1413359
-399,Zonta Club of Pasadena,Club assist in volunteer programs and club based program,7447 S. Grand Ave.,,(626) 799-1880,,,,,,www.zontapasadena.org,Office Building,34.1344662,-118.1627695
-0d53166b0c0b6396fc2752fe5892146c5cbfada7177c3c91bb39d21c93cd1dad,TEST,<b>Description</b> Ceehe,,,,,,,,,,,34.1477849,-118.1445155
+id,name,short_description,long_description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,hours,extra_info,spanish_short_description,spanish_long_description,categories,lat,lon
+0,City Hall Council Chamber,FM Radio w. Headsets and Neck Loops,,"100 N. Garfield Ave, Room 237",Mark Jomsky,(626) 744-7311 ,,,mjomsky@cityofpasadena,,,,,,,,city facility,34.147643,-118.143534
+1,"Wright Auditorium, Central Library",Loop w. headsets for non-T-coil users,,285 E. Walnut Ave.,Derek Massengale,(626) 744-4066 ,,,dmassengale@cityofpasadena.net,,,,,,,,City Facility,34.1500239,-118.1442694
+2,Pasadena Playhouse,Infrared w. no connection for neck loops,,39 S. El Molino Ave,,(626) 356-7529,,,,,,,,,,,Performance Theater,34.1451149,-118.137375
+3,"Villa Gardens, Large meeting room",Loop w. headsets for non-T-coil users,,842 E. Villa Ave.,, 800-958-4552.,,,,,,,,,,,Senior Residence,34.153707,-118.13382
+4,"Jackie Robinson Comm. Center,","Community programming, resourcing and services.",,1020 N. Fair Oaks Ave.,Jarvis Emerson,(626)744-7333,,,jemerson@cityofpasadena.net,,,,,,,,City Facility,34.1635931,-118.1501538
+5,Multi-Purpose Room,Loop w. headsets for non-T-coil users,,,Jarvis Emerson,(626)744-7333,,,jemerson@cityofpasadena.net,,,,,,,,,34.1477849,-118.1445155
+6,Free Meal Program,Free Hot Meals offered to the Community every Wednesday beginning at 5:00 p.m. Please call for more information.,,,,(626)744-7330,,,,,,,,,,,,34.1477849,-118.1445155
+7,Reception Counter,Loop w. headsets for non-T-coil users,,,Jarvis Emerson,(626)744-7333,,,jemerson@cityofpasadena.net,,,,,,,,,34.1477849,-118.1445155
+8,"Basic Needs: Food, Shelter and Clothing",,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+9,Bienvenidos,Mental Health and Foster Car Services. For more information call.,,255 N San Gabriel Blvd.,,(626) 696-1270,,,,,,,,,,,Facility,34.1510279,-118.094683
+10,Casa de las Amigas,A 24-hour alcohol and drug residential treatment center for women.,,160 N. El Molino Ave.,Flora Esquivel,(626) 792-2770,,,,,,,,,,,Treatment Center,34.1487732,-118.1367094
+11,Elizabeth House,"Shelter and support services for pregnant, homeless women and children.",,P.O. Box 94077,Terry Bright,(626) 577-4434,,,contact@elizabethhouse.net,,,,,,,,Private Housing Facility,34.1477849,-118.1445155
+12,Food For Faith Pasadena Church,Community meals program.,,404 E. Washington Blvd.,Maria Edwards,(626) 794-2951,,,,,,,,,,,Church,34.1685682,-118.1423209
+13,"Foothill Unity Center, Inc.","Provides food and clothing to low income residents of Pasadena, Altadena, and So. Pasadena.  Call for an appointment.",,191 N. Oak Ave.,Tashera Taylor,(626) 584-7420,,,,,,,,,,,Food Distribution Facility,34.1495915,-118.107847
+14,Villa Parke Community Center-Free Meal Program,Free Hot Meals offered to the Community every Thursday beginning at 5:00 p.m. Please call for more information.,,363 E. Villa St.,,(626) 744-6530,,,,,,,,,,,City Facility,34.154688,-118.1428055
+15,Friends In Deed,Food Distribution. Call for qualification information.,,444 E. Washington Blvd.,Tim Nistler,(626) 797-6072,(626) 797 2402,,,,,www.ecpac.net,,,,,Facility,34.1687151,-118.1413359
+16,Haven House,Emergency shelter for battered women and their children,,P.O. Box 50007,Terese Trinidad,(323) 681-2626,(626) 564-8880,,,,,www.jfsla.org/havenhouse,,,,,Private Housing Facility,34.1477849,-118.1445155
+17,L.A. County Dept. of Public Social Services,Provides temporary financial assistance and employment focused services to families,,955 N. Lake Ave.,,(626) 791-6333,,,,,,www.ladpss.org,,,,,County Facility,34.1623786,-118.1328372
+18,Lake Avenue Community Foundation,Tutoring/mentoring.,,712 E. Villa St,Nancy Stiles,(626) 449-4960,,,,,,,,,,,Private Facility,34.1539265,-118.1357581
+19,"Meals On Wheels, Pasadena",Food delivery program for adults in Pasadena only.,,54 N. Oakland Ave.,Barbra Walker,(626) 449-6815,,,,,,,,,,,Store Front,34.1465445,-118.1392002
+20,Passageways,Mental Illness Services,,1020 S. Arroyo Parkway,,(626) 403-4888,,,,,,,,,,,Office Building,34.128338,-118.1468988
+21,Salvation Army Social Services,Food for low income families with proof of low income status.,,"1000 E. Walnut St., #102",,(626) 773-4404,(626) 773-4425,,,,,pasadenatab.org,,,,,Store Front,34.1493046,-118.1297902
+22,"Pasadena Public Health Dept./  Women, Infants & Children Program (WIC)/",federally funded supplemental nutrition program,,"363 E. Villa St., Suite 115",,(626) 744-6520,,,,,,www.cityofpasadena.net/publichealth,,,,,City Facility,34.154688,-118.1428055
+23,Union Station Homeless Services,This intake center is the entry point into Pasadena’s homeless services,,825 E. Orange Grove Blvd.,Lauri Nipper,(626) 240-4550,,,info@unionstationhs.org,,,,,,,,Facility,34.1581873,-118.1334783
+24,Ability First-Lawrence L. Frank Center,Providing programs and services to the disabled community,,201 S. Kinneloa Ave.,Michael Barkyounb,(626) 449-5661,,,,,,www.abilityfirst.org,,,,,School,34.1426163,-118.0860229
+25,Aspires West Pasadena,"Mentoring, tutoring, sharing employment skills, training, and counseling.",,119 East Washington Blvd.,,(626) 797-0789,,,aspireswestpas@gmail.com,,,,,,,,Church,34.169322,-118.14824
+26,Boys & Girls Club of Pasadena,After–School Programs,,3301 Thorndale Rd.,Thorndale,(626) 449-9100,,,,,,,,,,,Rec.  Building,34.1404814,-118.0830613
+27,Boys & Girls Club of Pasadena-Performing Arts Center,$60.00 per month for a 30-minute private lesson once a week.  Tuition assistance is available to those who qualify.,,3301 Thorndale Rd.,Mckenzie,(626) 449-7694,,,,,,,,,,,Rec. Building,34.1404814,-118.0830613
+28,Boys & Girls Club of Pasadena-Mackenzie-Scott Branch,After–School Programs,,2020 N. Fair Oaks Ave.,Scott,(626) 798-3925,,,,,,,,,,,Rec. Building,34.180037,-118.1503365
+29,Boys & Girls Club of Pasadena-Slavik Branch,After–School Programs,,3230 E. Del Mar Blvd.,J.D Lorrensky,(626) 449-9100,,,questions@bgcpasadena.org,,,,,,,,Rec. Building,34.1415406,-118.0834457
+30,Child Care Information Service (CCIS),Child care referrals for all working parents. Call for more information.,,2465 E. Walnut St.,Natalie Duong,(626) 449-8221,,,,,,www.optionscc.org,,,,,Facility,34.1485831,-118.0995133
+31,Day One,Preventative services for substance abuse,,175 N. Euclid Ave.,Christy Basani,(626) 229-9750,,,,,,www.dayonepasadena.com,,,,,Temp. Bungalows,34.1485829,-118.1429813
+32,Give The Streets Back!,Community youth intervention program,,131 W. Mariposa St.,,(626) 791-1855,,,,,,www.givethestreetsback.org,,,,,Private Facility,34.193111,-118.151071
+33,Mustangs on the Move,After-school programs for high school-age youth,,1905 Lincoln Avenue,,(626) 396-5610,,,,,,www.flintridge.org,,,,,PUSD Building,34.1781703,-118.1604685
+34,NATHA(Neighbors Acting Together Helping All),After-school homework assistance for Pre-k through 12th.,,2023 N. Lincoln Ave.,Patricia Tucker,(626) 794-5889,,,,,,www.natharebuilds.org,,,,,Office Building,34.1805035,-118.1598354
+35,Options Child Development Centers,"Subsidized child care, objective referral information and the promotion of high quality child care",,"885 S. Village Oaks Dr., Suite 12",Denise McCullough,(626) 858-0527,,,,,,www.optionscc.org,,,,,Office Building,34.1612013,-118.1506186
+36,Outward Bound Adventures (OBA),Fun and challenging outdoor environmental education programs,,"1905 Lincoln Avenue, G227",,(626) 564-0844,,,,,,www.obainc.org,,,,,PUSD Building,34.1781703,-118.1604685
+37,Pasadena Family YMCA,Before and after school programs for children ages 5-13,,2828 E. Foothill Blvd.  Suite #203,Camille Rillorta,(626) 432-5880,,,,,,www.ymcala.org/pas,,,,,Office Building,34.1496003,-118.0921776
+38,PasadenaLEARNs After School Program,After School program,,"351 S. Hudson Ave., Room 207",Maria Toliver,(626) 396-3614,,,LEARNs@pusd.us.,,,,,,,,PUSD Building,34.1397946,-118.1345051
+39,Pasadena Unified School District-Child Development Program,Social and emotional development as well as pre-academic skills.,,2046 N. Allen Ave,Lorraine Camarena,(626) 396-5900,,,,,,www.pusd.us,,,,,School,34.1811331,-118.1113816
+40,Center For Community & Family Services,"Early childhood development, housing, nutrition and job training. ",,2650 E Foothill Blvd,,(888) 412-8397,(310) 217-2935,,,,,,,,,,Office Building,34.1496111,-118.0957186
+41,Rosemary Children's Services,"Residential, Foster Care , and Mental health services for children",,"36 S Kinneloa Ave, # 200",,(626) 844-3033,,,,,,,,,,,Private Facility,34.145448,-118.086609
+42,Hathaway-Sycamores,Child & Family Wrap-Around Services,,210 S DeLacey Avenue # 110,,(626) 395-7100,,,,,,,,,,,Office Building,34.1420366,-118.1516944
+43,Foothill Unity Center,"Food, temporary shelter, case management, transportation, referrals and a variety of health services for low-income and homeless people",,191 N Oak Ave,,(626) 584-7420,,,,,,,,,,,Facility,34.1495915,-118.107847
+44,Pasadena Alumni Support Center (PASC),Transition resources for youth ages 14 to 24,,1110 E. Green Street,,(626) 356-5350,,,,,,,,,,,Office Building,34.144365,-118.1273978
+45,YWCA Pasadena-Foothill Valley,Programs for women and girls’ in the community.,,"1015 N. Lake  Ave., Ste.100",Jessica Kubel,(626) 296-8433,,,arodriguez@ywca/pasadena.org,,,,,,,,Facility,34.1634041,-118.1329214
+46,City of Pasadena Community  Centers and Programs,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+47,Human Relations Commission,Provides assistance to individuals and groups in bettering relations among people.,,1020 N. Fair Oaks Ave.,William Syms,(626) 744-7295,,,wsyms@cityofpasadena.net,,,,,,,,City Facility,34.1635931,-118.1501538
+48,Neighborhood Connections,Neighborhood resourcing and organizing.,,1020 N. Fair Oaks Ave.,William Syms,(626) 744-7295,,,wsyms@cityofpasadena.net,,,,,,,,City Facility,34.1635931,-118.1501538
+49,Victory Park Community Center,"Community programming, resourcing and services.",,2575 Paloma St.,Kenny James,(626) 744-7500,,,kjames@cityofpasadena.net,,,,,,,,City Facility,34.1593453,-118.095827
+50,Villa Parke Community Center,"Community programming, resourcing and services.",,363 E. Villa St.,Rozanne Adanto,(626) 744-6530,,,radanto@cityofpasadena.net,,,,,,,,City Facility,34.154688,-118.1428055
+51,Accessibility and Disability Commission,Provide advice and recommendations that help to improve the accessibility of the City facilities and services to people with disabilities,,1020 N. Fair Oaks Ave.,Robert Gorski,(626) 744-4782,,,rgorski@cityofpasadena.net,,,,,,,,City Facility,34.1635931,-118.1501538
+52,Adaptive Recreation – City of Pasadena,Recreation programs provided for adults with disabilities,,2575 Paloma Street,Jackie Scott,(626) 744-7257,,,jackiescott@cityofpasadena.net,,,,,,,,City Facility,34.1593453,-118.095827
+53,California Department of Rehabilitation,Counseling and vocational services to persons with disabilities,,"150 S. Los Robles Ave., Suite 300",,(626) 304-8300,,,,,,www.dor.ca.gov,,,,,State agency,34.1433355,-118.1407219
+54,Eastern Los Angeles Regional Center,Community-based services for California residents with developmental disabilities,,1000 S. Fremont Ave.,,(626) 299-4700,,,,,,www.elarc.org,,,,,DDS Facility,34.1144711,-118.1527583
+55,Foothill Vocational Opportunities,"Vocational training, job placement for disabled adults",,789 N. Fair Oaks Ave.,,(626) 449-0218,,,,,,,,,,,Office Building,34.1594097,-118.1510725
+56,Frank D. Lanterman Regional Center,Connects individuals with disabilities and their family with community and services,,"3303 Wilshire Blvd., Suite 700, Los Angeles, CA",,(213) 383-1300,,,,,,www.lanterman.org,,,,,office building,34.0626223,-118.2945124
+57,L.A. County Department of Public Social Services,Provides temporary financial assistance and employment focused services to families. Call for details.,,955 N. Lake Ave.,,(626) 791-6333,,,,,,www.ladpss.org,,,,,County Facility,34.1623786,-118.1328372
+58,MERCI,Services to adults with developmental disabilities,,525 N. Chandler Ave,,(626) 289-8817,,,,,,www.merci.org,,,,,Private Facility,34.1275861,-118.1209479
+59,Families In Transition,homeless/transitional program,,3500 E Colorado Blvd,,(626) 304-4815,,,,,,,,,,,Store Front,34.1456628,-118.0781453
+60,HOMELESS OUTREACH (H.O.P.E.),"Compassionate mental health and law enforcement emergency response to those in need of mental health, housing, and related social services",,207 Garfield Ave,,(626) 744-7054,,,,,,,,,,,Office Space,34.1491349,-118.1448262
+61,City of Pasadena Human Services & Recreation Dept.,Programs and activities which serve people of all ages and abilities,,1020 N Fair Oaks Ave,,(626) 744-4386,,,,,,,,,,,City Facility,34.1635931,-118.1501538
+62,Villa Esperanza Services,Serves children and adults with special needs,,2060 E. Villa St.,,(626) 449-2919,,,,,,www.villaesperanzaservices.org,,,,,Office Building,34.1541678,-118.1078229
+63,Employment Job Opportunities and Training,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+64,24 Hour City Job line,Recorded announcement of all available City of Pasadena jobs.,,,,(626) 744-4600,,,,,,,,,,,Hotline,34.1477849,-118.1445155
+65,Community Education Center,Primarily noncredit programs onsite and in the community,,3035 E. Foothill Blvd.,,(626) 585-3000,,,,,,www.pasadena.edu/CEC,,,,,College Facility,34.1507249,-118.0862689
+66,Foothill Employment and Training Connection,Resources for job seekers,,1207 E. Green St.,,(626) 796-JOBS,,,fetcinfo@foothilletc.org,,,,,,,,Office Building,34.144833,-118.1255674
+67,Ideal Youth,Six weeks of job training workshops and  eight weeks summer internship. Call for details.,,"83 E. Orange Grove Blvd., Ste. 2",,(626) 796-7164 ext16,,,contact@idealyouth.org,,,,,,,,Office Building,34.158029,-118.148729
+68,Pasadena City College CalWORKs Program,"Offers tuition, books, and childcare assistance. Call for more information.",,"1570 E. Colorado Blvd., L-101",,(626) 585-7060,,,,,,www.pasadena.edu,,,,,College,34.1389913,-118.2004026
+69,PUSD Regional Occupational Program (ROP),Career Technical Education Courses are offered. Call for more information.,,"351 S. Hudson St., Room 214",,"(626) 795-6981, ext. 549",,,,,,www.pusd.us,,,,,PUSD Building,34.1397946,-118.1345051
+70,Sources Career Development,Provides a monthly career development workshops,,825 E. Orange Grove Blvd.,,(626) 240-4591,,,lprimm@unionstationhs.org,,,,,,,,Facility,34.1581873,-118.1334783
+71,Employment Development Department,"Mock Interviews, Résumé Review and other various workshops",,1207 E. Green Street,,(626) 304-7922,,,,,,,,,,,Facility,34.144833,-118.1255674
+72,Foothill Vocational Opportunities,Job opportunities for individuals with disabilities or disadvantages,,789 N Fair Oaks Ave,,(626) 449-0218,,,,,,,,,,,Facility,34.1594097,-118.1510725
+73,Los Angeles County Probation,"Probation Services, Job Opportunities",,300 E Walnut St #200,,(626) 356-5281,,,,,,,,,,,Courthouse,34.1492514,-118.1435751
+74,PUSD Regional Occupational Programs,Real-world job experience,,351 South Hudson Ave,,(626) 793-8609,,,,,,,,,,,PUSD Building,34.1397946,-118.1345051
+75,The Pasadena City College CalWORKs Partnership,"Help meet the L.A. County GAIN education/ training requirements and the federal ""work activities"" requirement under the new welfare rules",,1570 E. Colorado Blvd #L107,,(626) 585-7060,,,,,,,,,,,college,34.1439329,-118.119168
+76,Pasadena Community Job Center,Day laborer services,,500 N Lake Ave,,(626) 440-0112,,,,,,,,,,,Store Front,34.1546505,-118.1321673
+77,Women At Work,Full service career and job resource center,,2555 E Colorado Blvd #204,,(626) 796-6870,,,info@womenatwork.org,,,,,,,,Store Front,34.1464374,-118.0978064
+78,Re-Entry,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+79,A Link N the Chain,Reintegration Services,,290 Elizabeth Ave.,,(626)644-7525,,,Andrewsjc1988@gmail.com,,,,,,,,Residential Facility,34.173247,-118.14467
+80,ACTS Thrift Store,Reintegration Services,,1382 Locust St.,Dominique Franklin,(626)201-3463,,,dfranklin@actsthrift.org,,,,,,,,Store Front,34.1502595,-118.1217132
+81,AIDS Service Center,Reintegration Services,,"65 N. Raymond Ave., # 240",Gabriel Solorio,(626)441-8495 ext. 13,,,G5@aidscc.org,,,,,,,,Facility,34.1469347,-118.1490601
+82,Adult Rehab Center,Reintegration Services,,960 E. Walnut St,Diane,(626)795-8075,,,Diane.stueck@usw.salvationarmy.org,,,,,,,,Facility,34.149258,-118.130414
+83,All Saints Church,Reintegration Services,,132 N. Euclid Ave.,Juliana Serrano/Kim Brorby,(626)405-0428,,,jserrano@allsaints-pas.org,sbrorby@sbcglobal.net,,,,,,,Church,34.1478962,-118.1425166
+84,Ambassadors for Peace,Reintegration Services,,404 E. Washington Blvd.,Yvette McDowell/Steven Trejo/Leo Hurtado,(626)483-4151,(626)827-7172,(626)773-2703,L6152ww@att.net,,,,,,,,Church,34.1685682,-118.1423209
+85,Bread for the World,Reintegration Services,,464 E. Walnut St.,David Gist,(626)568-3233,,,dgist@bread.org,,,,,,,,Church,34.1492687,-118.141172
+86,Center for Truth Ministries,Reintegration Services,,1627 N. Fair Oaks,Henry Olivarez,(626)627-8437,,,revhenryforcotm@yahoo.com,,,,,,,,Facility,34.1737537,-118.1512114
+87,Christ the Shepherd Lutheran Church,Reintegration Services,,185 W. Altadena Dr.,Marks Witte/Retta Robinson/William Korn,9626)379-9985,(626)296-1426,(626)798-2754,Mark.witte2.0@gmail.com,office@christthesheperd.org,,,,,,,Church,34.1957442,-118.1508922
+88,City of Pasadena Public Health Department Recovery Center (Public Health Department),Reintegration Services,,1845 N. Fair Oaks Ave.,Ann Scott/Christopher Chavez/Ty Martin,626/744-6159,626-744-6074,626-744-6097,ascott@cityofpasadena.net,cchavez@cityofpasadena.net,tfmarin@cityofpasadena.net,,,,,,City Facility,34.1777736,-118.1511928
+89,Community Health Alliance of Pasadena (CHAP),Reintegration Services,,455 W. Montana St.,Noemi Carareo,626-486-9729,,,ncarareo@chapcare.org,,,,,,,,Medical Office,34.180928,-118.1604378
+90,Community Services Section(Pasadena Police Dept),Reintegration Services,,207 N. Garfield Ave.,George Rittenhouse,626-744-4551,,,,,,,,,,,City Facility,34.1491349,-118.1448262
+91,Day One,Reintegration Services,,175 Moreno Ave.,Christy Zamani,626-229-978,,,claudia@godayone.org,,,,,,,,Temp. Bungalows,34.226237,-118.229173
+92,Department of Rehabilitaiton,Reintegration Services,,150 S. Los Robles Ave #300,Diana Ling,626-304-8336,,,Diana.ling@dor.ca.gov,,,,,,,,Offcie Building,34.1433355,-118.1407219
+93,Five Acres,Reintegration Services,,4760 W. Mountain Ave,Krystal Audoma,323-841-6853,,,kaudoma@fiveacres.org,,,,,,,,Facility,34.1419991,-118.0676892
+94,Flintridge Center,Reintegration Services,,236 W. Mountain St. Suite 106,Daniel Torres/Chris Finney,626/449-0839 Ext. 109,626/449-0839 Ext. 110,,daniel@flintridge.org,chris@flintridge.org,,,,,,,Facility,34.1614061,-118.1576623
+95,Foothill Family Service,Reintegration Services,,118 S. Oak Knoll Ave.,,(626)795-6907,,,,,,,,,,,Facility,34.1438134,-118.1348036
+96,Foothill Workforce Investment Board,Reintegration Services,,1207 E. Green Street,Sarah Mendoza/Serafin/Garcia,626-796-5627,626-584-8383,,smendoza@foothilletc.org,sgarcia@foothilletc.org,,,,,,,Facility,34.144833,-118.1255674
+97,Friends Outside in Los Angeles County,Reintegration Services,,1207 E. Green St.,Monica Sims,626-584-8367,,,msims@friendsoutsidela.org,,,,,,,,Facility,34.144833,-118.1255674
+98,FVO Solutions,Reintegration Services,,789 N. Fair Oaks,Michuan Flemy/Marcel Becker,626-449-0218,,,michauanf@foothillvoc.org,marcel@foothillvoc.org,,,,,,,Facility,34.1594097,-118.1510725
+99,Grandview Foundation,Reintegration Services,,P.O. Box 40375,Dave Booth/Paul/Sheila Romero,626/797-3799,626/797-3799ext104,626-716-1414,sheila@grandviewfoundation.com,Dave.booth72@yahoo.com,,,,,,,Facility,34.1477849,-118.1445155
+100,Hallelojah House,Reintegration Services,,1025 Garfield Ave,Philip Galindo,626-394-2556,,,Revphilip54@gmail.com,,,,,,,,Private Residential Facility,34.1635212,-118.1438705
+101,Hunting Hospital Community Outreach,Reintegration Services,,100 California Blvd,Kathy Eastwood (RN),626-397-2068,,,Kathleen.eastwood@huntingtonhospital.com,,,,,,,,Private Medical Facility,34.1354747,-118.1483083
+102,IBEW/ESSCO,Reintegration Services,,2668 E. Foothill Blvd.,Tyler Lazarian,626-354-8474,,,ty@esscoelectric.com,,,,,,,,Office Building,34.1491813,-118.0954472
+103,Impact Drug and Alcohol Treatment Center,Reintegration Services,,1680 N. Fair Oaks Ave.,William McLaughlin/Mark Skorich,626-798-0844,626-798-0884,,William@impacthouse.com,Markskorich23@gmail.com,,,,,,,Facility,34.1749284,-118.1502725
+104,JVS,Reintegration Services,,"2555 E. Colorado Blvd., #200",Charles Braggs,626-584-5887,,,cbraggs@jvsla.org,,,,,,,,Office Building,34.1464374,-118.0978064
+105,Kingdom Works,Reintegration Services,,n/a,Camelia Joseph,626-354-0436,,,pastorcamelio@aol.com,,,,,,,,N/A,34.1477849,-118.1445155
+106,Lake Avenue Church,Reintegration Services,,393 N. Lake Ave.,Mayra Macedo-Nolan/Claire Wiggins,(626)844-4700,626-817-4559,,mayran@lakeave.org,clairew@lakeave.org,,,,,,,Church,34.1526294,-118.13292
+107,Law Offices of Tarek Shawky,Reintegration Services,,"871 E. Washington Blvd., #205",Tarek Shawky,323-393-3301,,,tarekshawky@gmail.com,,,,,,,,Office Building,34.1691423,-118.1325402
+108,Learning Works Charter School,Reintegration Services,,90 N. Daisy Ave.,Dominick Correy/Ann Burke,(626)535-3259,,,dominick@learningworkscharter.com,,,,,,,,Office Building,34.147506,-118.0926214
+109,Levon Kevorkian (Private Law Practice),Reintegration Services,,"35 E. Union St., #D",Levon Kevorkian,1 (866)286-7605,,,levkeu@gmail.com,,,,,,,,Office Space,34.1470248,-118.149682
+110,Neighborhood Outreach Workers Program (N.O.W.),Reintegration Services,,1020 N. Fair Oaks Ave,Rebecca Pratt,626-744-7306,,,Rpra-contractor@cityofpasadena.net,,,,,,,,City Facility,34.1635931,-118.1501538
+111,Noble,Reintegration Services,,207 N. Garfield Ave.,Darryl Qualls,626/744-4533,,,dquall@cityofpasadena.net,,,,,,,,City Facility,34.1491349,-118.1448262
+112,Options,Reintegration Services,,2465 E. Walnut,Connie Aguilar,626-204-3526,,,Caguilar@optionscc.org,arivas@optionscc.org,,,,,,,Facility,34.1485831,-118.0995133
+113,Pacific Clinics,Reintegration Services,,1020 S. Arroyo Parkway,Essence Barnes,626-786-6708,,,ebarnes@pacificclinics.org,,,,,,,,Medical Office,34.128338,-118.1468988
+114,Pasadena Community Christian Fellowship,Reintegration Services,,500 S. Pasadena Ave.,Henry Graham,310-429-5400,,,Ritejus1@aol.com,,,,,,,,Facility,34.1372194,-118.1537681
+115,Pasadena City College,Reintegration Services,,3035 E. Foothill Blvd.,Theresa Reed/Anthony Smith,626-585-3037,,,txreed@pasadena.edu,,,,,,,,College,34.1507249,-118.0862689
+116,Pasadena Federal Credit Union,Reintegration Services,,1038 S. Fair Oaks Ave.,John Schaefer/Veronica R.,626/799-0882 ext.251,,,jschaefer@pcu.org,,,,,,,,Office Building,34.1282992,-118.149801
+117,PATH People Assisting the homeless,Reintegration Services,,340 N. Madison Ave,Steve Fietcher/Keinesha J/J.Roberts,213-422-0380,,,Stephenf@epath.org,keineshaj@epth.org,johanr@epath.org,,,,,,Facility,34.1523726,-118.1384129
+118,Peace Over Violence,Reintegration Services,,892 N. Fair Oaks Ave.,Jessie Corral/Claudia Sibaya/Imelda Talamantes/Sandy,626-584-6191,,,jessie@peaceoverviolence.org,claudias@peaceoverviolence.org,Sandy@peaceoverviolence.org,,,,,,Office Building,34.1610795,-118.1504012
+119,Probation/AB-109,Reintegration Services,,"300 E. Walnut., #200",Leo Paredes/Lauro Mendoza,626-356-5281,626-356-5292,,Leopoldo.paredes@probation.lacounty.gov,Lauro.mendoza@probation.lacounty.gov,,,,,,,Courthouse,34.1492514,-118.1435751
+120,Quality Life Soberliving,Reintegration Services,,814 Merrett St.,Bill,626-644-5812,,,burstonw@yahoo.com,,,,,,,,Private Residential Facility,34.160449,-118.133744
+121,Redemption Church,Reintegration Services,,128 S. Oak Knoll Ave.,Kyle Sears,626-628-4414,,,kylesears@gmail.com,,,,,,,,Church,34.1436111,-118.1348173
+122,Social Security Administration,Reintegration Services,,104 N. Mentor Ave.,Eduardo Guevara,,,,Eduardo.guevara@ssa.gov,,,,,,,,Office Building,34.1476708,-118.1305245
+123,Talk About Parenting,Reintegration Services,,P.O. Box 40547,Shirlee Smith,626-296-2777,,,talkaboutparenting@gmail.com,,,,,,,,Facility,34.1477849,-118.1445155
+124,The Salvation Army,Reintegration Services,,960 E. Walnut St.,Diana Stueck/John Rivera,626-795-8075,,,Diana.stueck@usw.salvationarmy.org,,,,,,,,Office Building,34.149258,-118.130414
+125,Union Station Homeless Center (SRO),Reintegration Services,,412 South Raymond Ave.,Rafael Ventura,626-318-5062,,,rventura@unionstationhs.org,raffaelventura@sbcglobal.net,,,,,,,Facility,34.1386027,-118.1483688
+126,USHS Sources,Reintegration Services,,825 E. Orange Grove Ave.,La Viva Prim,626-240-4540,,,lprimm@unionstationhs.org,,,,,,,,Facility,34.1581873,-118.1334783
+127,"Vintage Rose, Battered Women’s Shelter Corp",Reintegration Services,,1053 E. Orange Grove Ave.,Rosie,626-722-3896,,,rosalinmarshall@yahoo.com,,,,,,,,Private Residential Facility,34.158052,-118.128752
+128,Vocational Rehabilitation,Reintegration Services,,"150 S. Los Robles, # 300",Tiffany Chen,626-304-8335,,,tchen@dor.ca.gov,,,,,,,,Office Building,34.1433355,-118.1407219
+129,Youth Build,Reintegration Services,,1020 N. Fair Oaks Ave.,Delani Sins,626-437-3509,,,sherylturner@charter.net,,,,,,,,City Facility,34.1635931,-118.1501538
+130,Youth Moving On,Reintegration Services,,"456 E. Orange Grove Blvd., #140",Jessica Petrass/Casswell Goodman,626-765-6010,786-488-8295,,jpetrass@hillsides.org,cgoodman@hillsides.org,,,,,,,Office Building,34.157588,-118.1411494
+131,Financial Literacy,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+132,www.Feedthepig.org,Resources to help obtain financial stability,,n/a,,(626) 744-4600,,,feedthepig@aicpa.org.,,,,,,,,Online Portal,34.1477849,-118.1445155
+133,CalCPA,Financial planning,,"330 N. Brand Blvd., Suite 710",,(818) 246-4017,,,,,,,,,,,Office Building,34.1477849,-118.1445155
+134,Social Security Administration,Applications for Social Security survivor’s benefits,,104 N. Mentor Ave.,,(877) 255-1508,,,,,,www.socialsecurity.gov,,,,,Government,34.1476708,-118.1305245
+135,Health Services,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+136,Bill Moore Community Health Clinic/URDC,State licensed community clinic providing low cost primary health care services,,"1460 N. Lake Ave., Suite 107",,(626) 398-3796,,,sarrivillaga@URDCHSC.org,,,,,,,,Medical Office,34.1713121,-118.1318722
+137,Body and Soul Program,Nutrition education and physical activity program,,404 E. Washington Blvd.,,(626) 794-2951,,,,,,www.pasadenachurch.com,,,,,Church,34.1685682,-118.1423209
+138,Community Health Alliance of Pasadena,Primary medical and dental care.,,1855 N. Fair Oaks Ave.,,(626) 398-6300,,,,,,www.chapcare.org,,,,,Medical Office,34.1775276,-118.1511579
+139,H.E.A.R. Center,Diagnostic hearing testing and hearing aid dispensing for all ages,,301 E. Del Mar Blvd.,,(626) 796-2016,,,,,,www.hearcenter.org,,,,,Facility,34.1406719,-118.1440603
+140,Huntington Ambulatory Care Center,Primary care for adults. Call for details.,,711 S. Fairmount Ave.,,(626) 397-5711,,,,,,www.huntingtonhospital.com,,,,,Private Medical Office,34.1337005,-118.1518309
+141,Huntington Community Health Library,Provides a user-friendly place to access medical information.,,100 W. California Blvd.,,(626) 397-5161,,,library@huntingtonhospital.com,,,,,,,,Private Medical Facility,34.133639,-118.152753
+142,Huntington Hospital,Offering a full complement of medical programs and community services,,100 W. California Blvd.,,(626) 397-5000,,,,,,,,,,,Private Medical Facility,34.133639,-118.152753
+143,Pasadena Community Urgent Care and Occupational Center,"Executive, pre-employment, DMV, and annual physicals",,"3160 E. Del Mar Blvd., Suite 110",,(626) 270-2400,,,,,,,,,,,Medical Office,34.1418029,-118.0853108
+144,Pasadena Public Health Dept. Child Health & Disability Prevention Program,Health assessments for the early detection and disease prevention for minors,,"1845 N. Fair Oaks Ave., Suite 1136",,(626) 744-6111,,,,,,www.cityofpasadena.net/publichealth,,,,,Medical Office,34.1777736,-118.1511928
+145,Pasadena Public Health Dept. Childhood Lead Poisoning Prevention Program,"Information about childhood lead poisoning risks, sources, and prevention techniques",,1845 N. Fair Oaks Ave.,,(626) 744-6089,,,,,,www.cityofpasadena.net/publichealth/childhood_lead_poisoning,,,,,Medical Office,34.1777736,-118.1511928
+146,Pasadena Public Health Dept. Healthy Kids,"Low cost, quality healthcare insurance to children ages 0-18 years and pregnant women",,"1845 N. Fair Oaks Ave., 2nd Floor",,(626) 744-6086,,(626) 744-6016,,,,,,,,,Medical Office,34.1777736,-118.1511928
+147,Pasadena Public Health Department Prenatal Clinic,Comprehensive Prenatal care,,"1845 N. Fair Oaks Ave., Suite 2119",,(626) 744-6125,,(800) 304-0015,,,,www.cityofpasadena.net/publichealth,,,,,Medical Office,34.1777736,-118.1511928
+148,Pasadena Public Health Department Prenatal Clinic Immunization Clinic,Various vaccination services,,"1845 N. Fair Oaks Ave., Rm. 122",,(626) 744-6121,,,,,,www.cityofpasadena.net/publichealth,,,,,Medical Office,34.1777736,-118.1511928
+149,Pasadena Public Health Dept. (TB) Chest Clinic,TB Testing and post-care,,"1845 N. Fair Oaks Ave., Ground Floor G19",,(626) 744-6024,,,,,,,,,,,Medical Office,34.1477849,-118.1445155
+150,Pasadena Public Health Dept. Public Health Laboratory,Various disease testing .,,"1845 N. Fair Oaks Ave., Room P310",,(626) 744-6011,,,,,,www.cityofpasadena.net/publichealth,,,,,Medical Office,34.1777736,-118.1511928
+151,PUSD Primary Health Care Clinic,Medical services for uninsured children preschool through high school,,"351 S. Hudson Ave., Room 130",,"626) 396-3600, ext. 88180",,,,,,,,,,,PUSD Building,34.1397946,-118.1345051
+152,Planned Parenthood of Pasadena Healthy Center,"Sexual and reproductive health care, education, information, and outreach",,1045 N. Lake Ave,,(626) 798-0706,,(626) 744-6125,,,,www.pppsgv.org,,,,,Private Medical Office,34.1639686,-118.132852
+153,Rehabilitation Department, Employment and independent living resource for people with disabilities.,,150 S Los Robles Ave # 300,,(626) 304-8300,,,,,,,,,,,Office Building,34.1433355,-118.1407219
+154,Child Health & Disability Prevention Program,FREE health promotion and disease prevention program for low-income children and youth in California,,1845 N. Fair Oaks Ave,,(626) 744-6168,,,,,,,,,,,Medical Office,34.1777736,-118.1511928
+155,Huntington For Kids,Pediatrics Services,,100 W. California Blvd.,,(626) 397-5000,,,,,,,,,,,Private Medical Facility,34.133639,-118.152753
+156,City of Hope Medical Group: Denham Wendy M MD,Research and treatment center,,50 Bellefontaine St # 203,,(626) 396-2900,,,,,,,,,,,Medical Office,34.1313484,-118.1517602
+157,Convalescent Aid Society,free loan of durable medical equipment (DME) for in-home use ,,3255 E Foothill Blvd,,(626) 793-1696,,,,,,,,,,,Office Building,34.1503034,-118.0831652
+158,HealthCare Partners Fair Oaks Office,Medical Services,,797 S Fair Oaks Ave,,(626) 795-2244,,,,,,,,,,,Medical Office,34.1322049,-118.1506301
+159,Hemophilia Foundation Of Southern California,"Medic alert sponsorship, emergency financial assistance, individual and family counseling, family gatherings and retreats, case management, seminars, advocacy, along with youth focused programs like summer camp, kids club, and HemoGames.",,959 E Walnut St,,(626) 765-6656,,,,,,,,,,,Medical Office,34.1499173,-118.130457
+160,Huntington Ambulatory Care Center,Full service medical clinic staffed by the hospital’s internal medicine and surgical residents,,100 W. California Blvd,,(626) 397-5711,,,,,,,,,,,Private Medical Facility,34.133639,-118.152753
+161,Huntington Community Health Library ,"Educational articles, books, pamphlets and videos on a variety of medical topics",,100 W. California Blvd,,(626) 397-5000,,,,,,,,,,,Private Medical Facility,34.133639,-118.152753
+162,The Center for Occupational Health At Huntington Hospital,Medical Services,,800 Fairmount Ave,,(626) 397-5919,,,,,,,,,,,Medical Office,34.1357774,-118.1518127
+163,Huntington Hospital Social Work Department,Counseling,,100 W. California Blvd,,(626) 397-5171,,,,,,,,,,,Private Medical Facility,34.133639,-118.152753
+164,PASADENA UNIFIED SCHOOL DISTRICT PRIMARY HEALTH CLINIC,"Physical exams, counseling, education, referrals, etc.",,"351 S. Hudson Avenue, Room 130",,(626)396-3600 Ext. 88180,,,,,,,,,,,PUSD Building,34.1397946,-118.1345051
+165,CITY OF PASADENA MICHAEL D. ANTONOVICH DENTAL CLINIC,Low Cost Dental Care and oral health education,,"1845 N. Fair Oaks Ave, Suite 1101",,(626) 744-6350,,,,,,,,,,,Medical Office,34.1777736,-118.1511928
+166,PASADENA PUBLIC HEALTH DEPT. PASADENA HEALTHCARE LINK ,Healthcare services and referrals,,1845 N. Fair Oaks Ave,,(626) 744-7445 ,,,,,,,,,,,Medical Office,34.1777736,-118.1511928
+167,PASADENA PUBLIC HEALTH DEPARTMENT TRAVEL & ADULT IMMUNIZATION CLINIC ,Travel immunization services and referrals,,"1845 N. Fair Oaks Ave., Rm 122",,(626) 396-3600,,,,,,,,,,,Medical Office,34.1777736,-118.1511928
+168,PCC Dental Hygiene Clinic,Low Priced Dental Services,,1570 E. Colorado Blvd. #R-511,,(626)585-7241,,,,,,,,,,,College,34.1439329,-118.119168
+169,Kids Dental Kare-Pasadena,Dental care services for children,,1127 E Green St,,(626) 389-2570,,,,,,,,,,,Medical Office,34.1448174,-118.1271231
+170,Action Family Counseling,Intensive Outpatient (IOP) services and half and full day Partial Hospitalization and 24 hour Residential Care,,3813 E Colorado Blvd,,(800) 367-8336,,,,,,,,,,,Office Building,34.1469207,-118.0702576
+171,Union Station Homeless Services,"Housing, Benefits enrollment, Health Referrals and Adult Services",,825 E Orange Grove Blvd,,(626) 240-4550,,,,,,,,,,,Office Building,34.1581873,-118.1334783
+172,Aurora Las Encinas Hospital,Inpatient treatment,,2900 E Del Mar Blvd,,(626) 795-9901,,,,,,,,,,,Medical Office,34.141656,-118.091085
+173,Sierra Spring Family Wellness Center,Family health care service,,"960 East Green Street, Suite 292",,(626) 449-4494,,,,,,,,,,,Office Building,34.1443941,-118.1297836
+174,Pasadena Public Health Department,Prenatal Care services,,"1845 N. Fair Oaks Ave., Second Floor, Rm 2129",,(626) 744-6125,,,,,,,,,,,Medical Office,34.1477849,-118.1445155
+175,Young and Healthy,"Free dental, medical and mental health services for low-income. Call for details.",,P.O. Box 93397,,(626) 795-5166,,,info@youngandhealthy-pas.org.,,,,,,,,Medical Office,34.1477849,-118.1445155
+176,"Health Services:HIV, AIDS and Terminal Illnesses",,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+177,AIDS Service Center,Free and anonymous HIV testing available weekly. Other AIDS services available. Call for details.,,909 S. Fair Oaks Ave.,,(626) 441-8495,,,,,,www.aidsservicecenter.org,,,,,Private Facility,34.130675,-118.1507212
+178,American Cancer Society,Cancer treatment information and medical services,,50 N Hill Ave #200,,(626) 564-6078,,,,,,,,,,,Office Building,34.1469718,-118.1210309
+179,Cancer Support Community (CSC),"Educational programs, support groups, exercise, stress reduction and nutrition classes, resource library and social activities",,200 E Del Mar Blvd #118,,(626)796-1083,,,,,,,,,,,Office Building,34.1401975,-118.1464283
+180,Huntington Hospital Phil Simon Clinic,Comprehensive medical care for HIV/AIDS clients,,711 Fairmount Ave.,,(626) 397-5480,,,,,,www.thephilsimonclinic.org,,,,,Private Medical Facility,34.1334711,-118.1522306
+181,Pasadena Public Health Department Andrew Escajeda Comprehensive Care Services,Comprehensive HIV/AIDS medical care and treatment,,"1845 N. Fair Oaks Ave., G151",,(626) 744-6140,,,,,,,,,,,City Facility,34.1777736,-118.1511928
+182,Pasadena Public Health Department HIV/STD Antibody Testing,"Anonymous or confidential, oral, Rapid HIV antibody testing",,"1845 N. Fair Oaks Ave., G122",,(626) 744-6140,,,,,,,,,,,City Facility,34.1777736,-118.1511928
+183,HIV/STD Antibody Testing/Family & Women’s Services,"STD testing, family planning, and mental health counseling.",,"1845 N. Fair Oaks Ave., G122",,(626) 744-6140,,,,,,,,,,,City Facility,34.1777736,-118.1511928
+184,Home Health Services,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+185,Convalescent Aid Society,FREE loan of all types of medical equipment for in-home use to residents of the San Gabriel Valley.,,3255 E. Foothill Blvd.,,(626) 793-1696,,,info@cas1.org,,,,,,,,Office Building,34.1503034,-118.0831652
+186,L.A. County In-Home Supportive Services  Burbank Office,Helps pay for in-home safety services. Call for eligibility details.,,3307 N. Glenoaks Blvd.,,(818) 557-4103,,,,,,,,,,,Office Building,34.1589512,-118.1812878
+187,Personal Assistance Services Council of Los Angeles County (PASC),"Housecleaning, meal preparation, laundry, grocery shopping, personal care services (such as bowel and bladder care, bathing, grooming and paramedical services), accompaniment to medical appointments, and protective supervision for the mentally impaired",,"3452 East Foothill Blvd., Suite 900",,(877) 565-4477,,,,,,,,,,,Office Building,34.1496765,-118.0787828
+188,"Presidio Home Care, LLC",Presidio Home Care provides in-home supportive services for the elderly.,,"936 E. Green St., #105",,(800) 567-4117,,,info@presidiohomecare.com,,,,,,,,Private Medical Building,34.1443543,-118.131029
+189,Housing,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+190,Door of Hope,Six-month to one-year transitional housing program. Call for eligibility details.,,P.O. Box 90455,,(626) 304-9130,,,info@doorofhope.us,,,,,,,,Housing Facility,34.1477849,-118.1445155
+191,Housing Rights Center,Landlord-tenant counseling and housing discrimination investigation. Call for more information.,,"1020 N. Fair Oaks Ave., #104",,(626) 791-0211,,(800) 477-5977,,,,www.housingrightscenter.org,,,,,City Facility,34.1635931,-118.1501538
+192,Hathaway Sycamores, Residential treatment; foster care and adoption; transitional living assistance for emancipated foster youth; outpatient and school-based mental health services; wraparound/in-home services; psychiatric services; psychological testing; grief counseling; a nonpublic school; and afterschool tutoring/enrichment,,"210 South DeLacey Avenue, Suite 110 Pasadena",,(626) 421-6160,,,,,,,,,,,Facility,34.1420366,-118.1516944
+193,YWCA San Gabriel Valley,"Shelter, case management, and support groups.",,943 N. Grand Ave.,,(626) 960-2995,,,,,,www.ywcagv.org,,,,,Facility,34.1032063,-118.1197643
+194,Leadership Development,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+195,Fifty-Fifty Leadership,Promoting women’s equal leadership.,,"P. O. Box 11202, Glendale, CA  91226",,(818) 243-2322,,,,,,www.5050leadership.org,,,,,Office Building,34.1358226,-118.1428421
+196,Flintridge Center,Community based programming,,"236 W. Mountain Street, Ste. 106",Jaylene Moseley,(626) 449-0839,,,info@Flintridge.org,,,,,,,,Office Building,34.1614061,-118.1576623
+197,Girl Scouts of Greater Los Angeles,Enhancement opportunities to girls of all ages,,101 Wheeler Ave.,,(626) 677-2200,,,,,,www.girlscoutsla.org,,,,,,34.1615876,-118.149815
+198,Leadership Pasadena,8-month community based leadership training,,"75 S. Grand Ave., Pasadena, CA",,(626) 577-2296,,,,,,www.leadershippasadena.org,,,,,office building,34.1443298,-118.1618935
+199,Neighborhood Outreach Workers Program (NOW),"Free prevention, intervention, and mentoring program for gang impacted youth",,1020 N. Fair Oaks Ave.,Rebecca Pratt,(626) 744-7306,,,rpra-contractor@cityofpasadena.net,,,,,,,,City Facility,34.1635931,-118.1501538
+200,Office for Creative Connections,Research and coalition building to address issues of common concern in the community,,132 N. Euclid Ave.,,(626) 583-2731,,,,,,www.allsaints-pas.org/occ,,,,,Office Building,34.1478962,-118.1425166
+201,Pasadena Birthing Project Historic West Adams Regional Office,Preconception Health initiatives,,2239 West Washington Blvd.,,(323) 732-1350,,,pbpinfo@pasadenabirthingproject.org,,,,,,,,Office Building,34.1746681,-118.1698545
+202,Parents Anonymous® of Pasadena,"Empower, inspire and create long term positive changes in families",,855 N. Orange Grove Blvd,,(909) 236-5757 x218,,,,,,,,,,,Office Building,34.157281,-118.1528674
+203,Flintridge Center,Prevention & Intervention programs,,236 W Mountain St #106,,(626) 449-0839,,,,,,,,,,,Office Building,34.1614061,-118.1576623
+204,Leadership Pasadena ,"Eight-month series of workshops, retreats, and group projects",,75 S Grand Ave,,(626) 460-3323,,,,,,,,,,,Office Building,34.1443298,-118.1618935
+205,San Gabriel Valley Council Boy Scouts of America,"Community-based outdoor adventure, classroom type learning and summer camping opportunities.",,3450 Sierra Madre Blvd.,,(626) 351-8815,,,,,,www.sgvcbsa.org,,,,,Facility,34.1611143,-118.0788574
+206,Legal Services,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+207,Bet Tzedek Legal Services,Free legal services,,"145 S. Fairfax Ave., Suite 200, Los Angeles, CA",,(323) 939-0506,,,,,,www.bettzedek.org,,,,,offcie building,34.0730022,-118.3617324
+208,Center For Health Care Rights,Offers free information and assistance to Medicare beneficiaries in Los Angeles County,,"520 S. La Fayette Park Pl., Suite 214",,(800) 824-0780,,(213) 383-4519,,,,,,,,,Office Building,34.1477849,-118.1445155
+209,Consumer Action Center,Provides assistance in filling out legal documents,,1020 N. Fair Oaks Ave.,Nancy Tafoya Gutierrez,(626) 744-7339,,(626) 744-7300,ntafoya-gutierr@cityofpasadena.net,,,,,,,,City Facility,34.1635931,-118.1501538
+210,Immigration Legal Assistance Project Los Angeles County Bar Association,Legal assistance and counseling to all categories of low income persons.,,"300 N. Los Angeles St., Suite 3107",,(213) 485-1873,,,,,,,,,,,Office Building,34.2111143,-118.2001343
+211,Long Term Care Ombudsman Program Wise and Healthy Aging,Protection of the rights and dignity of seniors and dependent adults,,"2555 E. Colorado Blvd, #203",,(626) 793-3510,,(800) 334-9473,,,,www.wiseandhealthyaging.org,,,,,Facility,34.1464374,-118.0978064
+212,Los Angeles County District Attorney Victim-Witness Assistance Program,Services to crime victims,,300 E. Walnut Street,,(626) 356-5715,,,,,,www.vcgcb.ca.gov,,,,,Courthouse,34.1492514,-118.1435751
+213,WJC Encompass,Conflict resolution programs,,55 S Grand Ave,,(626) 584-7494,,,,,,,,,,,Facility,34.1447418,-118.1621429
+214,LA County Bar Association-Barristers,"Civil Harassment, Tenant/Landlord Senior Programs (Consumer Action Dept.) $20 For qualifying low income",,"1020 N. Fair Oaks Ave, Suite 300",,(626) 744-7300,,,,,,,,,,,,34.1635931,-118.1501538
+215,Neighborhood Legal Services of Los Angeles County,Legal services to low-income residents,,1104 Chevy Chase Dr.,,(800) 433-6251,,,,,,www.nls-la.org,,,,,Office Building,34.1532129,-118.2296417
+216,Literacy Programs,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+217,Kids Reading to Succeed KRS,1st to 6th graders are invited to participate in a free monthly Saturday reading program,,"363 East Villa Street,",,(626) 744-6530,,,,,,www.kidsreadingtosucceed.org,,,,,City Facility,34.154688,-118.1428055
+218,THE COMMUNITY EDUCATION CENTER,Comprehensive educational resources and support programs,,3035 E. Foothill Blvd.,,(626)585-3000,,,,,,,,,,,Facility,34.1507249,-118.0862689
+219,Frostig Center of Educational Therapy,Education for children with learning disabilities,,971 N. Altadena D,,(626) 791-1255,,,,,,,,,,,Facility,34.1630108,-118.0987324
+220,CDI Head Start,"Comprehensive early childhood education, health, nutrition, and parent involvement services to low-income children and their families",,2555 E Colorado Blvd #301,,(626) 204-8900,,,,,,,,,,,Office Building,34.1464374,-118.0978064
+221,I Am Foundation,"Self-esteem literacy, resiliency education, and social entrepreneurship training ",,464 E Walnut St,,(626)799-0999,,,,,,,,,,,Church,34.1492687,-118.141172
+222,Lake Avenue Community Foundation,"Tutoring, Mentoring, and Summer Programming.",,712 E Villa St,,(626) 449-4960,,,,,,,,,,,Office Building,34.1539265,-118.1357581
+223,San Gabriel Valley Literacy Council,Minimal cost English language instruction for adults at,,P.O. Box 60432,,(626) 298-4731,,,,,,,,,,,Office Building,34.1477849,-118.1445155
+224,PASADENA READS-La Pintoresca Branch Library,Literacy Tutoring,,1355 North Raymond Street,,(626) 744-4034,,,,,,,,,,,City Facility,34.1692911,-118.149572
+225,PUSD Early Childhood Education ,high-quality child development programs,,351 South Hudson Avenue Pasadena,,(626) 396-5762 x 10092,,,,,,,,,,,PUSD Building,34.1397946,-118.1345051
+226,PasadenaLEARNs,"Activities complement the school day, and include homework help, leadership, visual and performing arts classes, structured recreation, academic enrichment activities, and literacy development and field trips",,351 South Hudson Avenue,, (626) 396-3600,,,,,,,,,,,PUSD Building,34.1397946,-118.1345051
+227,N.A.T.H.A (Neighbors Acting Together Helping All) ," Youth development programs and direct services to underserved children and youth, Kindergarten-12th grade",,2023 Lincoln Ave,,(626) 794-5889,,,,,,,,,,,Office Building,34.1805035,-118.1598354
+228,Head Start Scott Center CCFS,"Comprehensive early childhood education, health, nutrition, and parent involvement services to low-income children and their families",,2034 N Fair Oaks Ave,,(626) 791-3329,,,,,,,,,,,Office Building,34.1806298,-118.15053
+229,"Mental Health Services Counseling, Social Services, Personal and Family Problems",,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+230,Club 21 Learning & Resource,Services for down syndrome,,539 N Lake Ave,,(626) 844-1821,,,,,,,,,,,Office Building,34.1553733,-118.1327784
+231,Arcadia Mental Health Center  Los Angeles County Dept. of Mental Health,Information and referral on mental health and medication services,,330 E. Live Oak Ave.,,(626) 821-5858,,,,,,www.dmh.lacounty.gov,,,,,Medical Office,34.1483845,-118.1617533
+232,Aurora Las Encinas Hospital,Behavioral health hospital.,,2900 E. Del Mar Blvd.,,(626) 795-9901,,,,,,www.aurorabehavioral.com,,,,,Private Rehabilitation Facility,34.141656,-118.091085
+233,Della Martin Center Huntington Memorial Hospital,Provides mental health services to patients and their families.,,100 W. California Blvd.,,(626) 397-2329,,,,,,,,,,,Private Medical Facility,34.133639,-118.152753
+234,D’Veal Family and Youth Services,"Provides individual, family, and group counseling for children and adolescents.",,"1845 N. Fair Oaks Ave., Suite 2600",,(626) 296-8900,,,dveal3@aol.com,,,,,,,,City Facility,34.1777736,-118.1511928
+235,Foothill Family Service,Professional outpatient counseling and case management services,,118 S Oak Knoll Ave,,(866) 304-4337,,,,,,www.foothillfamily.org,,,,,Office Building,34.1438134,-118.1348036
+236,"Friends Outside in Los Angeles County, Inc.",Services to persons affected by incarceration,,464 E. Walnut St.,,(626) 795-7607,,,info@friendsoutsidela.org,,,,,,,,Facility,34.1492687,-118.141172
+237,Fuller Psychological and Family Services,Outpatient counseling and support groups.,,180 N. Oakland Ave.,,(626) 584-5555,,,,,,,,,,,Office Building,34.1491846,-118.1394557
+238,Huntington Hospital - Social Work Dept.,Hospital discharge planning for hospitalized patients.,,100 California Blvd.,,(626) 397-5171,,,,,,,,,,,Private Medical Facility,34.1354747,-118.1483083
+239,National Alliance on Mental Illness (NAMI),Family support groups for families with a mentally ill member.,,2550 E. Foothill Blvd. #135,,(626) 577-6697,,,,,,http://sgv.nami.org,,,,,Medical Office,34.1496173,-118.0979428
+240,Pacific Clinics Child & Family Specialty Services              ,"School-based services, child outpatient services and intensive mental health services for children.",,2550 E. Foothill Blvd.,,(626) 744-5230,,877-722-2737,,,,www.pacificclinics.org,,,,,Medical Office,34.1496173,-118.0979428
+241,Pacific Clinics at CHAP,Center offers outpatient mental healthcare services to those living in Northwest Pasadena,,1855 N. Fair Oaks Ave. #100,,(626) 296-7711 ext. 855,,877-722-2737,,,,www.pacificclinics.org,,,,,Medical Office,34.1775276,-118.1511579
+242,Pacific Clinics Pasadena Family Services,Mental Illness Services,,66 Hurlbut St.,,(626) 441-4221,,877-722-2737,,,,www.pacificclinics.org,,,,,Office Building,34.12945,-118.151625
+243,Pasadena Mental Health Center,"Counseling individual, families, child and couples.",,1495 N. Lake Ave.,,(626) 798-0907,,,,,,www.pmhc.org,,,,,Medical Office,34.1716497,-118.1324594
+244,Rose City Counseling Center,"Psychoanalytic therapy for adults, adolescents, couples and families.",,"595 E. Colorado Blvd., Suite 418",,(626)793-8609,,,,,,www.rosecitycenter.org,,,,,Office Building,34.1461688,-118.1380551
+245,Della Martin Center,Mental health services to patients and their families,,100 W California Blvd,,(626) 397-2305,,,,,,,,,,,Private Medical Facility,34.133639,-118.152753
+246,Friends Outside, Unintentional consequences of incarceration and the support and services necessary to address their immediate and long-term need,,464 E Walnut St,,(626) 795-7607,,,,,,,,,,,Church,34.1492687,-118.141172
+247,Fuller Psychological and Family Services ,Affordable mental health care to individuals and families - See more at: http://fuller.edu/fuller-psychological-and-family-services/#sthash.Gv2ZXhNY.dpuf,,180 N Oakland Ave,,(626) 584-5555,,,,,,,,,,,Facility,34.1491846,-118.1394557
+248,Hathaway-Sycamores Child and Family Services,Provides a comprehensive continuum of care. Call for details.,,"210 S. DeLacey Ave., Suite 110",,(626) 395-7100,,,,,,www.hathaway-sycamores.org,,,,,Office Building,34.1420366,-118.1516944
+249,Grace Center,"Emergency response, crisis counseling, evaluation, advocacy, referrals and resources to battered women and their children",,132 North Euclid Avenue,,(626)355-4545,,,michelle@grace-center.org,,,,,,,,Facility,34.1478962,-118.1425166
+250,High Road Program,"Counseling, education and rehabilitation services for substance abuse and other compulsive disorders",,700 S Arroyo Pkwy,, (626) 795-9540,,,,,,,,,,,Office Building,34.1336462,-118.1469032
+251,I Count Too,Free Support group,,100 W. California Blvd.,,(626)397-3600,,,hospiceofpasadena@picf.org,,,,,,,,Private Medical Facility,34.133639,-118.152753
+252,Valley Back in Control,Mental Health Services,,66 Hurlbut Street,,(626) 441-1500,,,,,,,,,,,Office Building,34.12945,-118.151625
+253,Heritage Clinic,"Therapy, counseling, inpatient services for elderly",,447 N El Molino Ave,,(626) 577-8480,,,,,,,,,,,Medical Office,34.1536254,-118.1372529
+254,Center for Grief and Loss for Children,Greif counseling services for children and families,,"210 South DeLacey Ave, # 110",,(866) 744-7433,,,,,,,,,,,Office Building,34.1420366,-118.1516944
+255,National Alliance for the Mentally Ill (NAMI),Mental health services,,2550 E Foothill Blvd # 135,,(626) 577-6697,,,,,,,,,,,Facility,34.1496173,-118.0979428
+256,Westminster Center,Counseling services,,867 Atchison St,,(626) 798-0915,,,,,,,,,,,Facility,34.1760665,-118.1327463
+257, La Vie Counseling Center,Counseling and support groups,,650 Sierra Madre Villa #110,,(800) 483-9591,,,,,,,,,,,Office Building,34.1575045,-118.0811182
+258,The Daniel Foundation,Social services,,464 E Walnut St,,(626) 405-4892,,,,,,,,,,,Church,34.1492687,-118.141172
+259,Oakwood Family Treatment Centers,"Therapy, counseling, outpatient services",,100 S Wilson Ave,,(866) 443-6259,,,,,,,,,,,Facility,34.144029,-118.127834
+260,Greenhouse Therapy Center ,"Psychological services to foster developmental and emotional growth for children, adolescents, adults, parents, couples, and families",,685 E California Bl,,(626)795-7910 ,,,,,,,,,,,Facility,34.136163,-118.1362005
+261,Westminster Counseling Center,"Provides mental health services to individuals, couples, families, groups.",,867 E. Atchison,,(626) 798-0915,,,,,,www.westminstercenter.org.,,,,,Private Medical Facility,34.1760665,-118.1327463
+262,Pregnancy and Family Planning,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+263,"Pasadena Public Health Department Maternal, Child and Adolescent Health Outreach",“The Connection” a toll free line for pregnant and parenting women to receive referrals and health insurance information. For eligibity call.,,"1845 N. Fair Oaks Ave., 2nd Flr.",,(800) 304-0015,,,,,,www.cityofpasadena.net/publichealth,,,,,City Facility,34.1777736,-118.1511928
+264,MOM’s Club of Pasadena,We are a support group for full or part-time stay at home moms.,,P.O. Box 93908,,,,,mvp@momsclubpasadena.com.,,,,,,,,Office Building,34.1477849,-118.1445155
+265,Child Care Information Service,Assist families in obtaining and sustaining quality child care,,2465 E Walnut St,,(626) 449-8221,,,,,,,,,,,Office Building,34.1485831,-118.0995133
+266,Mother's Club Family Learning,"REE social services and educational programs to low-income, at-risk families with children ages 0-5",,980 N Fair Oaks Ave,,(626) 792-2687,,,,,,,,,,,Office Building,34.1628026,-118.1502126
+267,Pasadena Day Nursery for Child Development (PDN),Child care for children 6 weeks- 5 yrs. old,,450 Garfield Ave,,(626) 449-6220,,,,,,,,,,,Facility,34.1535655,-118.1441316
+268,SafetyBeltSafe U.S.A.,Child passenger safety initiatives and services,,P.O. Box 553,,(800) 745-7233,,,,,,,,,,,Facility,34.1477849,-118.1445155
+269,Planned Parenthood - Pasadena Health Center,"Public access to reproductive health care and family planning through medical services, education, and advocacy - See more at: https://www.plannedparenthood.org/planned-parenthood-pasadena-san-gabriel-valley/who-we-are#sthash.GS6Yby45.dpuf",,1045 N Lake Avenue,,(626)798-0706,,,,,,,,,,,Medical Office,34.1639686,-118.132852
+270,Moms on the Move,Dedicate to the empowerment of women and children.,,1500 Navarro Ave. #1,,(626) 345-0840,,,,,,,,,,,Private Building,34.171656,-118.153294
+271,Mothers’ Club Family Learning Center,Education and support programs for mothers and their young children,,980 N. Fair Oaks Ave.,,(626) 792-2687,,,,,,www.mothersclub.org,,,,,Office Building,34.1628026,-118.1502126
+272,Pasadena Public Health Dept. Black Infant Health Program,Services for at-risk pregnant and parenting African-American women and their families.  Call for more details.,,"1845 N. Fair Oaks Ave., 2nd Floor",,(626) 744-6155,,,,,,www.cityofpasadena.net/publichealth,,,,,City Facility,34.1777736,-118.1511928
+273,Senior Services,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+274,Assistance League of Pasadena’s Craft Fair Gift Shop,A consignment shop run by volunteers displaying items handcrafted by seniors,,820 E. California Blvd.,,,,,,,,,,,,,Store Front,34.1356372,-118.1335693
+275,Assistance League of Pasadena’s Treasure Fair Thrift Shop,Resale shop staffed by members of Assistance League of Pasadena.,,3239 E. Foothill Blvd.,,(626) 449-3326,,,alpasadena@sbcglobal.net,,,,,,,,Store Front,34.1502941,-118.0834136
+276,Hart Park House Senior Center,"Lunch program, extracurricular activities and other services. Call for details.",,222 W. Sierra Madre Blvd.,,(626) 355-7394,,,,,,www.cityofsierramadre.com,,,,,Facility,34.161667,-118.057277
+277,Pasadena Senior Center,"Educational and social events, recreational and volunteer opportunities and other basic services",,85 E. Holly St.,,(626) 795-4331,,,,,,www.pasadenaseniorcenter.org,,,,,Private Facility,34.1478774,-118.1486
+278,Huntington Senior Care Network,Assists families in the care of aging relatives and disabled adults.,,"837 S. Fair Oaks Ave., Suite 100",,(626) 397-3110,,,,,,www.huntingtonhospital/SCN,,,,,Office Building,34.131323,-118.1507374
+279,Huntington Senior Care Network,Nationally recognized not-for-profit program that has helped older adults and adults with disabilities and their families ,,100 W. California Blvd,,(626) 397-3110,,,,,,,,,,,Private Medical Facility,34.133639,-118.152753
+280,Los Angeles Long-Term Care Ombudsman Program,"Advocates for residents of nursing homes, board and care homes, assisted living facilities and similar adult care facilities",,"2555 East Colorado Blvd., Suite 203",,(626) 793-3510,,,,,,,,,,,Office Building,34.1464374,-118.0978064
+281,Rebuilding Together Pasadena,"Refurbishing of homes of qualified elderly, disabled, and very low income homeowners",,570 E Orange Grove Blvd,,(626) 798-6176,,,,,,,,,,,Office Building,34.157431,-118.138903
+282,National Association for Hispanic Elderly,Social services and employment training program for seniors 55+.,,"234 East Colorado Blvd., Suite 300",,(626) 564-1988,,,,,,,,,,,Office Building,34.1456176,-118.1456357
+283,Senior Center,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+284,Altadena Senior Center,We provide a comprehensive program that meets the needs of our senior population.,,560 E. Mariposa,,(626) 798-0505,,,,,,css.lacounty.gov.,,,,,Private Facility,34.189246,-118.137832
+285,SET for LIFE,Education and training that leads to information to access programs and services,,"710 S. Myrtle Ave., #294, Monrovia, CA",,(626) 386-8071,,,info@setforlifenews.org,,,,,,,,facility,34.1477849,-118.1445155
+286,Grandparents as Parents,Support groups,,851 N. Oakland Avenue,,(818) 264-0880 x. 511,,,info@grandparentsasparents.org,,,,,,,,Facility,34.1603282,-118.1407842
+287,Arcadia Senior Citizen Services,Services include information and referrals,,365 Campus Dr.,,(626) 574-5130,,,,,,ci.arcadia.ca.us,,,,,Facility,34.1316309,-118.0436878
+288,South Pasadena Senior Center,Full service community center available for individuals 55 or  older.,,1102 Oxley Street,,(626) 403-7360,,,,,,ci.south-pasadena.ca.us/seniorcenter,,,,,Facility,34.1140725,-118.1554626
+289,Social  Services,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+290,Armenian Relief Society Social Services,"General Social Services to low, moderate income families with language barriers.",,740 E. Washington Blvd.,,(626) 797-6208,,,,,,www.arswestusa.org,,,,,Private Facility,34.1688557,-118.1352918
+291,Pasadena Council-Alcoholism And Drug Dependence,Substance Abuse services,,"1245 E. Walnut St., Suite 117",,(626) 795-9127,,,,,,www.socialmodel.com,,,,,Private Facility,34.1498012,-118.124605
+292,L A County Public Social Services,"Nutrition assistance, employment services and supportive services, financial and homeless assistance program, In-Home Supportive Services, financial aid and homeless assistance",,955 N Lake Ave,,(626) 791-6333,,,,,,,,,,,Office Building,34.1623786,-118.1328372
+293,Hillsides Education Center,Foster care services,,940 Avenue 64,,(323) 254-2274 ,,,,,,,,,,,Facility,34.1244844,-118.1758621
+294,GIVE THE STREETS BACK !,Youth intervention program,,P.O. Box 92733,,(626) 791-1855,,,,,,,,,,,Office Building,34.1477849,-118.1445155
+295,Los Angeles County Children,"Child safety, Permanency, Access to Effective and caring service",,532 E Colorado Blvd,,(626) 229-3500,,,,,,,,,,,Office Building,34.1454885,-118.1391548
+296,Victim Witness Assistance Program,Services for crime victims,,300 East Walnut Street #103,,(626) 356-5727,,,,,,,,,,,Office Building,34.1492514,-118.1435751
+297,Pasadena Host Lions Club ,Community service organization,,175 N Oakland Ave,, (626) 793-5157,,,,,,,,,,,Office Building,34.148823,-118.140365
+298,Pasadena NAACP,"Political, educational, social, and economic equality of rights of all persons and to eliminate racial hatred and racial discrimination",,595 Lincoln Ave #103,,(626) 793-1293,,,,,,,,,,,Office Building,34.155003,-118.1547242
+299,The Salvation Army Pasadena Tabernacle Corps  Social Service program,"Emergency short-term assistance, information and/or referrals for continuing or long-term help",,1000 E. Walnut St. # 102,,(626) 773-4400,,,,,,,,,,,Office Building,34.1493046,-118.1297902
+300,Pasadena Social Security Office,Information and resources regarding social security,,104 N. Mentor Ave,,(800) 772-1213,,,,,,,,,,,Office Building,34.1476708,-118.1305245
+301,"Pasadena Social Services, L.L.C.",A free online resource for social services in the Pasadena area,,n/a,,,,,,,,www.PasadenaSocialServices.com,,,,,Online Portal,34.1477849,-118.1445155
+302,Substance Abuse,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+303,Alcoholism Center For Women,Residential substance abuse treatment. Call for Details.,,1147 S. Alvarado St.,,(213) 381-8500,,,,,,,,,,,Facility,34.150446,-118.0575188
+304,California Drug Counseling,"Outpatient education, counseling and support to individuals with alcohol and substance abuse problems",,671 E Walnut St,,(626) 844-0410,,,,,,,,,,,Store Front,34.149727,-118.1366087
+305,Casa Maria,Offers substance abuse treatment and halfway house ,,691 E Washington Blvd,,(626) 296-8689,,,,,,,,,,,Residential Rehabilitation Facility,34.169275,-118.1361
+306,Pasadena Council On Alcoholism ,"Assessment, evaluation, treatment planning, resources, supervised implementation of the plan, monitored 12-step meeting attendance, education on addition topics and issues, facilitated recovery support groups, and weekly individual counseling and case management",,1245 E Walnut St # 117,,(626) 795-9127,,,,,,,,,,,Office Building,34.1498012,-118.124605
+307,"Grandview Foundation, Inc.",Addiction recovery services,,1230 Marengo Ave,,(626) 798-0884,(866) 734-4200,,,,,,,,,,Office Building,34.167027,-118.145753
+308,Impact Drug & Alcohol Treatment Center,Residential Short-Term Treatment and Residential Long-Term Treatment,,1680 N Fair Oaks Ave,,(323) 681-2575,,,,,,http://impacthouse.com/,,,,,Private Facility,34.1749284,-118.1502725
+309,Alcoholics Anonymous Meeting,Free Services. Meeting places vary.,,585 E. Colorado Blvd.,,(626) 793-2191,,,,,,http://www.simeetings.com/LA/PasadenaMtgs.html,,,,,Office Building,34.1462613,-118.1389268
+310,Aegis Treatment Centers,"Substance Abuse Treatment, Detoxification, Methadone Maintenance, and Methadone Detoxification",,1450 N Lake Ave #150,,(626) 794-1161,,,,,,,,,,,Facility,34.1711391,-118.1318039
+311,City of Pasadena Substance Abuse Prevention and Treatment (SAPT) Program,Non-residential substance abuse recovery programs and services.,,1845 N. Fair Oaks Ave,, (626) 744-6001,,,,,,,,,,,City Facility,34.1777736,-118.1511928
+312,Celebrate Recovery,"Christ-centered, 12-step recovery program, support groups for all types of addictions",,404 E. Washington Blvd,,(626) 794-2951,,,,,,,,,,,Church,34.1685682,-118.1423209
+313,Walter Hoving Home,"Christian-based, 12 month addiction, prostitution rehab home for adult women",,127 S. El Molino Avenue,,(626) 405-0950,,,,,,,,,,,Facility,34.143529,-118.1372837
+314,Eaton Canyon Treatment Center,"Men only, inpatient services",,3323 Fairpoint Street,,(626) 798-0150,,,,,,,,,,,Facility,34.1736612,-118.0821284
+315,The High Road Program,"Outpatient counseling and education, court mandated DUI, DV, anger management and drug programs, Spanish programs offered",,700 S. Arroyo Parkway,,(626) 793-6159,,,,,,,,,,,Facility,34.1336462,-118.1469032
+316,Pasadena Recovery Center,"Residential short-term treatment (30 days or less) and long-term treatment (more than 30 days), outpatient, partial hospitalization, day treatment",,1811 N Raymond Ave,,(866) 663-3030,,,,,,,,,,,Facility,34.1768699,-118.1494844
+317,Angels Way Sober Living,Sober Living,,166 N. Mar Vista Ave.,,(626) 808-3488,(626) 720-3263,,angelswaysoberliving@yahoo.com,,,www.angelswaysoberliving.com,,,,,,34.1488493,-118.1264065
+318,Aurora Las Encintas Hospital,"Psychiatric services, Chemical Depedency Treatment",,2900 E. Del Mar Blvd,,(800) 792-2345,(626)795-9901,,,,,www.lasencinashospital.com,,,,,Medical Facility,34.141656,-118.091085
+319,Casa de las Amigas,"Primary Treatment Program, Outpatient Program, Sober Living (Casita)",,160 N. El Molino Ave,,(323) 681-8304,(626) 792-2770,,,,,www.casadelasamigas.org,,,,,Facility,34.1487732,-118.1367094
+320,Claremont Brown House,For Men,,N/A,,(626) 797-1124,,,,,,,,,,,Facility,34.1477849,-118.1445155
+321,Clearview Residential,For Men,,N/A,,(626) 696-3445,,,,,,,,,,,Residential Facility,34.1477849,-118.1445155
+322,City of Pasadena Housing Department,Pasadena Housing & Homeless Network,,"649 N. Fair Oaks Ave., #202",,626-744-8301,,,housingdept@cityofpasadena.net,,,,,,,,City Facility,34.156659,-118.1505877
+323,Eaton Canyon Foundation,Residential Treatment,,3323 E. Fairpoint St.,,(888) 798-0150,,,info@eatoncanyon.com,,,,,,,,Rehabilitation Facility,34.1736612,-118.0821284
+324,Elijah's House,Structured Recovery/Sober Living,,1617 Asbury Dr.,,(626) 394-9565,,,,,,,,,,,Residential Facility,34.1669493,-118.1170967
+325,ECPAC/Pasadena Bad Weather Shelter,"Shelter, November-March, 8pm - 7am",,539 N. Lake Ave,,(888) 915-8111 ,,,,,,,,,,,Church,34.1553733,-118.1327784
+326,Friends in Deed,"Shelter, Motel vouchers for those who meet program guidelines with agency referral",,444 E. Washington Blvd.,,(626) 797-6072,,,,,,,,,,,Facility,34.1687151,-118.1413359
+327,Foothill Unity Center,Shelter,,191 N Oak,,(626) 584-7420,,,,,,http://www.ecpac.net/resources.html,,,,,Facility,34.1495915,-118.107847
+328,"Grace Community Houses I, II, and III",Shelter,,N/A,,(213) 595-4400,,,,,,http://www.ecpac.net/resources.html,,,,,Private Facility,34.1477849,-118.1445155
+329,Jim Fair Oaks House,Shelter,,N/A,Manager-Jim,(626)316-3150,,,,,,,,,,,private Facility,34.1477849,-118.1445155
+330,Jubilee House,Sober Living For Women,,N/A,,(626) 791-5902,(916) 835-2831,(818)-424-0890,info@pasadenasoberliving.com,,,www.pasadenasoberliving.com,,,,,Private Facility,34.1477849,-118.1445155
+331,Marilyn Manor,Sober Living,,2120 El Sereno Ave,,(310) 590-9734,(562) 397-3366,,,,,http://marilynmanor.blogspot.com/,,,,,Private Facility,34.1821524,-118.1522457
+332,Moore Sober Living Home,Sober Living For Women,,943 N. Marengo Ave.,,(626) 376-6440,,,,,,,,,,,Residential Facility,34.162045,-118.146515
+333,Oxford House I,Sober Living,,1628 N. Oxford Ave.,,(626) 216-0979,,,,,,www.oxfordsoberliving.com,,,,,Residential Facility,34.17407,-118.11619
+334,Pasadena Housing Search,Pasadena Housing Resource Center,,N/A,,1-877-428-8844,,,,,,www.pasadenahousingsearch.com,,,,,Online Portal,34.1477849,-118.1445155
+335,Pasadena Recovery Center,"Residential Program, Outpatient Program",,1811 N. Raymond Ave.,,(866) 633-3030,,,info@pasadenarecoverycenter.net,,,,,,,,Facility,34.1768699,-118.1494844
+336,RAF Kenneth House,Sober Living For Men,,P.O. Box 91504,,(626) 216-5427,,,,,,http://recoveryalliancefoundation.org,,,,,N/A,34.1477849,-118.1445155
+337,Stages,Sober Living Homes in various locations through-out Pasadena & Altadena,,N/A,,(626) 794-7575,,,,,,http://stages.community.officelive.com,,,,,N/A,34.1477849,-118.1445155
+338,Starting Over Sober Living,Sober Living For Men,,25 N. Craig St.,,(626) 405-9131,,,,,,,,,,,Facility,34.1466116,-118.1062276
+339,The Gooden Center,"Intensive Outpatient treatment, Residential Treatment, Day Treatment, After Care, Family Care, Sober Living For Men",,191 N. El Molino Ave,,(800) 931-9884,,,,,,www.goodencenter.org,,,,,Facility,34.1491988,-118.137288
+340,The Marengo House,Sober Living,,N/A,,(626) 482-6574,,,,,,,,,,,N/A,34.1477849,-118.1445155
+341,Uncle Daves Transitional Sober Living,Sober living,,1788 N. Summit Ave,,(424) 652-1191,,,,,,Uncledavessummit.sobernexus.com,,,,,Residential Facility,34.1765627,-118.1473632
+342,Yolanda’s Place,"Residential Treatment, Sober Living For Men",,1510 N. Marengo Ave.,,,,,,,,,,,,,Residential  Facility,34.171866,-118.145807
+343,The Gooden Center ,"Men only, inpatient and outpatient, sober living support services.",,191 N El Molino Ave,,(626) 356-0078,,,,,,,,,,,Office Building,34.1491988,-118.137288
+344,Salvation Army Adult Rehabilitation Center,"Christian, long-term residential rehab program, 12-Step, group counseling, education, recreation",,56 W. Del Mar Blvd,,(626) 795-8075,,,,,,,,,,,Facility,34.1405713,-118.1517153
+345,Huntington Hospital-Chemical Dependency Recovery Center,Inpatient recovery services,,100 W. California Blvd,,(626) 397-2323,,,,,,,,,,,Private Medical Facility,34.133639,-118.152753
+346,"California Drug Counseling, Inc.","Outpatient counseling, prevention, education, job screening and placement, transportation, drug testing for ex-offenders and incarcerated/paroled youth/adults, other underserved populations",,659 East Walnut Street,,(626) 844-0410,,,,,,,,,,,Store Front,34.1497267,-118.1366384
+347,CHOICES,Sensitive substance abuse services for women 18+. Call for details.,,"1460 N. Lake Ave., Suite 105-107",,(626) 398-3796,,,,,,,,,,,Private Medical Facility,34.1713121,-118.1318722
+348,Pasadena Public Health Dept. Recovery Center,Substance abuse and alcoholism counseling.,,"1845 N. Fair Oaks Ave., Room 1508",,(626) 744-6001,,,,,,www.cityofpasadena.net/publichealth,,,,,City Facility,34.1777736,-118.1511928
+349,The Walter Hoving Home,Individual and group counseling with others who have encountered similar struggles.,,127 S. El Molino Ave.,,(626) 405-0950,,,whhca@walterhovinghome.com.,,,,,,,,Residential Rehabilitation Facility,34.143529,-118.1372837
+350,Transportation,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+351,Dial-A-Ride/Park Center Building,Senior/Disabled curb-to-curb transportation service provided for San Gabriel Area,,"221 E. Walnut St., Suite 199",,(626) 744-4094,,,,,,www.cityofpasadena.net/DAR,,,,,Office Building,34.1500068,-118.1455585
+352,ARTS (Area Rapid Transit System),Designed to provide convenient transportation,,"221 E. Walnut St., Suite 199",,(626) 744-4055,,,,,,www.cityofpasadena.net/artsbus,,,,,Office Building,34.1500068,-118.1455585
+353,Veteran Resources,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+354,Pasadena City College Veterans' Resource Center,Help all student Veterans and Military college admittal. Call for details.,,1570 E. Colorado Blvd. Room L113,,(626) 585 7294,,,tdpowell@pasadena.edu,,,,,,,,College,34.1439329,-118.119168
+355,Veterans Crisis line,24 hour National Suicide Prevention Lifeline,,,,1-800-273-8255,,,,,,,,,,,Hotline,34.1477849,-118.1445155
+356,Veterans Project/L.A. County B.A.R. Association,Legal services the areas of Expungement Assistance,,1816 S. Figueroa St.,,(626) 744-4055,,,,,,www.lacba.org/veterans,,,,,Office Building,34.1689541,-118.1901704
+357,Volunteers of America,Resources for veterans and veterans who have been incarcerated,,240 N. Breed St.,,(213) 622-3540,,,voajobs2@aol.com,,,,,,,,Office Building,34.1477849,-118.1445155
+358,Violence Against Women and Children,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+359,California Safe At Home Program,"Protection services for victims and survivors of domestic violence, stalking or sexual assault",,P.O. Box 846,,(877) 322-5227,,,,,,www.sos.ca.gov/safeathome,,,,,Housing Facility,34.1477849,-118.1445155
+360,Fuller Psychological and Family Services,Outpatient counseling and support groups,,180 N. Oakland Ave.,,(626) 584-5555,,,,,,,,,,,Office Building,34.1491846,-118.1394557
+361,LA Commission on Assaults Against Women,Counseling for victims of domestic violence. ,,764 East Walnut St. Suite 201,,(626) 585-9166,,,,,,,,,,,Office Building,34.1495563,-118.1347718
+362,L.A. County Dept. of Children and Family Services,Protective services for abused or neglected children,,532 E. Colorado Blvd.,,(626) 229-3500,,,,,,,,,,,County Building,34.1454885,-118.1391548
+363,Survivors of Murdered Children,Monthly grief support group,,211 S. First St.,,(626) 298-9054,,,tinayyama@att.net.,,,,,,,,Facility,34.0965453,-118.1292393
+364,Pasadena Police Department,Non-emergency,,207 N. Garfield Ave.,,(626) 744-4241,,,,,,,,,,,City Facility,34.1491349,-118.1448262
+365,,Records/Registros,,,,(626) 744-4565,,,,,,,,,,,,34.1477849,-118.1445155
+366,,Jail/Cárcel,,,,(626) 744-4616,,,,,,,,,,,,34.1477849,-118.1445155
+367,,Field Operations/Watch Commander/,,,,(626) 744-4620,,,,,,,,,,,,34.1477849,-118.1445155
+368,,Operadores de campo/Comando de Vigilancia,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+369,,Parking Enforcement/Estacionamiento,,,,(626) 744-6440,,,,,,,,,,,,34.1477849,-118.1445155
+370,,Traffic/Tráfico,,,,(626) 744-4590,,,,,,,,,,,,34.1477849,-118.1445155
+371,,Helicopters/Helicópteros,,,,(626) 744-4625,,,,,,,,,,,,34.1477849,-118.1445155
+372,,Property/Propiedades,,,,(626) 744-4510,,,,,,,,,,,,34.1477849,-118.1445155
+373,,Professional Standards/,,,,(626) 744-4575,,,,,,,,,,,,34.1477849,-118.1445155
+374,,Profesionales Estándares,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+375,,Detectives/Detectives,,,,(626) 744-4521,,,,,,,,,,,,34.1477849,-118.1445155
+376,,Special Enforcement/Policía Especial,,,,(626) 744-4585,,,,,,,,,,,,34.1477849,-118.1445155
+377,,Community Services/Servicios Comunitarios,,,,(626) 744-4550,,,,,,,,,,,,34.1477849,-118.1445155
+378,,Event Planning/Planeamiento de Eventos,,,,(626) 744-4621,,,,,,,,,,,,34.1477849,-118.1445155
+379,,Community Service Area Message Center/,,,,(626) 744-6501,,,,,,,,,,,,34.1477849,-118.1445155
+380,,Centro de Mensajes del Área de Servicios Comunitarios,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+381,,Support and Referrals Program/,,,,(626) 744-7164,,,,,,,,,,,,34.1477849,-118.1445155
+382,,Programas de Apoyo y Referencias,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+383,,(Assistance with referrals to local agencies or information on their cases.  A Spanish speaker is available to provide translation.),,,,,,,,,,,,,,,,34.1477849,-118.1445155
+384,,(Asistencia con referencias a agencias locales o información),,,,,,,,,,,,,,,,34.1477849,-118.1445155
+385,Peace Over Violence,Services for survivors of sexual assault . Call for details.,,892 N. Fair Oaks Ave. Suite D,,(626) 584-6191,,,,,,www.peaceoverviolence.org,,,,,Office Building,34.1610795,-118.1504012
+386,Parents of Murdered Children (POMC),"On-going emotional support, education, prevention, advocacy, and awareness.",,P.O. Box 70216,,(626)221-5737,,,,,,,,,,,Office Building,34.1477849,-118.1445155
+387,National Human Trafficking Resource Center (NHTRC),Resourcing for anti-trafficking causes. Call for more information.,,N/A,,1-888-373-7888,,,,,,www.polarisproject.org,,,,,Hotline,34.1477849,-118.1445155
+388,Shepherd’s Door Domestic Violence  Resource Center,Emergency shelter for domestic violence victims and families,,P.O. Box 92429,,(888) 979-8884,,,,,,,,,,,Private Housing Facility,34.1477849,-118.1445155
+389,Women's Organizations,,,,,,,,,,,,,,,,,34.1477849,-118.1445155
+390,American Association of University Women Pasadena Branch,Service for equity for women and girls.,,P.O. Box 94309,,,,,,,,aauwpasadena.wordpress.com,,,,,Facility,34.1477849,-118.1445155
+391,Council of Women’s Clubs,Promote and recognize activities relating to women,,"160 N. Oakland Ave.,",,,,,,,,,,,,,Private Office,34.1487175,-118.139522
+392,Fifty/Fifty Leadership,Organization for women,,"2555 E. Colorado Blvd., Suite 204",, (818) 243-2322,,,,,,,,,,,Office Building,34.1464374,-118.0978064
+393,La Leche League of California,Breast Feeding Education,,1240 Nithsdale Road,, (626)403-0630,,,,,,,,,,,City Facility,34.1357073,-118.1757338
+394,League of Women Voters Pasadena Area,Presentation  forums on issues of local interest and candidates,,1353 N. Hill Ave.,,(626) 798-0965,,,office@lwvpasadenaarea.org,,,,,,,,Private Office,34.1694624,-118.121747
+395,City of Pasadena Commission of the Status of Women,Meets 2nd Monday of each month. Recommending programs and legislation to promote and insure equal rights and opportunities for all women in Pasadena,,1020 N. Fair Oak Ave,,(626) 744-7084,,,,,,,,,,,City Facility,34.1635931,-118.1501538
+396,Pasadena Commission on the Status of Women,Studies and examines conditions which suggest discrimination or prejudice.  For more details call.,,363 East Villa Street,,(626) 744-6530,,,,,,,,,,,City Facility,34.154688,-118.1428055
+397,Soroptimist International of Altadena/Pasadena,Improving the lives of women and girls in local communities and throughout the world,,"P.O. Box 66, Altadena, CA 91003",,(626) 794-4103,,,,,,www.caminorealregion.org/mppasadena.htm,,,,,N/A,34.19,-118.13
+398,Women’s Room at Friends in Deed,A daytime refuge for women homeless or facing homelessness,,444 East Washington Blvd.,,(626) 797-2402,,,info@ecpac.net,,,,,,,,Facility,34.1687151,-118.1413359
+399,Zonta Club of Pasadena,Club assist in volunteer programs and club based program,,7447 S. Grand Ave.,,(626) 799-1880,,,,,,www.zontapasadena.org,,,,,Office Building,34.1344662,-118.1627695
+0d53166b0c0b6396fc2752fe5892146c5cbfada7177c3c91bb39d21c93cd1dad,TEST,<b>Description</b> Ceehe,,,,,,,,,,,,,,,,34.1477849,-118.1445155

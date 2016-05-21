@@ -1,5 +1,22 @@
+var currentDay = 0;
+var currentTime = 0;
+
 // Initializes everything required to run the web app.
 function initialize(callback) {
+	// Initialize the current time for use in the 'hours' section of the services to determine if that service is open now.
+	var currentDate = new Date();
+	currentDay = currentDate.getDay();
+	var currentHours = currentDate.getHours();
+	var currentMinutes = currentDate.getMinutes();
+	var timeString = '';
+	if(currentHours < 10)
+		timeString += '0';
+	timeString += currentHours;
+	if(currentMinutes < 10)
+		timeString += '0';
+	timeString += currentMinutes;
+	currentTime = parseInt(timeString);
+
 	Database.initialize(callback);
 
 	Map.initialize($('#map')[0]);
@@ -46,13 +63,43 @@ function setListActive(active, doneFunction) {
 }
 
 var services = []
+var dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+function getTimeString(time) { // time is in the format HHMM, as a number
+	var hour = Math.floor(time / 100);
+	var minute = time % 100;
+	var text = '';
+	if(hour == 0)
+		text += (hour + 12);
+	else if(hour > 0 && hour <= 12)
+		text += hour;
+	else
+		text += (hour - 12);
+	if(minute > 0) {
+		if(minute < 10)
+			text += ':0' + minute;
+		else
+			text += ':' + minute;
+	}
+	if(hour < 12 || hour == 24)
+		text += ' am';
+	else
+		text += ' pm';
+	return text;	
+}
 
 // Returns nice html from the given service.
 function serviceToHtml(service) {
 	var html = '';
 	html += '<h2>' + service.name + '</h2>';
-	html += '<p><b>Description</b>: ' + service.description + ' <button class="btn btn-expand-description" onclick="toggleLongDescription(' + service.id + ');">read more</button></p>';
-  html += '<p class="long-description" id="long-description-' + service.id + '" style="display: none;">Some longer description of the service.</p>';
+	html += '<p><b>Description</b>: ' + service.short_description;
+	if(service.long_description != '') {
+		html += ' <button class="btn btn-expand-description" onclick="toggleLongDescription(' + service.id + ');">read more</button></p>';
+		html += '<p class="long-description" id="long-description-' + service.id + '" style="display: none;">' + service.long_description + '</p>';
+	}
+	else {
+		html += '</p>';
+	}
 	html += '<p><b>Address</b>: ' + service.address + '</p>';
 	if(service.point_of_contact != '')
 		html += '<p><b>Contact</b>: ' + service.point_of_contact + '</p>';
@@ -74,6 +121,22 @@ function serviceToHtml(service) {
 		html += '<p><b>E-mail 3</b>: <a href="mailto:' + service.email_3 + '">' + service.email_3 + '</a></p>';
 	if(service.website != '')
 		html += '<p><b>Website</b>: <a href="http://' + service.website + '">' + service.website + '</a></p>';
+	if(service.extra_info != '')
+		html += '<p><b>Extra Info</b>: ' + service.extra_info + '</p>';
+	if(service.hours.length > 0) {
+		html += '<p><b>Hours</b>: ';
+		for(day in service.hours) {
+			html += dayNames[day] + ': ';
+			if(service.hours[day][0] == 0 && service.hours[day][1] == 0)
+				html += 'closed';
+			else
+				html += getTimeString(service.hours[day][0]) + ' to ' + getTimeString(service.hours[day][1]);
+			if(currentDay == day && service.hours[day][0] <= currentTime && currentTime <= service.hours[day][1])
+				html += " <b>Open Now</b>";
+			html += '<br/>';
+		}
+		html += '</p>';
+	}
 	html += '<p><b>Categories</b>: ';
 	for(var c in service.categories)
 		html += service.categories[c] + ' ';
@@ -144,3 +207,4 @@ function toggleLongDescription(serviceId) {
 
 
 }
+

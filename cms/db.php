@@ -9,7 +9,8 @@ function loadServices() {
 		$service = array();
 		$service["id"] = str_pad($data[$i][$c], 8, "0", STR_PAD_LEFT); $c++;
 		$service["name"] = $data[$i][$c]; $c++;
-		$service["description"] = $data[$i][$c]; $c++;
+		$service["short_description"] = $data[$i][$c]; $c++;
+		$service["long_description"] = $data[$i][$c]; $c++;
 		$service["address"] = $data[$i][$c]; $c++;
 		$service["point_of_contact"] = $data[$i][$c]; $c++;
 		$service["phone_1"] = $data[$i][$c]; $c++;
@@ -19,6 +20,10 @@ function loadServices() {
 		$service["email_2"] = $data[$i][$c]; $c++;
 		$service["email_3"] = $data[$i][$c]; $c++;
 		$service["website"] = $data[$i][$c]; $c++;
+		$service["hours"] = $data[$i][$c]; $c++;
+		$service["extra_info"] = $data[$i][$c]; $c++;
+		$service["spanish_short_description"] = $data[$i][$c]; $c++;
+		$service["spanish_long_description"] = $data[$i][$c]; $c++;
 		$service["categories"] = $data[$i][$c]; $c++;
 		$service["lat"] = $data[$i][$c]; $c++;
 		$service["lon"] = $data[$i][$c]; $c++;
@@ -28,11 +33,12 @@ function loadServices() {
 }
 
 function saveServices($services) {
-	$contents = "id,name,description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,categories,lat,lon\n";
+	$contents = "id,name,short_description,long_description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,hours,extra_info,spanish_short_description,spanish_long_description,categories,lat,lon\n";
 	foreach($services as $service) {
 		$contents .= cleanCsvField($service["id"]) . ",";
 		$contents .= cleanCsvField($service["name"]) . ",";
-		$contents .= cleanCsvField($service["description"]) . ",";
+		$contents .= cleanCsvField($service["short_description"]) . ",";
+		$contents .= cleanCsvField($service["long_description"]) . ",";
 		$contents .= cleanCsvField($service["address"]) . ",";
 		$contents .= cleanCsvField($service["point_of_contact"]) . ",";
 		$contents .= cleanCsvField($service["phone_1"]) . ",";
@@ -42,6 +48,10 @@ function saveServices($services) {
 		$contents .= cleanCsvField($service["email_2"]) . ",";
 		$contents .= cleanCsvField($service["email_3"]) . ",";
 		$contents .= cleanCsvField($service["website"]) . ",";
+		$contents .= cleanCsvField($service["hours"]) . ",";
+		$contents .= cleanCsvField($service["extra_info"]) . ",";
+		$contents .= cleanCsvField($service["spanish_short_description"]) . ",";
+		$contents .= cleanCsvField($service["spanish_long_description"]) . ",";
 		$contents .= cleanCsvField($service["categories"]) . ",";
 		$contents .= cleanCsvField($service["lat"]) . ",";
 		$contents .= cleanCsvField($service["lon"]);
@@ -64,7 +74,8 @@ function createEmptyService() {
 	$service = array();
 	$service["id"] = "";
 	$service["name"] = "";
-	$service["description"] = "";
+	$service["short_description"] = "";
+	$service["long_description"] = "";
 	$service["address"] = "";
 	$service["point_of_contact"] = "";
 	$service["phone_1"] = "";
@@ -74,6 +85,10 @@ function createEmptyService() {
 	$service["email_2"] = "";
 	$service["email_3"] = "";
 	$service["website"] = "";
+	$service["hours"] = "";
+	$service["extra_info"] = "";
+	$service["spanish_short_description"] = "";
+	$service["spanish_long_description"] = "";
 	$service["categories"] = "";
 	$service["lat"] = "";
 	$service["lon"] = "";

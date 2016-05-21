@@ -2,7 +2,8 @@
 var Service = function() {
 	this.id = '';
 	this.name = '';
-	this.description = '';
+	this.short_description = '';
+	this.long_description = '';
 	this.address = '';
 	this.point_of_contact = '';
 	this.phone_1 = '';
@@ -12,6 +13,10 @@ var Service = function() {
 	this.email_2 = '';
 	this.email_3 = '';
 	this.website = '';
+	this.hours = [];
+	this.extra_info = '';
+	this.spanish_short_description = '';
+	this.spanish_long_description = '';
 	this.categories = [];
 	this.lat = 0;
 	this.lon = 0;
@@ -26,7 +31,8 @@ var Database = {
 				var service = new Service();
 				service.id = i;
 				service.name = data[i].name;
-				service.description = data[i].description;
+				service.short_description = data[i].short_description;
+				service.long_description = data[i].long_description;
 				service.address = data[i].address;
 				service.point_of_contact = data[i].point_of_contact;
 				service.phone_1 = data[i].phone_1;
@@ -36,6 +42,20 @@ var Database = {
 				service.email_2 = data[i].email_2;
 				service.email_3 = data[i].email_3;
 				service.website = data[i].website;
+				var days = data[i].hours.toLowerCase().split(',');
+				for(var day in days) {
+					if(days[day] != '') {
+						var hours = days[day].split('-');
+						if(hours.length == 2) {
+							service.hours[day] = []
+							service.hours[day][0] = parseInt(hours[0]);
+							service.hours[day][1] = parseInt(hours[1]);
+						}
+					}
+				}
+				service.extra_info = data[i].extra_info;
+				service.spanish_short_description = data[i].spanish_short_description;
+				service.spanish_long_description = data[i].spanish_long_description;
 				service.categories = data[i].categories.toLowerCase().split(',');
 				service.lat = data[i].lat;
 				service.lon = data[i].lon;
@@ -77,7 +97,10 @@ var Database = {
 			var service = Database._services[i];
 			if(	   service.categories.indexOf(search) != -1
 				|| service.name.toLowerCase().indexOf(search) != -1
-				|| service.description.toLowerCase().indexOf(search) != -1
+				|| service.short_description.toLowerCase().indexOf(search) != -1
+				|| service.long_description.toLowerCase().indexOf(search) != -1
+				|| service.spanish_short_description.toLowerCase().indexOf(search) != -1
+				|| service.spanish_long_description.toLowerCase().indexOf(search) != -1
 				|| service.address.toLowerCase().indexOf(search) != -1)
 				services.push(service);
 		}
