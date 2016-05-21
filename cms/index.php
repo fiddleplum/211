@@ -1,10 +1,6 @@
 <?php
 	@require("ps.php");
 
-	// THIS CODE IS TO BE UNCOMMENTED OUT ONLY IF THE CMSADMIN USER IS ACCIDENTALLY REMOVED OR THE PASSWORD IS LOST.
-	// IT CHANGES THE CMSADMIN PASSWORD TO 1234. UNCOMMENT IT, RUN THIS PAGE ONCE, COMMENT IT OUT, AND LOG IN.
-	// add_user("cmsadmin", "1234");
-	
 	$op = isset($_GET["op"]) ? $_GET["op"] : "";
 
 	// Needs to be done before any HTML is written.

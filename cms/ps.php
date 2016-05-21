@@ -1,7 +1,9 @@
 <?php
 
 function load_users() {
-	$contents = file_get_contents("ps.txt");
+	$contents = @file_get_contents("ps.txt");
+	if($contents === FALSE)
+		$contents = "";
 	$lines = split("\n", $contents);
 	$users = array();
 	foreach($lines as $line) {
@@ -9,6 +11,12 @@ function load_users() {
 			continue;
 		list($id, $hash, $salt) = split(",", $line, 3);
 		$users[$id] = array($hash, $salt);
+	}
+	if(!isset($users["cmsadmin"])) {
+		$salt = bin2hex(openssl_random_pseudo_bytes(32));
+		$hash = make_hash("1234", $salt);
+		$users["cmsadmin"] = array($hash, $salt);
+		save_users($users);
 	}
 	return $users;
 }

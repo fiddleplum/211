@@ -18,10 +18,5 @@ To creating a member user so an organization can modify their own service inform
 
 If the organization contact requests a new password from the admin because they lost their password or their user account was compromised, they can follow steps above. They will not lose any existing information in their service.
 
-If the admin user loses their password, the only way to reset the password is to uncomment the line
-```
-// add_user("cmsadmin", "1234");
-```
-
-in the `/cms/index.php` file, and then login once into the CMS using the default password. Make sure to recomment the line after the initial login.
+If the admin user loses their password, the only way to reset the password is go into `/cms/ps.txt` and delete the line that begins with `cmsadmin`. On the next login, the password will be reset to the default password.
 
