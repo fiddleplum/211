@@ -16,5 +16,12 @@ To creating a member user so an organization can modify their own service inform
 1. The admin gives the organization contact the username and password.
 1. The organization contact can then login via the CMS and modify their service information and change their password.
 
-If the organization contact requests a new password from the admin because they lost or their password or their user account was compromised, they can follow steps above. They will not lose any existing information in their service.
+If the organization contact requests a new password from the admin because they lost their password or their user account was compromised, they can follow steps above. They will not lose any existing information in their service.
+
+If the admin user loses their password, the only way to reset the password is to uncomment the line
+```
+// add_user("cmsadmin", "1234");
+```
+
+in the `/cms/index.php` file, and then login once into the CMS using the default password. Make sure to recomment the line after the initial login.
 
