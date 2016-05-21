@@ -247,7 +247,7 @@ else {
 		$password = bin2hex(openssl_random_pseudo_bytes(4));
 		add_user($service, $password);
 		?>
-		<p>The user has been created or updated. The password is <?php echo $password ?>. This is the only time it will be visible, so record it now.</p>
+		<p>The user has been created or updated. The username is <?php echo $service ?> and the password is <?php echo $password ?>. This is the only time it will be visible, so record it now.</p>
 		<a href=".">Return</a>
 		<?php
 	}
