@@ -23,3 +23,7 @@ form .day { display: inline-block; width: 3em; }
 	form div span.left { width: 10em; }
 	form div span.right { width: calc(100% - 11em); }
 }
+@media screen and (max-width: 460px) {
+	form div span.left { width: 5em; }
+	form div span.right { width: calc(100% - 6em); }
+}
