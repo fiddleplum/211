@@ -1,4 +1,27 @@
 <?php
+	function get_time_string($time) { // time is in the format HHMM, as a number
+		$hour = floor($time / 100);
+		$minute = $time % 100;
+		$text = '';
+		if($hour == 0)
+			$text .= ($hour + 12);
+		else if($hour > 0 && $hour <= 12)
+			$text .= $hour;
+		else
+			$text .= ($hour - 12);
+		if($minute > 0) {
+			if($minute < 10)
+				$text .= ':0' . $minute;
+			else
+				$text .= ':' . $minute;
+		}
+		if($hour < 12 || $hour == 24)
+			$text .= ' am';
+		else
+			$text .= ' pm';
+		return $text;	
+	}
+
 	@require("ps.php");
 
 	$op = isset($_GET["op"]) ? $_GET["op"] : "";
@@ -124,22 +147,51 @@ else {
 			?>
 			<form action="?op=save&service=<?php echo htmlspecialchars($service); ?>" method="post">
 			<div><span class="left">Name:</span><span class="right"><input name="name" type="text" value="<?php echo htmlspecialchars($services[$service]["name"]); ?>" /></span></div>
-			<div><span class="left">Short Description:</span><span class="right"><textarea name="short_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["short_description"]); ?></textarea></span></div>
+			<div><span class="left">Short Description:</span><span class="right"><textarea name="short_description" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["short_description"]); ?></textarea></span></div>
 			<div><span class="left">Long Description:</span><span class="right"><textarea name="long_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["long_description"]); ?></textarea></span></div>
-			<div><span class="left">Address:</span><span class="right"><input name="address" type="text" value="<?php echo htmlspecialchars($services[$service]["address"]); ?>" /></span></div>
+			<div><span class="left">Full Address:</span><span class="right"><input name="address" type="text" value="<?php echo htmlspecialchars($services[$service]["address"]); ?>" /></span></div>
 			<div><span class="left">Point of Contact:</span><span class="right"><input name="point_of_contact" type="text" value="<?php echo htmlspecialchars($services[$service]["point_of_contact"]); ?>" /></span></div>
-			<div><span class="left">Phone 1:</span><span class="right"><input name="phone_1" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_1"]); ?>" /></span></div>
-			<div><span class="left">Phone 2:</span><span class="right"><input name="phone_2" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_2"]); ?>" /></span></div>
-			<div><span class="left">Phone 3:</span><span class="right"><input name="phone_3" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_3"]); ?>" /></span></div>
+			<div><span class="left">Phone 1:</span><span class="right"><input class="half" name="phone_1" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_1"]); ?>" /> <span class="tip">(###) ###-####</span></span></div>
+			<div><span class="left">Phone 2:</span><span class="right"><input class="half" name="phone_2" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_2"]); ?>" /> <span class="tip">(###) ###-####</span></span></div>
+			<div><span class="left">Phone 3:</span><span class="right"><input class="half" name="phone_3" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_3"]); ?>" /> <span class="tip">(###) ###-####</span></span></div>
 			<div><span class="left">E-mail 1:</span><span class="right"><input name="email_1" type="text" value="<?php echo htmlspecialchars($services[$service]["email_1"]); ?>" /></span></div>
 			<div><span class="left">E-mail 2:</span><span class="right"><input name="email_2" type="text" value="<?php echo htmlspecialchars($services[$service]["email_2"]); ?>" /></span></div>
 			<div><span class="left">E-mail 3:</span><span class="right"><input name="email_3" type="text" value="<?php echo htmlspecialchars($services[$service]["email_3"]); ?>" /></span></div>
 			<div><span class="left">Website:</span><span class="right"><input name="website" type="text" value="<?php echo htmlspecialchars($services[$service]["website"]); ?>" /></span></div>
-			<div><span class="left">Hours:</span><span class="right"><textarea name="hours" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["hours"]); ?></textarea></span></div>
-			<div><span class="left">Extra Info:</span><span class="right"><textarea name="extra_info" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["extra_info"]); ?></textarea></span></div>
-			<div><span class="left">Spanish Short Description:</span><span class="right"><textarea name="spanish_short_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["spanish_short_description"]); ?></textarea></span></div>
+			<div><span class="left">Hours:</span><span class="right"><?php
+			$days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+			$hours = explode(",", $services[$service]["hours"]);
+			for($day = 0; $day < 7; $day++) {
+				$serviceTimes = explode("-", $hours[$day]);
+				$closed = ($serviceTimes[0] == "0000" && $serviceTimes[1] == "0000");
+				echo "<div><span class=\"day\">" . $days[$day] . ":</span> <select name=\"hours_open_$day\">";
+				echo "<option value=\"\"></option>";
+				for($time = 0; $time < 2400; $time += 30) {
+					$hour = floor($time / 100);
+					$minute = $time % 100;
+					echo "<option value=\"" . $time . "\"" . ($serviceTimes[0] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
+					if($minute == 30) {
+						$time = ($hour * 100) + 70;
+					}
+				}
+				echo "</select> to <select name=\"hours_close_$day\">";
+				echo "<option value=\"\"></option>";
+				for($time = 0; $time < 2400; $time += 30) {
+					$hour = floor($time / 100);
+					$minute = $time % 100;
+					echo "<option value=\"" . $time . "\"" . ($serviceTimes[1] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
+					if($minute == 30) {
+						$time = ($hour * 100) + 70;
+					}
+				}
+				echo "</select> Closed: <input name=\"closed_$day\" type=\"checkbox\"" . ($closed ? "checked" : "") . " value=\"checked\"/></div>";
+			}
+
+			?></span></div>
+			<div><span class="left">Extra Info:</span><span class="right"><textarea name="extra_info" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["extra_info"]); ?></textarea></span></div>
+			<div><span class="left">Spanish Short Description:</span><span class="right"><textarea name="spanish_short_description" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["spanish_short_description"]); ?></textarea></span></div>
 			<div><span class="left">Spanish Long Description:</span><span class="right"><textarea name="spanish_long_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["spanish_long_description"]); ?></textarea></span></div>
-			<div><span class="left">Categories:</span><span class="right"><input name="categories" type="text" value="<?php echo $services[$service]["categories"]; ?>" /></span></div>
+			<div><span class="left">Categories:</span><span class="right"><input class="half" name="categories" type="text" value="<?php echo $services[$service]["categories"]; ?>" /> <span class="tip">comma separated</span></span></div>
 			<div class="buttons" style="text-align: right;"><a href=".">Cancel</a><input type="submit" value="Save" /></div>
 			</form>
 			<?php
@@ -184,6 +236,24 @@ else {
 		<?php
 	}
 	else if($op == "save" && ($id == "cmsadmin" || $id == $service)) {
+		// make hours string
+		$hours = "";
+		for($day = 0; $day < 7; $day++) {
+			if(isset($_POST["closed_$day"]) && $_POST["closed_$day"] == "checked") {
+				$hours .= "0000-0000";
+			}
+			else if($_POST["hours_open_$day"] == "" || $_POST["hours_close_$day"] == "") {
+				$hours .= "";
+			}
+			else {
+				$hours .= str_pad($_POST["hours_open_$day"], 4, "0000", STR_PAD_LEFT) . "-" . str_pad($_POST["hours_close_$day"], 4, "0000", STR_PAD_LEFT);
+			}
+			if($day < 6) {
+				$hours .= ",";
+			}
+		}
+
+		// set the new service info
 		$services = loadServices();
 		$services[$service]["id"] = $service;
 		$services[$service]["name"] = $_POST["name"];
@@ -198,7 +268,7 @@ else {
 		$services[$service]["email_2"] = $_POST["email_2"];
 		$services[$service]["email_3"] = $_POST["email_3"];
 		$services[$service]["website"] = $_POST["website"];
-		$services[$service]["hours"] = $_POST["hours"];
+		$services[$service]["hours"] = $hours;
 		$services[$service]["extra_info"] = $_POST["extra_info"];
 		$services[$service]["spanish_short_description"] = $_POST["spanish_short_description"];
 		$services[$service]["spanish_long_description"] = $_POST["spanish_long_description"];
