@@ -19,6 +19,9 @@ var Map = {
 		for(var i in Map._markers)
 			Map._markers[i].setMap(null);
 		Map._markers = [];
+    
+    Map._coordinates = [];
+
 		Map.closeInfoWindow();
 		Map._infoWindows = [];
 		for(var i in services) {
@@ -28,6 +31,11 @@ var Map = {
 				position: new google.maps.LatLng(service.lat, service.lon),
 				title: service.name
 			});
+
+      var serviceCoordinate = {};
+      serviceCoordinate[i] = service.lat.toString() +',' + service.lon.toString();
+      Map._coordinates.push(serviceCoordinate);
+
 			Map._markers.push(marker);
 			var infoWindow = new google.maps.InfoWindow({content: serviceToHtml(service)});
 			Map._infoWindows[service.id] = infoWindow;
@@ -39,6 +47,22 @@ var Map = {
 				Map._openInfoWindow = this.infoWindow;
 			});
 		}
+
+
+    var unique = [];
+    var duplicates = [];
+    var coordinateReports = [];
+    Map._coordinates.forEach(function(current,index,array){
+      var coordinate = current[index];
+      if ( unique.indexOf(coordinate) === -1 ) {
+        unique.push(coordinate);
+      }
+      else {
+        duplicates.push(coordinate);
+        coordinateReports.push([index]);
+      }
+    });
+
 	},
 
 	// Opens the info window of a service. This will also close all other info windows.
@@ -62,6 +86,7 @@ var Map = {
 
 	_map: null,
 	_markers: [],
+  _coordinates: [],
 	_infoWindows: [],
 	_openInfoWindow: null
 }
