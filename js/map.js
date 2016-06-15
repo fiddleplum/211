@@ -19,11 +19,29 @@ var Map = {
 		for(var i in Map._markers)
 			Map._markers[i].setMap(null);
 		Map._markers = [];
-    
+
     Map._coordinates = [];
 
 		Map.closeInfoWindow();
 		Map._infoWindows = [];
+
+    for(var i in services) {
+      var singleService = services[i];
+      var serviceCoordinate = {};
+      serviceCoordinate['coordinate'] = singleService.lat.toString() +',' + singleService.lon.toString();
+      Map._coordinates.push(serviceCoordinate);
+    }
+
+    var counter = {};
+    for(var j = 0; j < Map._coordinates.length; j++) {
+      if (counter[Map._coordinates[j].coordinate]) {
+        counter[Map._coordinates[j].coordinate].push(j);
+      }
+      else {
+        counter[Map._coordinates[j].coordinate] = [j];
+      }
+    }
+
 		for(var i in services) {
 			var service = services[i];
 			var marker = new google.maps.Marker({
@@ -31,13 +49,9 @@ var Map = {
 				position: new google.maps.LatLng(service.lat, service.lon),
 				title: service.name
 			});
-
-      var serviceCoordinate = {};
-      serviceCoordinate[i] = service.lat.toString() +',' + service.lon.toString();
-      Map._coordinates.push(serviceCoordinate);
-
 			Map._markers.push(marker);
-			var infoWindow = new google.maps.InfoWindow({content: serviceToHtml(service)});
+      // TODO: check if the indices are duplicates by looking at the counter, if they are we should push multiple entries into the infowindow
+      var infoWindow = new google.maps.InfoWindow({content: serviceToHtml(service)});
 			Map._infoWindows[service.id] = infoWindow;
 			marker.infoWindow = infoWindow;
 			infoWindow.marker = marker;
@@ -47,22 +61,6 @@ var Map = {
 				Map._openInfoWindow = this.infoWindow;
 			});
 		}
-
-
-    var unique = [];
-    var duplicates = [];
-    var coordinateReports = [];
-    Map._coordinates.forEach(function(current,index,array){
-      var coordinate = current[index];
-      if ( unique.indexOf(coordinate) === -1 ) {
-        unique.push(coordinate);
-      }
-      else {
-        duplicates.push(coordinate);
-        coordinateReports.push([index]);
-      }
-    });
-
 	},
 
 	// Opens the info window of a service. This will also close all other info windows.
