@@ -1,56 +1,47 @@
-women and girls programs
-transitional services for foster children
-referrals
-transportation services
-nutrition services
-preventative services for substance abuse
-disability employment services
-disability counseling
-classes
-career development
-reintegration
-
-
-
-
-
-in danger
+emergency
  - police
  - fire
-drug/alcohol abuse
- - prevention
- - recovery
-children
- - child care
- - foster care
- - transition from foster care
- - counseling
- - mentoring
- - after school programs
-women
+ - hotlines
+basic needs
+ - food
+ - clothing
+ - shelters
+ - urgent care
+people abuse
  - safe houses
  - abuse counseling
  - programs
-homeless
- - shelters
- - food aid
-poor
- - financial aid
- - employment services
+substance abuse
+ - prevention
+ - recovery
+health
+ - urgent care
+ - mental health
+ - medical aid
+ - disability services
  - nutrition education
- - legal services
-uneducated
+ - home care services
+transition
+ - from jail
+ - from homeless
+ - from foster system
+ - from another country
+youth/children
+ - child care
+ - foster care
+ - counseling
+ - mentoring
+ - after school programs
+education
  - tutoring
+ - literacy
  - career development
  - colleges
  - libraries
  - classes
-sick
- - urgent care
- - mental health
- - medical health
- - disability services
- - home care services
-reintegration
- - from prison
- - substance abuse recovery
+finance and law
+ - financial aid
+ - employment services
+ - legal services
+transportation
+
