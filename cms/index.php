@@ -124,7 +124,7 @@ else {
 	}
 	else if(($op == "add" && $id == "cmsadmin") || ($op == "edit" && ($id == "cmsadmin" || $id == $service))) {
 		if($op == "add") {
-			$service = bin2hex(openssl_random_pseudo_bytes(8));
+			$service = bin2hex(openssl_random_pseudo_bytes(4));
 			$services = array();
 			$services[$service] = createEmptyService();
 			?>
@@ -277,7 +277,7 @@ else {
 		saveServices($services);
 		?>
 		<p>Saving...</p>
-		<script>document.location = ".";</script>
+		<script>setTimeout(function() {document.location = "."}, 1000);</script>
 		<?php
 	}
 	else if($op == "remove" && ($id == "cmsadmin" || $id == $service)) {
@@ -293,7 +293,7 @@ else {
 			saveServices($services);
 			?>
 			<p>Removing...</p>
-			<script>document.location = ".";</script>
+			<script>setTimeout(function() {document.location = "."}, 1000);</script>
 			<?php
 		}
 	}
