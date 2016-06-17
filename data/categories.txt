@@ -1,0 +1,47 @@
+emergency
+ - police
+ - fire
+ - hotlines
+basic needs
+ - food
+ - clothing
+ - shelters
+ - urgent care
+people abuse
+ - safe houses
+ - abuse counseling
+ - programs
+substance abuse
+ - prevention
+ - recovery
+health
+ - urgent care
+ - mental health
+ - medical aid
+ - disability services
+ - nutrition education
+ - home care services
+transition
+ - from jail
+ - from homeless
+ - from foster system
+ - from another country
+youth/children
+ - child care
+ - foster care
+ - counseling
+ - mentoring
+ - after school programs
+education
+ - tutoring
+ - literacy
+ - career development
+ - colleges
+ - libraries
+ - classes
+finance and law
+ - financial aid
+ - employment services
+ - legal services
+transportation
+
