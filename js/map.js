@@ -41,17 +41,27 @@ var Map = {
         counter[Map._coordinates[j].coordinate] = [j];
       }
     }
-
+    
 		for(var i in services) {
 			var service = services[i];
+      var singleServiceCoordinate = service.lat.toString() +',' + service.lon.toString();
 			var marker = new google.maps.Marker({
 				map: Map._map,
 				position: new google.maps.LatLng(service.lat, service.lon),
 				title: service.name
 			});
 			Map._markers.push(marker);
-      // TODO: check if the indices are duplicates by looking at the counter, if they are we should push multiple entries into the infowindow
-      var infoWindow = new google.maps.InfoWindow({content: serviceToHtml(service)});
+
+      function buildupfunctions(array) {
+        var result = '';
+        array.forEach(function(current,index,array){
+          result += serviceToHtml(services[current]);
+        });
+        return result;
+      }
+      var holdFunction = buildupfunctions(counter[singleServiceCoordinate]);
+
+      var infoWindow = new google.maps.InfoWindow({content: holdFunction});
 			Map._infoWindows[service.id] = infoWindow;
 			marker.infoWindow = infoWindow;
 			infoWindow.marker = marker;
