@@ -15,15 +15,13 @@ var Map = {
 	},
 
 	// Updates the map with the services from the Database. It takes a function serviceToHtml(service) which returns HTML that describes the service.
-	update: function(services, serviceToHtml) {
+  update: function(services, serviceToHtml) {
 		for(var i in Map._markers)
 			Map._markers[i].setMap(null);
-		Map._markers = [];
-
-    Map._coordinates = [];
-
-		Map.closeInfoWindow();
-		Map._infoWindows = [];
+  		Map._markers = [];
+      Map._coordinates = [];
+  		Map.closeInfoWindow();
+  		Map._infoWindows = [];
 
     for(var i in services) {
       var singleService = services[i];
@@ -41,7 +39,7 @@ var Map = {
         counter[Map._coordinates[j].coordinate] = [j];
       }
     }
-    
+
 		for(var i in services) {
 			var service = services[i];
       var singleServiceCoordinate = service.lat.toString() +',' + service.lon.toString();
@@ -51,17 +49,15 @@ var Map = {
 				title: service.name
 			});
 			Map._markers.push(marker);
-
-      function buildupfunctions(array) {
+      function buildUpInfoWindowServices(array) {
         var result = '';
         array.forEach(function(current,index,array){
           result += serviceToHtml(services[current]);
         });
         return result;
       }
-      var holdFunction = buildupfunctions(counter[singleServiceCoordinate]);
-
-      var infoWindow = new google.maps.InfoWindow({content: holdFunction});
+      var infoWindowContent = buildUpInfoWindowServices(counter[singleServiceCoordinate]);
+      var infoWindow = new google.maps.InfoWindow({content: infoWindowContent});
 			Map._infoWindows[service.id] = infoWindow;
 			marker.infoWindow = infoWindow;
 			infoWindow.marker = marker;
