@@ -27,33 +27,13 @@
       Bridging Pasadena
     </div>
     <div class="header-search">
-      <img id="menu_button" src="images/menu.svg" onclick="setMenuActive(true);"/>
+      <img id="menu_button" src="images/menu.svg" onclick="setActiveTopic('main'); setMenuActive(true);"/>
       <img id="search_button" src="images/search.svg" onclick="setBySearch($('#search_input')[0].value); setMenuActive(false);" />
       <span><input id="search_input" type="text" onkeydown="if(event.keyCode == 13) { setBySearch($('#search_input')[0].value); setMenuActive(false); }" /></span>
     </div>
 	</header>
 	<div class="site-content" id="content">
-		<div id="menu">
-		<div onclick="setCategory('church'); setMenuActive(false);"><img src="images/generic.svg"/><span>Church</span></div>
-		<div onclick="setCategory('city facility'); setMenuActive(false);"><img src="images/generic.svg"/><span>City Facility</span></div>
-		<div onclick="setCategory('college'); setMenuActive(false);"><img src="images/generic.svg"/><span>College</span></div>
-		<div onclick="setCategory('courthouse'); setMenuActive(false);"><img src="images/generic.svg"/><span>Courthouse</span></div>
-		<div onclick="setCategory('facility'); setMenuActive(false);"><img src="images/generic.svg"/><span>Facility</span></div>
-		<div onclick="setCategory('hotline'); setMenuActive(false);"><img src="images/generic.svg"/><span>Hotline</span></div>
-		<div onclick="setCategory('medical office'); setMenuActive(false);"><img src="images/generic.svg"/><span>Medical Office</span></div>
-		<div onclick="setCategory('housing facility'); setMenuActive(false);"><img src="images/generic.svg"/><span>Housing Facility</span></div>
-		<div onclick="setCategory('office building'); setMenuActive(false);"><img src="images/generic.svg"/><span>Office Building</span></div>
-		<div onclick="setCategory('private facility'); setMenuActive(false);"><img src="images/generic.svg"/><span>Private Facility</span></div>
-		<div onclick="setCategory('private medical facility'); setMenuActive(false);"><img src="images/generic.svg"/><span>Private Medical Facility</span></div>
-		<div onclick="setCategory('residential facility'); setMenuActive(false);"><img src="images/generic.svg"/><span>Residential Facility</span></div>
-		<div onclick="setCategory('store front'); setMenuActive(false);"><img src="images/generic.svg"/><span>Store Front</span></div>
-
-		<div onclick="setCategory('medicare'); setMenuActive(false);"><img src="images/health.svg"/><span>Health</span></div>
-		<div onclick="setCategory('food stamps'); setMenuActive(false);"><img src="images/food.svg"/><span>Food</span></div>
-		<div onclick="setCategory('employment'); setMenuActive(false);"><img src="images/employment.svg"/><span>Employment</span></div>
-		<div onclick="setCategory('social security'); setMenuActive(false);"><img src="images/libraries.svg"/><span>Libraries</span></div>
-		<div onclick="setCategory('shelters'); setMenuActive(false);"><img src="images/housing.svg"/><span>Housing</span></div>
-		</div>
+		<div id="menu"></div>
 		<div id="listbar" onclick="setListActive($('#list')[0].style.display != 'block');"><img src="images/up.svg" /><span>List</span><img src="images/up.svg" /></div>
 		<div id="map"></div>
 		<div id="list">
@@ -61,9 +41,13 @@
 	</div>
 </div>
 <script>
+
+populateMenu();
+
 initialize(function() {
 	setListActive(true);
 });
+
 </script>
 </body>
 </html>

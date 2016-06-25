@@ -78,12 +78,16 @@ var Database = {
 		return null;
 	},
 
-	// Returns a list of Services in the given category.
-	getServicesByCategory: function (category) {
+	// Returns a list of Services in all of the given categories array.
+	getServicesByCategory: function (categories) {
 		var services = [];
 		for(var i in Database._services) {
 			var service = Database._services[i];
-			if(service.categories.indexOf(category) != -1)
+			for(var j = 0; j < categories.length; j++) {
+				if(service.categories.indexOf(categories[j] == -1))
+					break;
+			}
+			if(j == categories.length) // it matched every category
 				services.push(service);
 		}
 		return services;
