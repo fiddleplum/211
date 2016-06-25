@@ -45,3 +45,55 @@ finance and law
  - legal services
 transportation
 
+
+
+
+
+
+
+police
+fire
+emergency room
+hotlines
+relief
+food
+shelters
+clothing
+urgent care
+disability
+financial aid
+legal aid
+employment services
+housing
+tutoring
+literacy
+career development
+colleges/universities
+libraries
+classes
+public schools
+parks
+child care
+foster care
+counseling
+mentoring
+after school programs
+health care
+mental health
+home care
+nutrition education
+HIV/AIDS and terminal illness
+pregnancy and family planning
+seniors
+homelessness
+programs
+substance abuse recovery
+substance abuse prevention
+domestic abuse counseling
+jail
+integration
+safe houses
+women
+youth
+veterans
+
