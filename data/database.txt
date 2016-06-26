@@ -1,4 +1,4 @@
-id,name,short_description,long_description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,hours,extra_info,spanish_short_description,spanish_long_description,categories,lat,lon
+id,name,short_description,long_description,categories,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,hours,extra_info,spanish_short_description,spanish_long_description,lat,lon
 00000000,Bienvenidos,Mental Health and Foster Car Services.,,"mental health,foster care","255 N San Gabriel Blvd, Pasadena, CA 91107",,(626) 696-1270,,,,,,,,,,,34.1477849,-118.1445155
 00000001,Casa de las Amigas,A 24-hour alcohol and drug residential treatment center for women.,,"alcohol treatment,substance abuse recovery","160 N El Molino Ave, Pasadena, CA 91101",Flora Esquivel,(626) 792-2770,,,,,,,,,,,34.1477849,-118.1445155
 00000002,Elizabeth House,"Shelter and support services for pregnant, homeless women and children.",,"women shelters,family shelters","760 Santa Barbara St, Pasadena, CA 91101",Terry Bright,(626) 577-4434,,,contact@elizabethhouse.net,,,,,,,,34.1477849,-118.1445155
