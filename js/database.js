@@ -15,8 +15,6 @@ var Service = function() {
 	this.website = '';
 	this.hours = [];
 	this.extra_info = '';
-	this.spanish_short_description = '';
-	this.spanish_long_description = '';
 	this.categories = [];
 	this.lat = 0;
 	this.lon = 0;
@@ -54,8 +52,6 @@ var Database = {
 					}
 				}
 				service.extra_info = data[i].extra_info;
-				service.spanish_short_description = data[i].spanish_short_description;
-				service.spanish_long_description = data[i].spanish_long_description;
 				service.categories = data[i].categories.toLowerCase().split(',');
 				service.lat = data[i].lat;
 				service.lon = data[i].lon;
@@ -104,8 +100,6 @@ var Database = {
 				|| service.name.toLowerCase().indexOf(search) != -1
 				|| service.short_description.toLowerCase().indexOf(search) != -1
 				|| service.long_description.toLowerCase().indexOf(search) != -1
-				|| service.spanish_short_description.toLowerCase().indexOf(search) != -1
-				|| service.spanish_long_description.toLowerCase().indexOf(search) != -1
 				|| service.address.toLowerCase().indexOf(search) != -1)
 				services.push(service);
 		}

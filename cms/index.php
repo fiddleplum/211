@@ -189,8 +189,6 @@ else {
 
 			?></span></div>
 			<div><span class="left">Extra Info:</span><span class="right"><textarea name="extra_info" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["extra_info"]); ?></textarea></span></div>
-			<div><span class="left">Spanish Short Description:</span><span class="right"><textarea name="spanish_short_description" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["spanish_short_description"]); ?></textarea></span></div>
-			<div><span class="left">Spanish Long Description:</span><span class="right"><textarea name="spanish_long_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["spanish_long_description"]); ?></textarea></span></div>
 			<div><span class="left">Categories:</span><span class="right"><input class="half" name="categories" type="text" value="<?php echo $services[$service]["categories"]; ?>" /> <span class="tip">comma separated</span></span></div>
 			<div class="buttons" style="text-align: right;"><a href=".">Cancel</a><input type="submit" value="Save" /></div>
 			</form>
@@ -270,8 +268,6 @@ else {
 		$services[$service]["website"] = $_POST["website"];
 		$services[$service]["hours"] = $hours;
 		$services[$service]["extra_info"] = $_POST["extra_info"];
-		$services[$service]["spanish_short_description"] = $_POST["spanish_short_description"];
-		$services[$service]["spanish_long_description"] = $_POST["spanish_long_description"];
 		$services[$service]["categories"] = $_POST["categories"];
 		updateGeocode($services[$service], false);
 		saveServices($services);

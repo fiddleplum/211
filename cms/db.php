@@ -22,8 +22,6 @@ function loadServices() {
 		$service["website"] = $data[$i][$c]; $c++;
 		$service["hours"] = $data[$i][$c]; $c++;
 		$service["extra_info"] = $data[$i][$c]; $c++;
-		$service["spanish_short_description"] = $data[$i][$c]; $c++;
-		$service["spanish_long_description"] = $data[$i][$c]; $c++;
 		$service["categories"] = $data[$i][$c]; $c++;
 		$service["lat"] = $data[$i][$c]; $c++;
 		$service["lon"] = $data[$i][$c]; $c++;
@@ -33,7 +31,7 @@ function loadServices() {
 }
 
 function saveServices($services) {
-	$contents = "id,name,short_description,long_description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,hours,extra_info,spanish_short_description,spanish_long_description,categories,lat,lon\n";
+	$contents = "id,name,short_description,long_description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,hours,extra_info,categories,lat,lon\n";
 	foreach($services as $service) {
 		$contents .= cleanCsvField($service["id"]) . ",";
 		$contents .= cleanCsvField($service["name"]) . ",";
@@ -50,8 +48,6 @@ function saveServices($services) {
 		$contents .= cleanCsvField($service["website"]) . ",";
 		$contents .= cleanCsvField($service["hours"]) . ",";
 		$contents .= cleanCsvField($service["extra_info"]) . ",";
-		$contents .= cleanCsvField($service["spanish_short_description"]) . ",";
-		$contents .= cleanCsvField($service["spanish_long_description"]) . ",";
 		$contents .= cleanCsvField($service["categories"]) . ",";
 		$contents .= cleanCsvField($service["lat"]) . ",";
 		$contents .= cleanCsvField($service["lon"]);
@@ -87,8 +83,6 @@ function createEmptyService() {
 	$service["website"] = "";
 	$service["hours"] = "";
 	$service["extra_info"] = "";
-	$service["spanish_short_description"] = "";
-	$service["spanish_long_description"] = "";
 	$service["categories"] = "";
 	$service["lat"] = "";
 	$service["lon"] = "";
