@@ -97,11 +97,9 @@ function createEmptyService() {
 
 function updateGeocode(&$service, $output) {
 	$address = $service["address"];
-	if(stripos($address, "pasadena") === false) // remove once we get a good database
-		$address .= ", Pasadena, CA";
 	$encodedAddress = urlencode($address);
 	$url = "http://maps.google.com/maps/api/geocode/json?address=$encodedAddress";
-	$contents = file_get_contents($url);
+	$contents = @file_get_contents($url);
 	$response = json_decode($contents, true);
 	if($response["status"] == "OK") {
 		$service["lat"] = $response['results'][0]['geometry']['location']['lat'];
