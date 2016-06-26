@@ -27,11 +27,10 @@ function setMenuActive(active) {
 	Map.closeInfoWindow();
 	if(active) {
 		$('#menu').fadeIn('fast');
-		$('#menu_button')[0].src = 'images/map-reversed.svg';
+		$('#list').fadeOut('fast');
 	}
 	else {
 		$('#menu').fadeOut('fast');
-		$('#menu_button')[0].src = 'images/menu.svg';
 	}
 }
 
@@ -85,7 +84,7 @@ function getTimeString(time) { // time is in the format HHMM, as a number
 		text += ' am';
 	else
 		text += ' pm';
-	return text;	
+	return text;
 }
 
 // Returns nice html from the given service.
@@ -148,6 +147,9 @@ function serviceToHtml(service) {
 function setCategory(category) {
 	services = Database.getServicesByCategory(category);
 	Map.update(services, serviceToHtml);
+	if (!($('#map')[0].style.display == 'block')) {
+		setListActive(true);
+	}
 	updateList();
 }
 
@@ -207,4 +209,3 @@ function toggleLongDescription(serviceId) {
 
 
 }
-

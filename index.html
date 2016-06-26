@@ -27,9 +27,9 @@
       Bridging Pasadena
     </div>
     <div class="header-search">
-      <img id="menu_button" src="images/map-reversed.svg" onclick="setMenuActive($('#menu')[0].style.display == 'none');"/>
+      <img id="menu_button" src="images/menu.svg" onclick="setMenuActive(true);"/>
       <img id="search_button" src="images/search.svg" onclick="setBySearch($('#search_input')[0].value); setMenuActive(false);" />
-      <span><input id="search_input" type="text" onkeydown="if(event.keyCode == 13) { setBySearch($('#search_input')[0].value); setMenuActive(false); }" /></span>  
+      <span><input id="search_input" type="text" onkeydown="if(event.keyCode == 13) { setBySearch($('#search_input')[0].value); setMenuActive(false); }" /></span>
     </div>
 	</header>
 	<div class="site-content" id="content">
@@ -54,8 +54,8 @@
 		<div onclick="setCategory('social security'); setMenuActive(false);"><img src="images/libraries.svg"/><span>Libraries</span></div>
 		<div onclick="setCategory('shelters'); setMenuActive(false);"><img src="images/housing.svg"/><span>Housing</span></div>
 		</div>
-		<div id="map"></div>
 		<div id="listbar" onclick="setListActive($('#list')[0].style.display != 'block');"><img src="images/up.svg" /><span>List</span><img src="images/up.svg" /></div>
+		<div id="map"></div>
 		<div id="list">
 		</div>
 	</div>
