@@ -1,3 +1,49 @@
+// The first level are called Topics and the second level are subtopics. Categories are the actual search terms.
+var topics = {
+	'Emergency': {
+		'Police': ['police'],
+		'Fire': ['fire'],
+		'Hotlines': ['hotline'],
+		'Emergency Rooms': ['emergency room'],
+		'Urgent Care': ['urgent care'],
+		'Disaster Relief': ['relief'] },
+	'Basic Needs': {
+		'Food': ['food'],
+		'Shelters': ['shelter'],
+		'Clothing': ['clothing'] },
+	'Health': {
+		'Urgent Care': ['urgent care'],
+		'Mental Health': ['mental health'],
+		'Medical Services': ['medical'],
+		'Disability Services': ['disability'],
+		'Nutrition Education': ['nutrition'],
+		'Home Care': ['home care'] },
+	'Substance Abuse': {
+		'Recovery Centers': ['substance abuse recovery'],
+		'Prevention Programs': ['substance abuse prevention'] },
+	'Violence & Abuse': {
+		'Safe Houses': ['safe house'],
+		'Abuse Counseling': ['abuse counseling'] },
+	'Youth & Children': {
+		'Tutoring': ['tutoring'],
+		'Mentoring': ['mentoring'],
+		'Abuse Counseling': ['abuse counseling'],
+		'Foster Care': ['foster care'],
+		'After School Programs': ['after school program'] },
+	'Jobs, Financial & Legal Aid': {
+		'Financial Aid': ['financial aid'],
+		'Employment Services': ['employment'],
+		'Career Development': ['career development'],
+		'Legal Services': ['legal service'] },
+	'Education': {
+		'Tutoring': ['tutoring'],
+		'Literacy Programs': ['literacy'],
+		'Public Schools': ['school'],
+		'Colleges': ['college'],
+		'Libraries': ['library'],
+		'Classes': ['class'] },
+};
+
 var currentDay = 0;
 var currentTime = 0;
 
@@ -22,7 +68,7 @@ function initialize(callback) {
 	Map.initialize($('#map')[0]);
 }
 
-// [De]activates the menu.
+// Activates and deactivates the menu.
 function setMenuActive(active) {
 	Map.closeInfoWindow();
 	if(active) {
@@ -34,6 +80,38 @@ function setMenuActive(active) {
 	}
 }
 
+// This uses the topics and populates the #menu div with all of the topic menus.
+function populateMenu() {
+	var html = '';
+	html += '<div id="main" class="topic" style="display: block;">';
+	for(var topic in topics) {
+		html += '<div class="icon" onclick="setActiveTopic(\'' + topic.replace(/ /g, '').replace(/&/g,'') + '\');"><img src="images/generic.svg"/><span>' + topic + '</span></div>';
+	}
+	html += '</div>';
+	for(var topic in topics) {
+		html += '<div id="' + topic.replace(/ /g, '').replace(/&/g, '') + '" class="topic" style="display: none;">';
+		html += '<div class="icon" onclick="setActiveTopic(\'main\');"><img src="images/generic.svg"/><span>Back</span></div>';
+		for(var subtopic in topics[topic]) {
+			html += '<div class="icon" onclick="setCategories(topics[\'' + topic + '\'][\'' + subtopic + '\']); setMenuActive(false);"><img src="images/generic.svg"/><span>' + subtopic + '</span></div>';
+		}
+		html += '</div>';
+	}
+	$('#menu').html(html);
+}
+
+// This changes the topic that is shown to the user.
+var activeTopic = 'main';
+function setActiveTopic(topic) {
+	if(activeTopic != '') {
+		$('#' + activeTopic).fadeOut('fast', function() {
+			$('#' + topic).fadeIn('fast');
+		});
+	}
+	else {
+		$('#' + topic).fadeIn('fast');
+	}
+	activeTopic = topic;
+}
 // [De]activates the list.
 function setListActive(active, doneFunction) {
 	Map.closeInfoWindow();
@@ -137,15 +215,14 @@ function serviceToHtml(service) {
 		html += '</p>';
 	}
 	html += '<p><b>Categories</b>: ';
-	for(var c in service.categories)
-		html += service.categories[c] + ' ';
+	html += service.categories.join(', ');
 	html += '</p>';
 	return html;
 }
 
 // Sets the category
-function setCategory(category) {
-	services = Database.getServicesByCategory(category);
+function setCategories(categories) {
+	services = Database.getServicesByCategory(categories);
 	Map.update(services, serviceToHtml);
 	if (!($('#map')[0].style.display == 'block')) {
 		setListActive(true);
