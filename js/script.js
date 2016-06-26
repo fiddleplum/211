@@ -1,47 +1,47 @@
 // The first level are called Topics and the second level are subtopics. Categories are the actual search terms.
 var topics = {
 	'Emergency': {
-		'Police': 'police',
-		'Fire': 'fire',
-		'Hotlines': 'hotline',
-		'Emergency Rooms': 'emergency room',
-		'Urgent Care': 'urgent care',
-		'Disaster Relief': 'relief' },
+		'Police': ['police'],
+		'Fire': ['fire'],
+		'Hotlines': ['hotline'],
+		'Emergency Rooms': ['emergency room'],
+		'Urgent Care': ['urgent care'],
+		'Disaster Relief': ['relief'] },
 	'Basic Needs': {
-		'Food': 'food',
-		'Shelters': 'shelter',
-		'Clothing': 'clothing' },
+		'Food': ['food'],
+		'Shelters': ['shelter'],
+		'Clothing': ['clothing'] },
 	'Health': {
-		'Urgent Care': 'urgent care',
-		'Mental Health': 'mental health',
-		'Medical Services': 'medical',
-		'Disability Services': 'disability',
-		'Nutrition Education': 'nutrition',
-		'Home Care': 'home care' },
+		'Urgent Care': ['urgent care'],
+		'Mental Health': ['mental health'],
+		'Medical Services': ['medical'],
+		'Disability Services': ['disability'],
+		'Nutrition Education': ['nutrition'],
+		'Home Care': ['home care'] },
 	'Substance Abuse': {
-		'Recovery Centers': 'substance abuse recovery',
-		'Prevention Programs': 'substance abuse prevention' },
+		'Recovery Centers': ['substance abuse recovery'],
+		'Prevention Programs': ['substance abuse prevention'] },
 	'Violence & Abuse': {
-		'Safe Houses': 'safe house',
-		'Abuse Counseling': 'abuse counseling' },
+		'Safe Houses': ['safe house'],
+		'Abuse Counseling': ['abuse counseling'] },
 	'Youth & Children': {
-		'Tutoring': 'tutoring',
-		'Mentoring': 'mentoring',
-		'Abuse Counseling': 'abuse counseling',
-		'Foster Care': 'foster care',
-		'After School Programs': 'after school program' },
+		'Tutoring': ['tutoring'],
+		'Mentoring': ['mentoring'],
+		'Abuse Counseling': ['abuse counseling'],
+		'Foster Care': ['foster care'],
+		'After School Programs': ['after school program'] },
 	'Jobs, Financial & Legal Aid': {
-		'Financial Aid': 'financial aid',
-		'Employment Services': 'employment',
-		'Career Development': 'career development',
-		'Legal Services': 'legal service' },
+		'Financial Aid': ['financial aid'],
+		'Employment Services': ['employment'],
+		'Career Development': ['career development'],
+		'Legal Services': ['legal service'] },
 	'Education': {
-		'Tutoring': 'tutoring',
-		'Literacy Programs': 'literacy',
-		'Public Schools': 'school',
-		'Colleges': 'college',
-		'Libraries': 'library',
-		'Classes': 'class' },
+		'Tutoring': ['tutoring'],
+		'Literacy Programs': ['literacy'],
+		'Public Schools': ['school'],
+		'Colleges': ['college'],
+		'Libraries': ['library'],
+		'Classes': ['class'] },
 };
 
 var currentDay = 0;
@@ -215,8 +215,7 @@ function serviceToHtml(service) {
 		html += '</p>';
 	}
 	html += '<p><b>Categories</b>: ';
-	for(var c in service.categories)
-		html += service.categories[c] + ' ';
+	html += service.categories.join(', ');
 	html += '</p>';
 	return html;
 }

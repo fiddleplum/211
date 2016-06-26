@@ -80,11 +80,12 @@ var Database = {
 
 	// Returns a list of Services in all of the given categories array.
 	getServicesByCategory: function (categories) {
+		console.log(categories);
 		var services = [];
 		for(var i in Database._services) {
 			var service = Database._services[i];
 			for(var j = 0; j < categories.length; j++) {
-				if(service.categories.indexOf(categories[j] == -1))
+				if(service.categories.indexOf(categories[j]) == -1)
 					break;
 			}
 			if(j == categories.length) // it matched every category
