@@ -19,7 +19,7 @@
 			$text .= ' am';
 		else
 			$text .= ' pm';
-		return $text;	
+		return $text;
 	}
 
 	@require("ps.php");
@@ -58,9 +58,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Content Management System</title>
+<link rel="stylesheet" href="../css/foundation.min.css">
 <link rel="stylesheet" type="text/css" href="cms.css"/>
 </head>
 <body>
+<header>
+  <div class="top-bar">
+    <div class="menu-text text-center">
+      Bridging Pasadena
+    </div>
+  </div>
+</header>
 <div id="page">
 
 <?php
@@ -72,54 +80,73 @@ $verified = verify_user_from_hash($id, $hash);
 
 if($verified !== true) {
 	?>
-	<h1>CMS Login</h1>
-	<form method="post" action="?op=login">
-	<p>Please enter your ID and password.</p>
-	<div><span class="left">ID:</span><span class="right"><input name="id" type="text" /></span></div>
-	<div><span class="left">Password:</span><span class="right"><input name="password" type="password" /></span></div>
-	<div class="buttons"><span class="right" style="text-align: right;"><input type="submit" value="Login" /></span></div>
-	</form>
+  <div class="row login-row">
+    <div class="small-12 large-6 large-centered columns">
+      <div>
+        <h1 class="text-center">Database Login</h1>
+        <p class="text-center">Please enter your User ID and password</p>
+        <form method="post" action="?op=login">
+          <div class="row collapse">
+            <div class="small-12 columns">
+              <label for="username">ID</label>
+              <input name="id" id="username" type="text" placeholder="username">
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="small-12 columns ">
+              <label for="password">Password</label>
+              <input name="password" id="password" type="text" placeholder="password">
+            </div>
+          </div>
+          <input type="submit" name="login" value="login" class="expanded button">
+        </form>
+      </div>
+    </div>
+   </div>
+
 	<?php
 }
 else {
 	@require("db.php");
 
 	$service = isset($_GET["service"]) ? $_GET["service"] : "";
-	
+
 	if($op == "") {
 		?>
-		<h1>Content Management System</h1>
+		<h1 class="text-center">Content Management System</h1>
+    <div class="row">
 		<?php
 		if($id == "cmsadmin") {
 			?>
-			<div id="left_menu">
-			<p>Services</p>
-			<a class="menu" href="?op=add">Add a Service</a>
-			<a class="menu" href="?op=choose&op2=edit">Edit a Service</a>
-			<a class="menu" href="?op=choose&op2=remove_confirm">Remove a Service</a>
-			<a class="menu" href="?op=latlon">Update Map Lat/Lons</a>
+			<div class="small-12 medium-6 columns">
+			<h3 class="text-center">Services</h3>
+			<a class="expanded button" href="?op=add">Add a Service</a>
+			<a class="expanded button" href="?op=choose&op2=edit">Edit a Service</a>
+			<a class="expanded button" href="?op=choose&op2=remove_confirm">Remove a Service</a>
+			<a class="expanded button" href="?op=latlon">Update Map Lat/Lons</a>
 			</div>
-			<div id="right_menu">
-			<p>Users</p>
-			<a class="menu" href="?op=choose&op2=create_user">Create/Reset User</a>
-			<a class="menu" href="?op=choose&op2=remove_user">Remove User</a>
+			<div class="small-12 medium-6 columns">
+			<h3 class="text-center">Users</h3>
+			<a class="expanded button" href="?op=choose&op2=create_user">Create/Reset User</a>
+			<a class="expanded button" href="?op=choose&op2=remove_user">Remove User</a>
 			<?php
 		}
 		else {
 			?>
-			<div id="left_menu">
-			<p>Services</p>
-			<a class="menu" href="?op=edit&service=<?php echo htmlspecialchars($id); ?>">Edit Your Service</a>
-			<a class="menu" href="?op=remove_confirm&service=<?php echo htmlspecialchars($id); ?>">Remove Your Service</a>
+			<div class="small-12 medium-6 columns">
+			<h3 class="text-center">Services</h3>
+			<a class="expanded button" href="?op=edit&service=<?php echo htmlspecialchars($id); ?>">Edit Your Service</a>
+			<a class="expanded button" href="?op=remove_confirm&service=<?php echo htmlspecialchars($id); ?>">Remove Your Service</a>
 			</div>
-			<div id="right_menu">
-			<p>Users</p>
+			<div class="small-12 medium-6 columns">
+			<h3 class="text-center">Users</h3>
 			<?php
 		}
 		?>
-		<a class="menu" href="?op=change_password_form&service=<?php echo htmlspecialchars($id); ?>">Change Your Password</a>
-		<a class="menu" href="?op=logout">Logout</a>
+		<a class="expanded button" href="?op=change_password_form&service=<?php echo htmlspecialchars($id); ?>">Change Your Password</a>
+		<a class="expanded button" href="?op=logout">Logout</a>
 		</div>
+  </div> <!-- closing .row -->
 		<?php
 	}
 	else if(($op == "add" && $id == "cmsadmin") || ($op == "edit" && ($id == "cmsadmin" || $id == $service))) {
