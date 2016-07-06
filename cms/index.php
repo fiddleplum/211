@@ -60,12 +60,14 @@
 <title>Content Management System</title>
 <link rel="stylesheet" href="../css/foundation.min.css">
 <link rel="stylesheet" type="text/css" href="cms.css"/>
+<script src="../js/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="../js/foundation.min.js"></script>
 </head>
 <body>
 <header>
   <div class="top-bar">
     <div class="menu-text text-center">
-      Bridging Pasadena
+      <a href=".">Bridging Pasadena</a>
     </div>
   </div>
 </header>
@@ -119,32 +121,32 @@ else {
 		if($id == "cmsadmin") {
 			?>
 			<div class="small-12 medium-6 columns">
-			<h3 class="text-center">Services</h3>
-			<a class="expanded button" href="?op=add">Add a Service</a>
-			<a class="expanded button" href="?op=choose&op2=edit">Edit a Service</a>
-			<a class="expanded button" href="?op=choose&op2=remove_confirm">Remove a Service</a>
-			<a class="expanded button" href="?op=latlon">Update Map Lat/Lons</a>
+  			<h3 class="text-center">Services</h3>
+  			<a class="expanded button" href="?op=add">Add a Service</a>
+  			<a class="expanded button" href="?op=choose&op2=edit">Edit a Service</a>
+  			<a class="expanded button" href="?op=choose&op2=remove_confirm">Remove a Service</a>
+  			<a class="expanded button" href="?op=latlon">Update Map Lat/Lons</a>
 			</div>
 			<div class="small-12 medium-6 columns">
-			<h3 class="text-center">Users</h3>
-			<a class="expanded button" href="?op=choose&op2=create_user">Create/Reset User</a>
-			<a class="expanded button" href="?op=choose&op2=remove_user">Remove User</a>
+  			<h3 class="text-center">Users</h3>
+  			<a class="expanded button" href="?op=choose&op2=create_user">Create/Reset User</a>
+  			<a class="expanded button" href="?op=choose&op2=remove_user">Remove User</a>
 			<?php
 		}
 		else {
 			?>
 			<div class="small-12 medium-6 columns">
-			<h3 class="text-center">Services</h3>
-			<a class="expanded button" href="?op=edit&service=<?php echo htmlspecialchars($id); ?>">Edit Your Service</a>
-			<a class="expanded button" href="?op=remove_confirm&service=<?php echo htmlspecialchars($id); ?>">Remove Your Service</a>
+  			<h3 class="text-center">Services</h3>
+  			<a class="expanded button" href="?op=edit&service=<?php echo htmlspecialchars($id); ?>">Edit Your Service</a>
+  			<a class="expanded button" href="?op=remove_confirm&service=<?php echo htmlspecialchars($id); ?>">Remove Your Service</a>
 			</div>
 			<div class="small-12 medium-6 columns">
-			<h3 class="text-center">Users</h3>
+			     <h3 class="text-center">Users</h3>
 			<?php
 		}
 		?>
-		<a class="expanded button" href="?op=change_password_form&service=<?php echo htmlspecialchars($id); ?>">Change Your Password</a>
-		<a class="expanded button" href="?op=logout">Logout</a>
+  		<a class="expanded button" href="?op=change_password_form&service=<?php echo htmlspecialchars($id); ?>">Change Your Password</a>
+  		<a class="expanded button" href="?op=logout">Logout</a>
 		</div>
   </div> <!-- closing .row -->
 		<?php
@@ -155,13 +157,13 @@ else {
 			$services = array();
 			$services[$service] = createEmptyService();
 			?>
-			<h1>Add a Service</h1>
+			<h1 class="text-center">Add a Service</h1>
 			<?php
 		}
 		else if ($op == "edit") {
 			$services = loadServices();
 			?>
-			<h1>Edit a Service</h1>
+			<h1 class="text-center">Edit a Service</h1>
 			<?php
 		}
 		if(isset($services[$service]) === false) {
@@ -173,91 +175,166 @@ else {
 		else {
 			?>
 			<form action="?op=save&service=<?php echo htmlspecialchars($service); ?>" method="post">
-			<div><span class="left">Name:</span><span class="right"><input name="name" type="text" value="<?php echo htmlspecialchars($services[$service]["name"]); ?>" /></span></div>
-			<div><span class="left">Short Description:</span><span class="right"><textarea name="short_description" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["short_description"]); ?></textarea></span></div>
-			<div><span class="left">Long Description:</span><span class="right"><textarea name="long_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["long_description"]); ?></textarea></span></div>
-			<div><span class="left">Full Address:</span><span class="right"><input name="address" type="text" value="<?php echo htmlspecialchars($services[$service]["address"]); ?>" /></span></div>
-			<div><span class="left">Point of Contact:</span><span class="right"><input name="point_of_contact" type="text" value="<?php echo htmlspecialchars($services[$service]["point_of_contact"]); ?>" /></span></div>
-			<div><span class="left">Phone 1:</span><span class="right"><input class="half" name="phone_1" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_1"]); ?>" /> <span class="tip">(###) ###-####</span></span></div>
-			<div><span class="left">Phone 2:</span><span class="right"><input class="half" name="phone_2" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_2"]); ?>" /> <span class="tip">(###) ###-####</span></span></div>
-			<div><span class="left">Phone 3:</span><span class="right"><input class="half" name="phone_3" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_3"]); ?>" /> <span class="tip">(###) ###-####</span></span></div>
-			<div><span class="left">E-mail 1:</span><span class="right"><input name="email_1" type="text" value="<?php echo htmlspecialchars($services[$service]["email_1"]); ?>" /></span></div>
-			<div><span class="left">E-mail 2:</span><span class="right"><input name="email_2" type="text" value="<?php echo htmlspecialchars($services[$service]["email_2"]); ?>" /></span></div>
-			<div><span class="left">E-mail 3:</span><span class="right"><input name="email_3" type="text" value="<?php echo htmlspecialchars($services[$service]["email_3"]); ?>" /></span></div>
-			<div><span class="left">Website:</span><span class="right"><input name="website" type="text" value="<?php echo htmlspecialchars($services[$service]["website"]); ?>" /></span></div>
-			<div><span class="left">Hours:</span><span class="right"><?php
-			$days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-			$hours = explode(",", $services[$service]["hours"]);
-			for($day = 0; $day < 7; $day++) {
-				$serviceTimes = explode("-", $hours[$day]);
-				$closed = ($serviceTimes[0] == "0000" && $serviceTimes[1] == "0000");
-				echo "<div><span class=\"day\">" . $days[$day] . ":</span> <select name=\"hours_open_$day\">";
-				echo "<option value=\"\"></option>";
-				for($time = 0; $time < 2400; $time += 30) {
-					$hour = floor($time / 100);
-					$minute = $time % 100;
-					echo "<option value=\"" . $time . "\"" . ($serviceTimes[0] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
-					if($minute == 30) {
-						$time = ($hour * 100) + 70;
-					}
-				}
-				echo "</select> to <select name=\"hours_close_$day\">";
-				echo "<option value=\"\"></option>";
-				for($time = 0; $time < 2400; $time += 30) {
-					$hour = floor($time / 100);
-					$minute = $time % 100;
-					echo "<option value=\"" . $time . "\"" . ($serviceTimes[1] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
-					if($minute == 30) {
-						$time = ($hour * 100) + 70;
-					}
-				}
-				echo "</select> Closed: <input name=\"closed_$day\" type=\"checkbox\"" . ($closed ? "checked" : "") . " value=\"checked\"/></div>";
-			}
+        <div class="row">
+          <div class="small-12 large-8 large-offset-2 columns">
+            <div>
+              <label>Name:
+                <input name="name" type="text" value="<?php echo htmlspecialchars($services[$service]["name"]); ?>" placeholder="service name" />
+              </label>
+            </div>
+            <div>
+              <label>Short Description:
+                <textarea name="short_description" style="height: 5em;" placeholder="a short description of the service"><?php echo htmlspecialchars($services[$service]["short_description"]);?></textarea>
+              </label>
+            </div>
+            <div>
+              <label>Long Description:
+                <textarea name="long_description" style="height: 10em;" placeholder="a longer, more detailed information about the service"><?php echo htmlspecialchars($services[$service]["long_description"]); ?></textarea>
+              </label>
+            </div>
+            <div>
+              <label>Full Address:
+                <input name="address" type="text" value="<?php echo htmlspecialchars($services[$service]["address"]); ?>" placeholder="example: 100 Garfield Ave, Pasadena, CA 91101"/>
+              </label>
+            </div>
+            <div>
+              <label>Point of Contact:
+                <input name="point_of_contact" type="text" value="<?php echo htmlspecialchars($services[$service]["point_of_contact"]); ?>" placeholder="service point of contact" />
+              </label>
+            </div>
+            <div>
+              <label>Phone 1:
+                <input data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="(###) ###-####" name="phone_1" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_1"]); ?>" placeholder="###-###-####" />
+              </label>
+            </div>
+            <div>
+              <label>Phone 2:
+                <input data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="(###) ###-####" name="phone_2" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_2"]); ?>" placeholder="###-###-####"  />
+              </label>
+            </div>
+            <div>
+              <label>Phone 3:
+                <input data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="(###) ###-####" name="phone_3" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_3"]); ?>" placeholder="###-###-####"  />
+              </label>
+            </div>
+            <div>
+              <label>Email 1:
+                <input name="email_1" type="text" value="<?php echo htmlspecialchars($services[$service]["email_1"]); ?>"  placeholder="someone@example.com"  />
+              </label>
+            </div>
+            <div>
+              <label>Email 2:
+                <input name="email_2" type="text" value="<?php echo htmlspecialchars($services[$service]["email_2"]); ?>"  placeholder="someone@example.com" />
+              </label>
+            </div>
+            <div>
+              <label>Email 3:
+                <input name="email_3" type="text" value="<?php echo htmlspecialchars($services[$service]["email_3"]); ?>"  placeholder="someone@example.com"  />
+              </label>
+            </div>
+            <div>
+              <label>Website:
+                <input name="website" type="text" value="<?php echo htmlspecialchars($services[$service]["website"]); ?>"  placeholder="www.example.com"  />
+              </label>
+            </div>
+            <div class="hours">
+              <label>Hours:</label>
+              <?php
+              $days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+              $hours = explode(",", $services[$service]["hours"]);
+              for($day = 0; $day < 7; $day++) {
+                $serviceTimes = explode("-", $hours[$day]);
+                $closed = ($serviceTimes[0] == "0000" && $serviceTimes[1] == "0000");
+                echo "<div class=\"row\"><div class=\"small-12 medium-8 medium-offset-2 columns\"><label>" . $days[$day] . ":<select name=\"hours_open_$day\">";
+                echo "<option disabled selected value=\"\">Open Time</option>";
+                for($time = 0; $time < 2400; $time += 30) {
+                  $hour = floor($time / 100);
+                  $minute = $time % 100;
+                  echo "<option value=\"" . $time . "\"" . ($serviceTimes[0] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
+                  if($minute == 30) {
+                    $time = ($hour * 100) + 70;
+                  }
+                }
+                echo "</select></label> <span>to</span> <label><select name=\"hours_close_$day\">";
+                echo "<option disabled selected value=\"\">Close Time</option>";
+                for($time = 0; $time < 2400; $time += 30) {
+                  $hour = floor($time / 100);
+                  $minute = $time % 100;
+                  echo "<option value=\"" . $time . "\"" . ($serviceTimes[1] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
+                  if($minute == 30) {
+                    $time = ($hour * 100) + 70;
+                  }
+                }
+                echo "</select></label> <label>Closed: <input name=\"closed_$day\" type=\"checkbox\"" . ($closed ? "checked" : "") . " value=\"checked\"/></label></div></div>" ;
+              }
+              ?>
+            </div>
+            <div>
+              <label>Extra Info:
+                <textarea name="extra_info" style="height: 5em;" placeholder="extra relevant details about the service"><?php echo htmlspecialchars($services[$service]["extra_info"]); ?></textarea>
+              </label>
+            </div>
+            <div>
+              <label>Categories:
+                <input data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="Comma Separated" class="half" name="categories" type="text" value="<?php echo $services[$service]["categories"]; ?>" placeholder="Comma separated list of category tags"/>
+              </label>
+            </div>
+            <div class="float-right">
+              <a class="button" href=".">Cancel</a>
+              <input class="button" type="submit" value="Save" />
+            </div>
+          </div>
 
-			?></span></div>
-			<div><span class="left">Extra Info:</span><span class="right"><textarea name="extra_info" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["extra_info"]); ?></textarea></span></div>
-			<div><span class="left">Categories:</span><span class="right"><input class="half" name="categories" type="text" value="<?php echo $services[$service]["categories"]; ?>" /> <span class="tip">comma separated</span></span></div>
-			<div class="buttons" style="text-align: right;"><a href=".">Cancel</a><input type="submit" value="Save" /></div>
+        </div> <!-- end of .row -->
+
 			</form>
 			<?php
 		}
 	}
 	else if($op == "remove_confirm" && ($id == "cmsadmin" || $id == $service)) {
+    ?>
+    <div class="row">
+    <?php
 		$services = loadServices();
 		if(isset($services[$service]) === false) {
 			?>
-			<p>Invalid service. Please choose another.</p>
-			<a href=".">Return</a>
+			<p class="text-center">Invalid service. Please choose another.</p>
+			<a class="button float-right" href=".">Return</a>
 			<?php
 		}
 		else {
 			?>
-			<form action="?op=remove&service=<?php echo htmlspecialchars($service); ?>" method="post">
-			<h2>Are you sure you want to remove this item permanently?</h1>
-			<h1>"<?php echo htmlspecialchars($services[$service]["name"]); ?>"</h1>
-			<div><input id="choose_submit" type="submit" value="Remove" /></div>
+			<form class="small-12 columns" action="?op=remove&service=<?php echo htmlspecialchars($service); ?>" method="post">
+			<h2 class="text-center">Are you sure you want to remove this item permanently?</h1>
+			<h1 class="text-center">"<?php echo htmlspecialchars($services[$service]["name"]); ?>"</h1>
+			<div><input class="button float-center" id="choose_submit" type="submit" value="Remove" /></div>
 			</form>
 			<?php
 		}
+    ?>
+  </div>
+    <?php
 	}
 	else if($op == "choose" && $id == "cmsadmin") {
 		$op2 = isset($_GET["op2"]) ? $_GET["op2"] : "";
 		$services = loadServices();
 		?>
-		<h1>Choose a Service</h1>
-		<form action="." method="get">
-		<input name="op" value="<?php echo $op2 ?>" type="hidden" />
-		<select id="select_service" name="service">
-		<?php
-		foreach($services as $serviceId => $service) {
-			?>
-			<option value="<?php echo $serviceId ?>"><?php echo htmlspecialchars($service["name"]); ?></option>
-			<?php
-		}
-		?>
-		</select>
-		<div><input id="choose_submit" type="submit" value="Choose" /></div>
-		</form>
+		<h1 class="text-center">Choose a Service</h1>
+    <div class="row">
+      <form class="small-12 columns" action="." method="get">
+  		<input name="op" value="<?php echo $op2 ?>" type="hidden" />
+  		<select id="select_service" name="service">
+  		<?php
+  		foreach($services as $serviceId => $service) {
+  			?>
+  			<option value="<?php echo $serviceId ?>"><?php echo htmlspecialchars($service["name"]); ?></option>
+  			<?php
+  		}
+  		?>
+  		</select>
+  		<div><input class="button float-right" id="choose_submit" type="submit" value="Choose" /></div>
+  		</form>
+    </div>
 		<?php
 	}
 	else if($op == "save" && ($id == "cmsadmin" || $id == $service)) {
@@ -323,83 +400,118 @@ else {
 	else if($op == "latlon" && $id == "cmsadmin") {
 		$services = loadServices();
 		?>
-		<h1>Updating geocoordinates for services.</h1>
-		<p>This will only update up to 100 services that have an empty lat/lon field. To update an existing service, blank out the lat/lon fields in the database.</p>
-		<p>You can run this multiple times if there are more than 100 services that need updating.</p>
-		<?php
-		$count = 0;
-		foreach($services as &$service) {
-			if($count > 100)
-				break;
-			if($service["lat"] == "" || $service["lon"] == "") {
-				updateGeocode($service, true);
-				$count++;
-			}
-		}
-		saveServices($services);
-		?>
-		<p>Done.</p>
-		<a href=".">Return</a>
+    <div class="row">
+      <div class="small-12 columns">
+        <h1 class="text-center">Updating geocoordinates for services.</h1>
+        <div class="text-center">
+          <p>This will only update up to 100 services that have an empty lat/lon field. To update an existing service, blank out the lat/lon fields in the database.</p>
+      		<p>You can run this multiple times if there are more than 100 services that need updating.</p>
+        </div>
+    		<?php
+    		$count = 0;
+    		foreach($services as &$service) {
+    			if($count > 100)
+    				break;
+    			if($service["lat"] == "" || $service["lon"] == "") {
+    				updateGeocode($service, true);
+    				$count++;
+    			}
+    		}
+    		saveServices($services);
+    		?>
+    		<p>Done.</p>
+    		<a href=".">Return</a>
+      </div>
+    </div>
+
 		<?php
 	}
 	else if($op == "create_user" && $id == "cmsadmin") {
 		$password = bin2hex(openssl_random_pseudo_bytes(4));
 		add_user($service, $password);
 		?>
-		<p>The user has been created or updated. The username is <?php echo $service ?> and the password is <?php echo $password ?>. This is the only time it will be visible, so record it now.</p>
-		<a href=".">Return</a>
+    <div class="row">
+      <div class="small-12 columns">
+        <p>The user has been created or updated. The username is <b><?php echo $service ?></b> and the password is <b><?php echo $password ?></b>. This is the only time it will be visible, so record it now.</p>
+        <a class="button" href=".">Return</a>
+      </div>
+    </div>
+
 		<?php
 	}
 	else if($op == "remove_user" && $id == "cmsadmin") {
 		if($service == "cmsadmin") {
 			?>
-			<p>Invalid service. Please choose another.</p>
-			<a href=".">Return</a>
+      <div class="row">
+        <div class="small-12 columns">
+          <p>Invalid service. Please choose another.</p>
+    			<a class="button" href=".">Return</a>
+        </div>
+      </div>
 			<?php
 		}
 		else {
 			remove_user($service);
 			?>
-			<p>The user has been removed.</p>
-			<a href=".">Return</a>
+      <div class="row">
+        <div class="small-12 columns">
+          <p>The user has been removed.</p>
+    			<a class="button" href=".">Return</a>
+        </div>
+      </div>
 			<?php
 		}
 	}
 	else if($op == "change_password_form" && ($id == "cmsadmin" || $id == $service)) {
 		?>
-		<form action="?op=change_password&service=<?php echo htmlspecialchars($id); ?>" method="post">
-		<h1>Change Your Password</h1>
-		<p>Please choose a password that is a phrase or contains both letters and numbers.</p>
-		<div><span class="left">Password:</span><span class="right"><input name="password" type="password" /></span></div>
-		<div class="buttons" style="text-align: right;"><a href=".">Cancel</a><input type="submit" value="Change" /></div>
-		</form>
+    <div class="row">
+      <h1 class="text-center">Change Your Password</h1>
+  		<p class="text-center">Please choose a password that is a phrase or contains both letters and numbers.</p>
+      <form class="small-12 columns" action="?op=change_password&service=<?php echo htmlspecialchars($id); ?>" method="post">
+  		<div><span>Password:</span><span><input name="password" type="password" /></span></div>
+  		<div class="float-right"><a class="button" href=".">Cancel</a> <input class="button" type="submit" value="Change" /></div>
+  		</form>
+    </div>
+
 		<?php
 	}
 	else if($op == "change_password" && ($id == "cmsadmin" || $id == $service)) {
 		if(isset($_POST["password"]) == false || $_POST["password"] == "") {
 			?>
-			<p>Invalid password. Please choose another.</p>
-			<a href=".">Return</a>
+      <div class="row">
+        <div class="small-12 columns">
+          <p class="text-center">Invalid password. Please choose another.</p>
+    			<a class="button" href=".">Return</a>
+        </div>
+      </div>
 			<?php
 		}
 		else {
 			$password = $_POST["password"];
 			add_user($id, $password);
 			?>
-			<p>Your password has been updated.</p>
-			<a href=".">Return</a>
+      <div class="row">
+        <div class="small-12 columns">
+          <p class="text-center">Your password has been updated.</p>
+    			<a class="button" href=".">Return</a>
+        </div>
+      </div>
 			<?php
 		}
 	}
 	else {
 		?>
-		<p>You do not have permission to edit this service.</p>
-		<a href=".">Return</a>
+    <div class="row">
+      <div class="small-12 columns">
+        <p class="text-center">You do not have permission to edit this service.</p>
+    		<a class="button" href=".">Return</a>
+      </div>
+    </div>
 		<?php
 	}
 }
 
 ?>
-</div>
+</div> <!-- close #page -->
 </body>
 </html>
