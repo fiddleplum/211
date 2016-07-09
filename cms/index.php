@@ -162,7 +162,12 @@ else {
 			$days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 			$hours = explode(",", $services[$service]["hours"]);
 			for($day = 0; $day < 7; $day++) {
-				$serviceTimes = explode("-", $hours[$day]);
+				if(isset($hours[$day])) {
+					$serviceTimes = explode("-", $hours[$day]);
+				}
+				else {
+					$serviceTimes = array("", "");
+				}
 				$closed = ($serviceTimes[0] == "0000" && $serviceTimes[1] == "0000");
 				echo "<div><span class=\"day\">" . $days[$day] . ":</span> <select name=\"hours_open_$day\">";
 				echo "<option value=\"\"></option>";
