@@ -133,6 +133,7 @@ else {
 		}
 		else if ($op == "edit") {
 			$services = loadServices();
+			$categories = getCategoriesFromServices($services);
 			?>
 			<h1>Edit a Service</h1>
 			<?php
@@ -194,7 +195,12 @@ else {
 
 			?></span></div>
 			<div><span class="left">Extra Info:</span><span class="right"><textarea name="extra_info" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["extra_info"]); ?></textarea></span></div>
-			<div><span class="left">Categories:</span><span class="right"><input class="half" name="categories" type="text" value="<?php echo $services[$service]["categories"]; ?>" /> <span class="tip">comma separated</span></span></div>
+			<div><span class="left">Categories:</span><span class="right"><?php
+			$serviceCategories = explode(",", $services[$service]["categories"]);
+			foreach($categories as $category) {
+				echo "<div><input name=\"category_" . $category . "\" type=\"checkbox\"" . (in_array($category, $serviceCategories) ? "checked" : "") . " value=\"checked\"/> " . $category . "</div>";
+			}
+			?>
 			<div class="buttons" style="text-align: right;"><a href=".">Cancel</a><input type="submit" value="Save" /></div>
 			</form>
 			<?php
@@ -256,6 +262,17 @@ else {
 			}
 		}
 
+		// make categories string
+		$categoriesString = "";
+		foreach($_POST as $key => $value) {
+			if(strpos($key, "category_") !== FALSE) {
+				if($categoriesString != "") {
+					$categoriesString .= ",";
+				}
+				$categoriesString .= substr($key, 9);
+			}
+		}
+
 		// set the new service info
 		$services = loadServices();
 		$services[$service]["id"] = $service;
@@ -273,7 +290,7 @@ else {
 		$services[$service]["website"] = $_POST["website"];
 		$services[$service]["hours"] = $hours;
 		$services[$service]["extra_info"] = $_POST["extra_info"];
-		$services[$service]["categories"] = $_POST["categories"];
+		$services[$service]["categories"] = $categoriesString;
 		updateGeocode($services[$service], false);
 		saveServices($services);
 		?>
