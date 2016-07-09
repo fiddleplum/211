@@ -1,4 +1,4 @@
-// The first level are called Topics and the second level are subtopics. Categories are the actual search terms.
+// The first level are called Topics and the second level are subtopics. Categories are the actual search terms (ANDed together).
 var topics = {
 	'Emergency': {
 		'Police': ['police'],
