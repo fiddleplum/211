@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Bridging Pasadena</title>
 <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+<link rel="stylesheet" href="css/foundation.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script src="js/jquery-2.2.2.min.js"></script>
@@ -16,16 +17,7 @@
 <body>
 <div id="page">
 	<header>
-    <div class="header-title">
-      <div class="translate">
-        <div id="google_translate_element"></div><script type="text/javascript">
-          function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'de,en,es,fr,id,it,ja,ko,pt,th,tl,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
-          }
-          </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-      </div>
-      Bridging Pasadena
-    </div>
+    <div class="header-title">Bridging Pasadena</div>
     <div class="header-search">
       <img id="menu_button" src="images/menu.svg" onclick="setActiveTopic('main'); setMenuActive(true);"/>
       <img id="search_button" src="images/search.svg" onclick="setBySearch($('#search_input')[0].value); setMenuActive(false);" />
@@ -39,7 +31,17 @@
 		<div id="list">
 		</div>
 	</div>
+  <footer>
+    <div class="translate">
+      <div id="google_translate_element"></div><script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'de,en,es,fr,id,it,ja,ko,pt,th,tl,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+        }
+        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+  </footer>
 </div>
+
 <script>
 
 populateMenu();
