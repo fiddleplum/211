@@ -162,6 +162,7 @@ else {
 		}
 		else if ($op == "edit") {
 			$services = loadServices();
+			$categories = getCategoriesFromServices($services);
 			?>
 			<h1 class="text-center">Edit a Service</h1>
 			<?php
@@ -175,118 +176,61 @@ else {
 		else {
 			?>
 			<form action="?op=save&service=<?php echo htmlspecialchars($service); ?>" method="post">
-        <div class="row">
-          <div class="small-12 large-8 large-offset-2 columns">
-            <div>
-              <label>Name:
-                <input name="name" type="text" value="<?php echo htmlspecialchars($services[$service]["name"]); ?>" placeholder="service name" />
-              </label>
-            </div>
-            <div>
-              <label>Short Description:
-                <textarea name="short_description" style="height: 5em;" placeholder="a short description of the service"><?php echo htmlspecialchars($services[$service]["short_description"]);?></textarea>
-              </label>
-            </div>
-            <div>
-              <label>Long Description:
-                <textarea name="long_description" style="height: 10em;" placeholder="a longer, more detailed information about the service"><?php echo htmlspecialchars($services[$service]["long_description"]); ?></textarea>
-              </label>
-            </div>
-            <div>
-              <label>Full Address:
-                <input name="address" type="text" value="<?php echo htmlspecialchars($services[$service]["address"]); ?>" placeholder="example: 100 Garfield Ave, Pasadena, CA 91101"/>
-              </label>
-            </div>
-            <div>
-              <label>Point of Contact:
-                <input name="point_of_contact" type="text" value="<?php echo htmlspecialchars($services[$service]["point_of_contact"]); ?>" placeholder="service point of contact" />
-              </label>
-            </div>
-            <div>
-              <label>Phone 1:
-                <input data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="(###) ###-####" name="phone_1" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_1"]); ?>" placeholder="###-###-####" />
-              </label>
-            </div>
-            <div>
-              <label>Phone 2:
-                <input data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="(###) ###-####" name="phone_2" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_2"]); ?>" placeholder="###-###-####"  />
-              </label>
-            </div>
-            <div>
-              <label>Phone 3:
-                <input data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="(###) ###-####" name="phone_3" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_3"]); ?>" placeholder="###-###-####"  />
-              </label>
-            </div>
-            <div>
-              <label>Email 1:
-                <input name="email_1" type="text" value="<?php echo htmlspecialchars($services[$service]["email_1"]); ?>"  placeholder="someone@example.com"  />
-              </label>
-            </div>
-            <div>
-              <label>Email 2:
-                <input name="email_2" type="text" value="<?php echo htmlspecialchars($services[$service]["email_2"]); ?>"  placeholder="someone@example.com" />
-              </label>
-            </div>
-            <div>
-              <label>Email 3:
-                <input name="email_3" type="text" value="<?php echo htmlspecialchars($services[$service]["email_3"]); ?>"  placeholder="someone@example.com"  />
-              </label>
-            </div>
-            <div>
-              <label>Website:
-                <input name="website" type="text" value="<?php echo htmlspecialchars($services[$service]["website"]); ?>"  placeholder="www.example.com"  />
-              </label>
-            </div>
-            <div class="hours">
-              <label>Hours:</label>
-              <?php
-              $days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-              $hours = explode(",", $services[$service]["hours"]);
-              for($day = 0; $day < 7; $day++) {
-                $serviceTimes = explode("-", $hours[$day]);
-                $closed = ($serviceTimes[0] == "0000" && $serviceTimes[1] == "0000");
-                echo "<div class=\"row\"><div class=\"small-12 medium-8 medium-offset-2 columns\"><label>" . $days[$day] . ":<select name=\"hours_open_$day\">";
-                echo "<option disabled selected value=\"\">Open Time</option>";
-                for($time = 0; $time < 2400; $time += 30) {
-                  $hour = floor($time / 100);
-                  $minute = $time % 100;
-                  echo "<option value=\"" . $time . "\"" . ($serviceTimes[0] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
-                  if($minute == 30) {
-                    $time = ($hour * 100) + 70;
-                  }
-                }
-                echo "</select></label> <span>to</span> <label><select name=\"hours_close_$day\">";
-                echo "<option disabled selected value=\"\">Close Time</option>";
-                for($time = 0; $time < 2400; $time += 30) {
-                  $hour = floor($time / 100);
-                  $minute = $time % 100;
-                  echo "<option value=\"" . $time . "\"" . ($serviceTimes[1] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
-                  if($minute == 30) {
-                    $time = ($hour * 100) + 70;
-                  }
-                }
-                echo "</select></label> <label>Closed: <input name=\"closed_$day\" type=\"checkbox\"" . ($closed ? "checked" : "") . " value=\"checked\"/></label></div></div>" ;
-              }
-              ?>
-            </div>
-            <div>
-              <label>Extra Info:
-                <textarea name="extra_info" style="height: 5em;" placeholder="extra relevant details about the service"><?php echo htmlspecialchars($services[$service]["extra_info"]); ?></textarea>
-              </label>
-            </div>
-            <div>
-              <label>Categories:
-                <input data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="Comma Separated" class="half" name="categories" type="text" value="<?php echo $services[$service]["categories"]; ?>" placeholder="Comma separated list of category tags"/>
-              </label>
-            </div>
-            <div class="float-right">
-              <a class="button" href=".">Cancel</a>
-              <input class="button" type="submit" value="Save" />
-            </div>
-          </div>
+			<div><span class="left">Name:</span><span class="right"><input name="name" type="text" value="<?php echo htmlspecialchars($services[$service]["name"]); ?>" /></span></div>
+			<div><span class="left">Short Description:</span><span class="right"><textarea name="short_description" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["short_description"]); ?></textarea></span></div>
+			<div><span class="left">Long Description:</span><span class="right"><textarea name="long_description" style="height: 10em;"><?php echo htmlspecialchars($services[$service]["long_description"]); ?></textarea></span></div>
+			<div><span class="left">Full Address:</span><span class="right"><input name="address" type="text" value="<?php echo htmlspecialchars($services[$service]["address"]); ?>" /></span></div>
+			<div><span class="left">Point of Contact:</span><span class="right"><input name="point_of_contact" type="text" value="<?php echo htmlspecialchars($services[$service]["point_of_contact"]); ?>" /></span></div>
+			<div><span class="left">Phone 1:</span><span class="right"><input class="half" name="phone_1" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_1"]); ?>" /> <span class="tip">(###) ###-####</span></span></div>
+			<div><span class="left">Phone 2:</span><span class="right"><input class="half" name="phone_2" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_2"]); ?>" /> <span class="tip">(###) ###-####</span></span></div>
+			<div><span class="left">Phone 3:</span><span class="right"><input class="half" name="phone_3" type="text" value="<?php echo htmlspecialchars($services[$service]["phone_3"]); ?>" /> <span class="tip">(###) ###-####</span></span></div>
+			<div><span class="left">E-mail 1:</span><span class="right"><input name="email_1" type="text" value="<?php echo htmlspecialchars($services[$service]["email_1"]); ?>" /></span></div>
+			<div><span class="left">E-mail 2:</span><span class="right"><input name="email_2" type="text" value="<?php echo htmlspecialchars($services[$service]["email_2"]); ?>" /></span></div>
+			<div><span class="left">E-mail 3:</span><span class="right"><input name="email_3" type="text" value="<?php echo htmlspecialchars($services[$service]["email_3"]); ?>" /></span></div>
+			<div><span class="left">Website:</span><span class="right"><input name="website" type="text" value="<?php echo htmlspecialchars($services[$service]["website"]); ?>" /></span></div>
+			<div><span class="left">Hours:</span><span class="right"><?php
+			$days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+			$hours = explode(",", $services[$service]["hours"]);
+			for($day = 0; $day < 7; $day++) {
+				if(isset($hours[$day])) {
+					$serviceTimes = explode("-", $hours[$day]);
+				}
+				else {
+					$serviceTimes = array("", "");
+				}
+				$closed = ($serviceTimes[0] == "0000" && $serviceTimes[1] == "0000");
+				echo "<div><span class=\"day\">" . $days[$day] . ":</span> <select name=\"hours_open_$day\">";
+				echo "<option value=\"\"></option>";
+				for($time = 0; $time < 2400; $time += 30) {
+					$hour = floor($time / 100);
+					$minute = $time % 100;
+					echo "<option value=\"" . $time . "\"" . ($serviceTimes[0] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
+					if($minute == 30) {
+						$time = ($hour * 100) + 70;
+					}
+				}
+				echo "</select> to <select name=\"hours_close_$day\">";
+				echo "<option value=\"\"></option>";
+				for($time = 0; $time < 2400; $time += 30) {
+					$hour = floor($time / 100);
+					$minute = $time % 100;
+					echo "<option value=\"" . $time . "\"" . ($serviceTimes[1] == $time && !$closed && $hours[$day] != "" ? " selected" : "") . ">" . get_time_string($time) . "</option>";
+					if($minute == 30) {
+						$time = ($hour * 100) + 70;
+					}
+				}
+				echo "</select> Closed: <input name=\"closed_$day\" type=\"checkbox\"" . ($closed ? "checked" : "") . " value=\"checked\"/></div>";
+			}
 
-        </div> <!-- end of .row -->
-
+			?></span></div>
+			<div><span class="left">Extra Info:</span><span class="right"><textarea name="extra_info" style="height: 5em;"><?php echo htmlspecialchars($services[$service]["extra_info"]); ?></textarea></span></div>
+			<div><span class="left">Categories:</span><span class="right"><?php
+			$serviceCategories = explode(",", $services[$service]["categories"]);
+			foreach($categories as $category) {
+				echo "<div><input name=\"category_" . $category . "\" type=\"checkbox\"" . (in_array($category, $serviceCategories) ? "checked" : "") . " value=\"checked\"/> " . $category . "</div>";
+			}
+			?>
+			<div class="buttons" style="text-align: right;"><a href=".">Cancel</a><input type="submit" value="Save" /></div>
 			</form>
 			<?php
 		}
@@ -355,6 +299,17 @@ else {
 			}
 		}
 
+		// make categories string
+		$categoriesString = "";
+		foreach($_POST as $key => $value) {
+			if(strpos($key, "category_") !== FALSE) {
+				if($categoriesString != "") {
+					$categoriesString .= ",";
+				}
+				$categoriesString .= substr($key, 9);
+			}
+		}
+
 		// set the new service info
 		$services = loadServices();
 		$services[$service]["id"] = $service;
@@ -372,7 +327,7 @@ else {
 		$services[$service]["website"] = $_POST["website"];
 		$services[$service]["hours"] = $hours;
 		$services[$service]["extra_info"] = $_POST["extra_info"];
-		$services[$service]["categories"] = $_POST["categories"];
+		$services[$service]["categories"] = $categoriesString;
 		updateGeocode($services[$service], false);
 		saveServices($services);
 		?>

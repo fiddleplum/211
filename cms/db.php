@@ -1,5 +1,18 @@
 <?php
 
+function getCategoriesFromServices($services) {
+	$categories = [];
+	foreach($services as $service) {
+		$serviceCategories = explode(",", $service["categories"]);
+		foreach($serviceCategories as $serviceCategory) {
+			if(!in_array($serviceCategory, $categories)) {
+				array_push($categories, $serviceCategory);
+			}
+		}
+	}
+	return $categories;
+}
+
 function loadServices() {
 	$data = array_map('str_getcsv', file("../data/database.txt"));
 	for($i = 0; $i < count($data); $i++) {
