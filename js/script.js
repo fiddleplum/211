@@ -74,6 +74,7 @@ function setMenuActive(active) {
 	if(active) {
 		$('#menu').fadeIn('fast');
 		$('#list').fadeOut('fast');
+    $('#map').fadeOut('fast');
     $('#listbar').fadeOut('fast');
 	}
 	else {
