@@ -74,9 +74,12 @@ function setMenuActive(active) {
 	if(active) {
 		$('#menu').fadeIn('fast');
 		$('#list').fadeOut('fast');
+    $('#map').fadeOut('fast');
+    $('#listbar').fadeOut('fast');
 	}
 	else {
 		$('#menu').fadeOut('fast');
+    $('#listbar').fadeIn('fast');
 	}
 }
 
@@ -90,7 +93,7 @@ function populateMenu() {
 	html += '</div>';
 	for(var topic in topics) {
 		html += '<div id="' + topic.replace(/ /g, '').replace(/&/g, '') + '" class="topic" style="display: none;">';
-		html += '<div class="icon" onclick="setActiveTopic(\'main\');"><img src="images/generic.svg"/><span>Back</span></div>';
+		html += '<div class="icon" onclick="setActiveTopic(\'main\');"><img src="images/arrow-left.svg"/><span>Back</span></div>';
 		for(var subtopic in topics[topic]) {
 			html += '<div class="icon" onclick="setCategories(topics[\'' + topic + '\'][\'' + subtopic + '\']); setMenuActive(false);"><img src="images/generic.svg"/><span>' + subtopic + '</span></div>';
 		}
@@ -168,7 +171,7 @@ function getTimeString(time) { // time is in the format HHMM, as a number
 // Returns nice html from the given service.
 function serviceToHtml(service) {
 	var html = '';
-	html += '<h2>' + service.name + '</h2>';
+	html += '<h3>' + service.name + '</h3>';
 	html += '<p><b>Description</b>: ' + service.short_description;
 	if(service.long_description != '') {
 		html += ' <button class="btn btn-expand-description" onclick="toggleLongDescription(' + service.id + ');">read more</button></p>';
@@ -254,8 +257,8 @@ function updateList() {
   else {
     for(var i in services) {
   		var service = services[i];
-  		html += '<div class="item">';
-  		html += '<div style="float: right;" onclick="showServiceOnMap(' + service.id + ');"> Map it: <img src="images/map.svg" style="width: 2em; height: 2em;"></div>';
+  		html += '<div class="item row">';
+  		html += '<div class="float-right" onclick="showServiceOnMap(' + service.id + ');"> Map it: <img src="images/map.svg" style="width: 2em; height: 2em;"></div>';
   		html += serviceToHtml(service) + '</div>';
   	}
   	$('#list')[0].innerHTML = html;
@@ -264,7 +267,7 @@ function updateList() {
 
 $(document).ready(function(){
   $('#google_translate_element').bind('DOMNodeInserted', function(event) {
-    $('.goog-te-combo option:first').html('En');
+    $('.goog-te-combo option:first').html('Language');
     $('.goog-te-menu-frame.skiptranslate').load(function(){
       setTimeout(function(){
         $('.goog-te-menu-frame.skiptranslate').contents().find('.goog-te-menu2-item-selected .text').html('Translate');

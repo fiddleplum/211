@@ -1,29 +1,24 @@
-#page { text-align: center; font-family: sans-serif; overflow: auto; }
-h1 { font-size: 3em; margin: 0 0 .25em 0; }
-a, button, input[type="submit"] { display: inline-block; margin: .5em; border: 2px solid black; border-radius: .25em; text-decoration: none; font-size: 2em; padding: .25em; background-color: #c86504; color: white; }
-a.menu { display: block; max-width: 12em; margin-left: auto; margin-right: auto; }
-#left_menu { width: 50%; float: left; }
-#right_menu { width: 50%; float: right; }
-#left_menu p, #right_menu p { font-size: 2em; margin: 0; }
-form { margin: 0 auto; padding: 1em; max-width: 40em; clear: both; overflow: auto; border: 1px solid black; border-radius: .25em; }
-form p { margin-top: 0; }
-form > div { overflow: auto; margin-bottom: 1em; }
-form div span.left { display: inline-block; float: left; width: 15em; text-align: right; line-height: 1.5em; }
-form div span.right { display: inline-block; float: right; width: calc(100% - 16em); text-align: left; line-height: 1.5em; }
-form div.buttons { text-align: right; margin-bottom: 0; }
-form div.buttons input[type="submit"], form div.buttons a { margin: 0 0 0 .5em; }
-form input[type="text"], form input[type="password"], form textarea { width: 100%; font-size: 1em; height: 1.5em; border: 1px solid black; border-radius: .25em; padding: .25em; font-family: sans-serif; }
-form input[type="text"].half { width: 50%; }
-form .tip { color: #888888; }
-form .day { display: inline-block; width: 3em; }
-#remove #name { font-size: 2em; margin: 2em; }
-#choose select { margin: 1em; font-size: 1em; width: 80%; }
-@media screen and (max-width: 900px) {
-	#left_menu, #right_menu { width: 100%; float: none; }
-	form div span.left { width: 10em; }
-	form div span.right { width: calc(100% - 11em); }
+#page {
+  margin-top: 5%;
 }
-@media screen and (max-width: 460px) {
-	form div span.left { width: 5em; }
-	form div span.right { width: calc(100% - 6em); }
+
+.hours label {
+  display: inline-block;
+  width: 37%;
+}
+
+.hours label:last-of-type {
+  width: 20%;
+  text-align: right;
+}
+
+.hours span {
+  width: 1%
+}
+
+@media screen and (max-width: 992px) {
+  .hours label:last-of-type {
+    width: 15%;
+    text-align: right;
+  }
 }
