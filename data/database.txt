@@ -348,4 +348,3 @@ id,name,short_description,long_description,address,point_of_contact,phone_1,phon
 00000346,Soroptimist International of Altadena/Pasadena,Improving the lives of women and girls in local communities and throughout the world,,P.O. Box 66,,(626) 794-4103,,,,,,www.caminorealregion.org/mppasadena.htm,,,women programs,,
 00000347,Women’s Room at Friends in Deed,A daytime refuge for women homeless or facing homelessness,,"444 E Washington Blvd, Pasadena, CA 91104",,(626) 797-2402,,,info@ecpac.net,,,,,,women programs,34.1687151,-118.1413359
 00000348,Zonta Club of Pasadena,Club assist in volunteer programs and club based program,,"7447 S Grand Ave, Los Angeles, CA 90003",,(626) 799-1880,,,,,,www.zontapasadena.org,,,women programs,33.9722747,-118.2803517
-cbd72696,,,,,,,,,,,,,",,,,,,",,,,
