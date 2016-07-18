@@ -1,5 +1,5 @@
 id,name,short_description,long_description,address,point_of_contact,phone_1,phone_2,phone_3,email_1,email_2,email_3,website,hours,extra_info,categories,lat,lon
-00000000,Bienvenidos,Mental Health and Foster Car Services.,,"255 N San Gabriel Blvd, Pasadena, CA 91107",,(626) 696-1270,,,,,,,,,"mental health,foster care",34.1510286,-118.0946866
+00000000,Bienvenidos,Mental Health and Foster Care Services.,,"255 N San Gabriel Blvd, Pasadena, CA 91107",,(626) 696-1270,,,,,,,",,,,,,",,"mental_health,foster_care",34.1510286,-118.0946866
 00000001,Casa de las Amigas,A 24-hour alcohol and drug residential treatment center for women.,,"160 N El Molino Ave, Pasadena, CA 91101",Flora Esquivel,(626) 792-2770,,,,,,,,,"alcohol treatment,substance abuse recovery",34.1487732,-118.1367094
 00000002,Elizabeth House,"Shelter and support services for pregnant, homeless women and children.",,"760 Santa Barbara St, Pasadena, CA 91101",Terry Bright,(626) 577-4434,,,contact@elizabethhouse.net,,,,,,"women shelters,family shelters",34.155311,-118.1348027
 00000003,Food For Faith Pasadena Church,Community meals program.,,"404 E Washington Blvd, Pasadena, CA 91104",Maria Edwards,(626) 794-2951,,,,,,,,,free food,34.1685682,-118.1423209
@@ -234,7 +234,7 @@ id,name,short_description,long_description,address,point_of_contact,phone_1,phon
 00000232,Center for Grief and Loss for Children,Greif counseling services for children and families,,"210 S De Lacey Ave #110, Pasadena, CA 91105",,(866) 744-7433,,,,,,,,,mental health,34.1420366,-118.1516944
 00000233,National Alliance for the Mentally Ill (NAMI),Mental health services,,"2550 E Foothill Blvd #135, Pasadena, CA 91107",,(626) 577-6697,,,,,,,,,mental health,34.1496173,-118.0979428
 00000234,Westminster Center,Counseling services,,"867 Atchison St, Pasadena, CA 91104",,(626) 798-0915,,,,,,,,,mental health,34.1760665,-118.1327463
-00000235, La Vie Counseling Center,Counseling and support groups,,"650 Sierra Madre Villa Ave #110, Pasadena, CA 91107",,(800) 483-9591,,,,,,,,,mental health,34.1575045,-118.0811182
+00000235,La Vie Counseling Center,Counseling and support groups,,"650 Sierra Madre Villa Ave #110, Pasadena, CA 91107",,(800) 483-9591,,,,,,,,,mental health,34.1575045,-118.0811182
 00000236,The Daniel Foundation,Social services,,"464 E Walnut St, Pasadena, CA 91101",,(626) 405-4892,,,,,,,,,mental health,34.1492687,-118.141172
 00000237,Oakwood Family Treatment Centers,"Therapy, counseling, outpatient services",,"100 S Wilson Ave, Pasadena, CA 91106",,(866) 443-6259,,,,,,,,,mental health,34.144029,-118.127834
 00000238,Greenhouse Therapy Center ,"Psychological services to foster developmental and emotional growth for children, adolescents, adults, parents, couples, and families",,"685 E California Blvd, Pasadena, CA 91106",,(626) 795-7910 ,,,,,,,,,mental health,34.136163,-118.1362005

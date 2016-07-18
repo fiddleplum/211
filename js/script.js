@@ -143,7 +143,7 @@ function setListActive(active, doneFunction) {
 }
 
 var services = []
-var dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+var dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 function getTimeString(time) { // time is in the format HHMM, as a number
 	var hour = Math.floor(time / 100);
@@ -204,9 +204,10 @@ function serviceToHtml(service) {
 	if(service.extra_info != '')
 		html += '<p><b>Extra Info</b>: ' + service.extra_info + '</p>';
 	if(service.hours.length > 0) {
-		html += '<p><b>Hours</b>: ';
+		html += '<div><b>Hours</b>:</div>';
+    html += '<p class="hours">';
 		for(day in service.hours) {
-			html += dayNames[day] + ': ';
+			html += '<b>' + dayNames[day] + '</b>: ';
 			if(service.hours[day][0] == 0 && service.hours[day][1] == 0)
 				html += 'closed';
 			else
@@ -236,6 +237,9 @@ function setCategories(categories) {
 // Sets the services from a search term.
 function setBySearch(search) {
 	services = Database.getServicesBySearch(search);
+  if (!($('#map')[0].style.display == 'block')) {
+		setListActive(true);
+	}
 	Map.update(services, serviceToHtml);
 	updateList();
 }

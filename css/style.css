@@ -89,6 +89,7 @@ header input[type=text] {
   height: 100%;
   font-size: 1.2em;
   padding: .2em;
+  margin-bottom: 0;
 }
 
 header span {
@@ -171,6 +172,10 @@ header span {
 }
 #list .item img {
   vertical-align: middle;
+}
+
+.hours {
+  padding-left: .5em;
 }
 
 footer {
