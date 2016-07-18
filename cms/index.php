@@ -329,6 +329,13 @@
     	else if($op == "choose" && $id == "cmsadmin") {
     		$op2 = isset($_GET["op2"]) ? $_GET["op2"] : "";
     		$services = loadServices();
+        function alphabetizeServices($a, $b) {
+            if ($a['name'] == $b['name']) {
+                return 0;
+            }
+            return ($a['name'] > $b['name']) ? 1 : -1;
+        }
+        usort($services, "alphabetizeServices");
     		?>
     		<h1 class="text-center">Choose a Service</h1>
         <div class="row">
@@ -336,9 +343,9 @@
       		<input name="op" value="<?php echo $op2 ?>" type="hidden" />
       		<select id="select_service" name="service">
       		<?php
-      		foreach($services as $serviceId => $service) {
+      		foreach($services as $service) {
       			?>
-      			<option value="<?php echo $serviceId ?>"><?php echo htmlspecialchars($service["name"]); ?></option>
+      			<option value="<?php echo $service["id"] ?>"><?php echo htmlspecialchars($service["name"]); ?></option>
       			<?php
       		}
       		?>
@@ -398,7 +405,11 @@
     		updateGeocode($services[$service], false);
     		saveServices($services);
     		?>
-    		<p>Saving...</p>
+        <div class="row">
+          <div class="small-12 columns">
+            <p>Saving...</p>
+          </div>
+        </div>
     		<script>setTimeout(function() {document.location = "."}, 1000);</script>
     		<?php
     	}
@@ -406,15 +417,23 @@
     		$services = loadServices();
     		if(isset($services[$service]) === false) {
     			?>
-    			<p>Invalid service. Please choose another.</p>
-    			<a class="button" href=".">Return</a>
+          <div class="row">
+            <div class="small-12 columns">
+              <p>Invalid service. Please choose another.</p>
+        			<a class="button" href=".">Return</a>
+            </div>
+          </div>
     			<?php
     		}
     		else {
     			unset($services[$service]);
     			saveServices($services);
     			?>
-    			<p>Removing...</p>
+          <div class="row">
+            <div class="small-12 columns">
+              <p>Removing...</p>
+            </div>
+          </div>	
     			<script>setTimeout(function() {document.location = "."}, 1000);</script>
     			<?php
     		}
