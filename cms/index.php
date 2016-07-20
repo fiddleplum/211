@@ -154,7 +154,8 @@
     	else if(($op == "add" && $id == "cmsadmin") || ($op == "edit" && ($id == "cmsadmin" || $id == $service))) {
     		if($op == "add") {
     			$service = bin2hex(openssl_random_pseudo_bytes(4));
-    			$services = array();
+    			$services = loadServices();
+    			$categories = getCategoriesFromServices($services);
     			$services[$service] = createEmptyService();
     			?>
     			<h1 class="text-center">Add a Service</h1>
