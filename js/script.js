@@ -88,11 +88,11 @@ function populateMenu() {
 	var html = '';
 	html += '<div id="main" class="topic" style="display: block;">';
 	for(var topic in topics) {
-		html += '<div class="icon" onclick="setActiveTopic(\'' + topic.replace(/ /g, '').replace(/&/g,'') + '\');"><img src="images/generic.svg"/><span>' + topic + '</span></div>';
+		html += '<div class="icon" onclick="setActiveTopic(\'' + topic.replace(/ /g, '').replace(/,/, '').replace(/&/g,'') + '\');"><img src="images/generic.svg"/><span>' + topic + '</span></div>';
 	}
 	html += '</div>';
 	for(var topic in topics) {
-		html += '<div id="' + topic.replace(/ /g, '').replace(/&/g, '') + '" class="topic" style="display: none;">';
+		html += '<div id="' + topic.replace(/ /g, '').replace(/,/, '').replace(/&/g, '') + '" class="topic" style="display: none;">';
 		html += '<div class="icon" onclick="setActiveTopic(\'main\');"><img src="images/arrow-left.svg"/><span>Back</span></div>';
 		for(var subtopic in topics[topic]) {
 			html += '<div class="icon" onclick="setCategories(topics[\'' + topic + '\'][\'' + subtopic + '\']); setMenuActive(false);"><img src="images/generic.svg"/><span>' + subtopic + '</span></div>';
